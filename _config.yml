@@ -1,0 +1,30 @@
+title: "dps.ai"
+author: "Dhruv Pratap Singh"
+description: "Everything AI"
+more: "read more »"
+url: "localhost:4000"
+baseurl: ""
+paginate: 2
+permalink: pretty
+excerpt_separator: "\n\n\n" # end excerpt with two blank lines
+
+archive_is_homepage: false # shows archive instead of excerpts on the index page
+dark: true # enables dark mode
+
+navigation: # enables navigation in header
+  - index.html
+  - archive.html
+  - about.md
+
+favicons: # see http://fontawesome.io/icons/#brand for all possible icons
+  - github: "https://github.com/dhruvpratapsingh"
+  - envelope: "mailto:dhruvpsg@gmail.com"
+  - feed: "feed.xml"
+
+comments: # embed comments
+  disqus: "dps-ai"
+  # isso: "comments.mysite.org"
+
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+sass: {style: expanded}
+plugins: [jekyll-feed, jekyll-paginate]

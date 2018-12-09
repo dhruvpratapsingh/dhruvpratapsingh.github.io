@@ -1,0 +1,97 @@
+---
+---
+
+@function reduce ($percent)
+  @return rgba(mix(#282828, #fff), $percent / 100)
+
+@import anchor
+
+{% if site.dark %}
+
+body
+  background: #2a2a2a
+  color: #fff
+
+body > header, body > footer
+  background: #282828
+
+body > footer
+  color: #999
+
+{% else %}
+
+body
+  background: #fefefe
+  color: #333
+
+body > header, body > footer
+  background: #fff
+  box-shadow: 0 0 2em #f8f8f8
+
+body > footer
+  color: gray
+  border-top: 1px solid #f0f0f0
+
+{% endif %}
+
+body
+  display: flex
+  font-size: calc(.6vw + .8em)
+  margin: 0
+  min-height: 100vh
+
+article
+  border-top: 1px solid rgba(148, 148, 148, .08)
+
+article, body > header, body > footer
+  padding: 1em calc(24% - 4em)
+
+header a
+  color: inherit
+
+header h1
+  margin-top: .4em
+  margin-bottom: .1em
+
+article header
+  text-align: center
+  margin-bottom: 1.6em
+
+article footer
+  padding: 1em 0
+
+table
+  width: 100%
+
+nav
+  margin: 0.2em -1rem
+
+nav.large
+  margin: 1em -1rem
+
+nav h2
+  margin: 0
+
+nav a
+  display: inline-block
+  margin: 0 1rem
+
+nav, body > footer
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: baseline
+
+.archive div
+  display: flex
+  align-items: baseline
+
+.archive h3
+  margin: 0.25em 0
+
+.archive time
+  color: gray
+  width: 6em
+
+.archive a
+  font-weight: 300
