@@ -3,7 +3,7 @@ author: "Dhruv Pratap Singh"
 description: "Everything AI"
 more: "read more »"
 url: "https://dhruvpratapsingh.github.io"
-baseurl: ""
+baseurl: "/dps.ai"
 paginate: 2
 permalink: pretty
 excerpt_separator: "\n\n\n" # end excerpt with two blank lines
