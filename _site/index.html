@@ -15,7 +15,7 @@
 
 <header>
   
-  <h1><a href="http://localhost:4000">dps.ai</a></h1>
+  <h1><a href="">dps.ai</a></h1>
   <nav class="large">
     <div><a href="/">Home</a><a href="/archive/">Archive</a><a href="/about/">About</a></div>
   
@@ -27,47 +27,34 @@
   
   <article>
     <header>
-      <h1><a href="/text/2017/02/17/example-text/">Example Text</a></h1>
-      <time datetime="2017-02-17T17:37:00-06:00">February 17, 2017</time>
+      <h1><a href="/2018/12/14/create-github-pages-profile/">0001: Start Creating Your Data Scientist Profile Using Github Pages</a></h1>
+      <time datetime="2018-12-14T00:00:00-06:00">December 14, 2018</time>
     </header>
-<p>Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipiscing elit, <code class="highlighter-rouge">sed do eiusmod tempor</code> incididunt ut <em>labore</em> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <strong><em>exercitation</em></strong> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute <em>irure dolor</em> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<p><img src="https://source.unsplash.com/hRZDd1ekhrA/1200x600" alt="GitHub Pages" /></p>
 
-<p>The term was coined in 1964 by two <a href="https://en.wikipedia.org/wiki/Australia">Australian</a> <a href="https://en.wikipedia.org/wiki/CSIRO">CSIRO</a> researchers, Isabel Joy Bear and Richard G. Thomas, for an article in the journal <a href="https://en.wikipedia.org/wiki/Nature_(journal)">Nature</a>. In the article, the authors describe how the smell derives from an oil exuded by certain <a href="https://en.wikipedia.org/wiki/Plants">plants</a> during dry periods, whereupon it is <a href="https://en.wikipedia.org/wiki/Absorption_(chemistry)">absorbed</a> by <a href="https://en.wikipedia.org/wiki/Clay">clay</a>-based <a href="https://en.wikipedia.org/wiki/Soil">soils</a> and <a href="https://en.wikipedia.org/wiki/Rock_(geology)">rocks</a>.</p>
+<h1 id="summary">Summary:</h1>
 
+<ol>
+  <li>Register a domain name.</li>
+  <li>Register for a Github account and configure Github pages.</li>
+  <li>Choose a Jekyll Theme and Setup your environment.</li>
+  <li>Setup Github Pages.</li>
+  <li>Add your Custom domain to Github Pages.</li>
+</ol>
 
-    
-    <footer><a class="ghost" href="/text/2017/02/17/example-text/">read more »</a></footer>
-    
-  </article>
+<h2 id="1-register-a-your-domain-name-optional">1. Register a your domain name. (Optional)</h2>
 
-  <article>
-    <header>
-      <h1><a href="/objects/2017/02/01/example-objects/">Example Objects</a></h1>
-      <time datetime="2017-02-01T16:30:00-06:00">February 1, 2017</time>
-    </header>
-<h3 id="code">Code</h3>
+<p>Personally, I am a fan of namecheap.com and they also offer FREE domain registrations for students. Check out https://nc.me/ to register your own domain name. If you are not a student you can still register for one with a small charge. You can also look at godaddy.com, 1&amp;1.com etc…</p>
 
-<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">static</span> <span class="kt">void</span> <span class="nf">asyncEnabled</span><span class="p">(</span><span class="n">Dict</span><span class="o">*</span> <span class="n">args</span><span class="p">,</span> <span class="kt">void</span><span class="o">*</span> <span class="n">vAdmin</span><span class="p">,</span> <span class="n">String</span><span class="o">*</span> <span class="n">txid</span><span class="p">,</span> <span class="k">struct</span> <span class="n">Allocator</span><span class="o">*</span> <span class="n">requestAlloc</span><span class="p">)</span>
-<span class="p">{</span>
-    <span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span> <span class="n">admin</span> <span class="o">=</span> <span class="n">Identity_check</span><span class="p">((</span><span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span><span class="p">)</span> <span class="n">vAdmin</span><span class="p">);</span>
-    <span class="kt">int64_t</span> <span class="n">enabled</span> <span class="o">=</span> <span class="n">admin</span><span class="o">-&gt;</span><span class="n">asyncEnabled</span><span class="p">;</span>
-    <span class="n">Dict</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dict_CONST</span><span class="p">(</span><span class="n">String_CONST</span><span class="p">(</span><span class="s">"asyncEnabled"</span><span class="p">),</span> <span class="n">Int_OBJ</span><span class="p">(</span><span class="n">enabled</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
-    <span class="n">Admin_sendMessage</span><span class="p">(</span><span class="o">&amp;</span><span class="n">d</span><span class="p">,</span> <span class="n">txid</span><span class="p">,</span> <span class="n">admin</span><span class="p">);</span>
-<span class="p">}</span></code></pre></figure>
+<p>Once you have a domain name registered jump on to the next section.</p>
 
 
     
-    <footer><a class="ghost" href="/objects/2017/02/01/example-objects/">read more »</a></footer>
+    <footer><a class="ghost" href="/2018/12/14/create-github-pages-profile/">read more »</a></footer>
     
   </article>
 
 </main>
-
-<footer>
-    <a  class="disabled" >« newer posts</a>
-    <span class="paginate">page 1 of 2</span>
-    <a  class="gray" href="/page2" >older posts »</a>
-</footer>
 
 
 
