@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-14T13:35:31-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">0001: Start Creating Your Data Scientist Profile Using Github Pages</title><link href="http://localhost:4000/2018/12/14/create-github-pages-profile/" rel="alternate" type="text/html" title="0001: Start Creating Your Data Scientist Profile Using Github Pages" /><published>2018-12-14T00:00:00-06:00</published><updated>2018-12-14T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/14/create-github-pages-profile</id><content type="html" xml:base="http://localhost:4000/2018/12/14/create-github-pages-profile/">&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/hRZDd1ekhrA/1200x600&quot; alt=&quot;GitHub Pages&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-16T13:13:14-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">0002: Resources</title><link href="http://localhost:4000/2018/12/16/ai-resources/" rel="alternate" type="text/html" title="0002: Resources" /><published>2018-12-16T00:00:00-06:00</published><updated>2018-12-16T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/16/ai-resources</id><content type="html" xml:base="http://localhost:4000/2018/12/16/ai-resources/">&lt;h1 id=&quot;statistics&quot;&gt;Statistics:&lt;/h1&gt;
+
+&lt;h1 id=&quot;machine-learning&quot;&gt;Machine Learning:&lt;/h1&gt;
+
+&lt;h1 id=&quot;deep-learning&quot;&gt;Deep Learning:&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://towardsdatascience.com/the-deep-learning-ai-dictionary-ade421df39e4&quot;&gt;Deep Learning dictionary&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;books&quot;&gt;Books&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://columbia-applied-data-science.github.io/appdatasci.pdf&quot;&gt;Applied Data Science by Ian Langmore &amp;amp; Daniel Krasner&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;datasets&quot;&gt;Datasets&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://archive.ics.uci.edu/ml/datasets.html&quot;&gt;UCI Machine Learning Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;data-engineering&quot;&gt;Data Engineering&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mmds.org/&quot;&gt;Mining Massive Datasets&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;pioneers&quot;&gt;Pioneers&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html&quot;&gt;Hugo Larochelle&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Statistics: Machine Learning: Deep Learning: Deep Learning dictionary Books Applied Data Science by Ian Langmore &amp;amp; Daniel Krasner Datasets UCI Machine Learning Datasets Data Engineering Mining Massive Datasets Pioneers Hugo Larochelle</summary></entry><entry><title type="html">0100: Intro to Chatbots</title><link href="http://localhost:4000/2018/12/16/chatbots-intro/" rel="alternate" type="text/html" title="0100: Intro to Chatbots" /><published>2018-12-16T00:00:00-06:00</published><updated>2018-12-16T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/16/chatbots-intro</id><content type="html" xml:base="http://localhost:4000/2018/12/16/chatbots-intro/">&lt;h3 id=&quot;resources&quot;&gt;Resources:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itsalive.io/&quot;&gt;Facebook Chatbots&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chatfuel.com/bots/&quot;&gt;Chatfuel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wit.ai/&quot;&gt;Wit.ai&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.motion.ai/&quot;&gt;Motion.ai&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dialogflow.com/&quot;&gt;Dialogflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Resources: Facebook Chatbots Chatfuel Wit.ai Motion.ai Dialogflow</summary></entry><entry><title type="html">0001: Start Creating Your Data Scientist Profile Using Github Pages</title><link href="http://localhost:4000/2018/12/14/create-github-pages-profile/" rel="alternate" type="text/html" title="0001: Start Creating Your Data Scientist Profile Using Github Pages" /><published>2018-12-14T00:00:00-06:00</published><updated>2018-12-14T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/14/create-github-pages-profile</id><content type="html" xml:base="http://localhost:4000/2018/12/14/create-github-pages-profile/">&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/hRZDd1ekhrA/1200x600&quot; alt=&quot;GitHub Pages&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;summary&quot;&gt;Summary:&lt;/h1&gt;
 
@@ -12,29 +46,28 @@
 
 &lt;h2 id=&quot;1-register-a-your-domain-name-optional&quot;&gt;1. Register a your domain name. (Optional)&lt;/h2&gt;
 
-&lt;p&gt;Personally, I am a fan of namecheap.com and they also offer FREE domain registrations for students. Check out https://nc.me/ to register your own domain name. If you are not a student you can still register for one with a small charge. You can also look at godaddy.com, 1&amp;amp;1.com etc…&lt;/p&gt;
+&lt;p&gt;I like &lt;a href=&quot;https://www.namecheap.com/&quot; target=&quot;_blank&quot;&gt;Namecheap&lt;/a&gt;
+ for domain registration, they also offer FREE domain registrations for students. Check out https://nc.me/ to register your own domain name. If you are not a student you can still register for one with a small charge. You can also look at &lt;a href=&quot;https://www.godaddy.com/&quot; target=&quot;_blank&quot;&gt;Godaddy&lt;/a&gt;, &lt;a href=&quot;https://www.ionos.com/&quot; target=&quot;_blank&quot;&gt;1&amp;amp;1&lt;/a&gt; etc…&lt;/p&gt;
 
 &lt;p&gt;Once you have a domain name registered jump on to the next section.&lt;/p&gt;
 
 &lt;h2 id=&quot;2-register-for-a-github-account&quot;&gt;2. Register for a Github account.&lt;/h2&gt;
 
-&lt;p&gt;Navigate to https://github.com/ and signup if you already don’t have an account. Once you are logged in, click “+” icon on the upper right corner and select “New Repository” option from the dropdown. Repository name should be “username.github.io” , username is your Github username. Proceed by clicking on “Create repository” button.&lt;/p&gt;
+&lt;p&gt;Navigate to &lt;a href=&quot;https://github.com/&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt; and signup if you already don’t have an account. Once you are logged in, click “+” icon on the upper right corner and select “New Repository” option from the dropdown. Repository name should be “username.github.io” , username is your Github username. Proceed by clicking on “Create repository” button.&lt;/p&gt;
 
 &lt;h2 id=&quot;3-setup-jekyll-environment-and-deploy-it-to-github-pages&quot;&gt;3. Setup Jekyll environment and deploy it to Github Pages.&lt;/h2&gt;
-&lt;p&gt;Follow the step below.
+
+&lt;p&gt;This is a good and complete article to install, build and deploy your jekyll site on github.
+&lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot; target=&quot;_blank&quot;&gt;Make a static website by Tania Rascia&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow the step below from Github for more info.
 https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;k&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;asyncEnabled&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Dict&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vAdmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;txid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Allocator&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requestAlloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Admin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;admin&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Identity_check&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;((&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Admin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;vAdmin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kt&quot;&gt;int64_t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enabled&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;admin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;asyncEnabled&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Dict&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Dict_CONST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;String_CONST&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;asyncEnabled&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Int_OBJ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enabled&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;Admin_sendMessage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;txid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;admin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cp&quot;&gt;# =&amp;gt; Now browse to http://localhost:4000&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h4 id=&quot;bonus-resources&quot;&gt;&lt;strong&gt;Bonus Resources&lt;/strong&gt;:&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://jekyllthemes.io/free&quot;&gt;Free Jekyll Themes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/git-and-github-learning-resources/&quot;&gt;Git and Github learning resources&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=T1itpPvFWHI&amp;amp;list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&quot;&gt;Jekyll Tutorials&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Summary: Register a domain name. Register for a Github account and configure Github pages. Choose a Jekyll Theme and Setup your environment. Setup Github Pages. Add your Custom domain to Github Pages. 1. Register a your domain name. (Optional) Personally, I am a fan of namecheap.com and they also offer FREE domain registrations for students. Check out https://nc.me/ to register your own domain name. If you are not a student you can still register for one with a small charge. You can also look at godaddy.com, 1&amp;amp;1.com etc… Once you have a domain name registered jump on to the next section.</summary></entry></feed>
+  &lt;li&gt;&lt;a href=&quot;https://jekyllthemes.io/free&quot; target=&quot;_blank&quot;&gt;Free Jekyll Themes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/git-and-github-learning-resources/&quot; target=&quot;_blank&quot;&gt;Git and Github learning resources&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=T1itpPvFWHI&amp;amp;list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB&quot; target=&quot;_blank&quot;&gt;Jekyll Tutorials&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Summary: Register a domain name. Register for a Github account and configure Github pages. Choose a Jekyll Theme and Setup your environment. Setup Github Pages. Add your Custom domain to Github Pages. 1. Register a your domain name. (Optional) I like Namecheap for domain registration, they also offer FREE domain registrations for students. Check out https://nc.me/ to register your own domain name. If you are not a student you can still register for one with a small charge. You can also look at Godaddy, 1&amp;amp;1 etc… Once you have a domain name registered jump on to the next section.</summary></entry></feed>

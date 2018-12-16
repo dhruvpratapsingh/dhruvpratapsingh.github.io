@@ -13,32 +13,31 @@ title:  "0001: Start Creating Your Data Scientist Profile Using Github Pages"
 
 ## 1. Register a your domain name. (Optional)
 
-Personally, I am a fan of namecheap.com and they also offer FREE domain registrations for students. Check out https://nc.me/ to register your own domain name. If you are not a student you can still register for one with a small charge. You can also look at godaddy.com, 1&1.com etc...
+I like [Namecheap](https://www.namecheap.com/){:target="_blank"}
+ for domain registration, they also offer FREE domain registrations for students. Check out https://nc.me/ to register your own domain name. If you are not a student you can still register for one with a small charge. You can also look at [Godaddy](https://www.godaddy.com/){:target="_blank"}, [1&1](https://www.ionos.com/){:target="_blank"} etc...
 
 Once you have a domain name registered jump on to the next section.
 
 
 ## 2. Register for a Github account.
 
-Navigate to https://github.com/ and signup if you already don't have an account. Once you are logged in, click "+" icon on the upper right corner and select "New Repository" option from the dropdown. Repository name should be "username.github.io" , username is your Github username. Proceed by clicking on "Create repository" button.
+Navigate to [GitHub](https://github.com/){:target="_blank"} and signup if you already don't have an account. Once you are logged in, click "+" icon on the upper right corner and select "New Repository" option from the dropdown. Repository name should be "username.github.io" , username is your Github username. Proceed by clicking on "Create repository" button.
 
 ## 3. Setup Jekyll environment and deploy it to Github Pages.
-Follow the step below.
+
+This is a good and complete article to install, build and deploy your jekyll site on github.
+[Make a static website by Tania Rascia](https://www.taniarascia.com/make-a-static-website-with-jekyll/){:target="_blank"}
+
+Follow the step below from Github for more info.
 https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
 {% highlight c %}
 
-static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
-{
-    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
-    int64_t enabled = admin->asyncEnabled;
-    Dict d = Dict_CONST(String_CONST("asyncEnabled"), Int_OBJ(enabled), NULL);
-    Admin_sendMessage(&d, txid, admin);
-}
+# => Now browse to http://localhost:4000
 
 {% endhighlight %}
 
 #### **Bonus Resources**:
-* [Free Jekyll Themes](https://jekyllthemes.io/free)
-* [Git and Github learning resources](https://help.github.com/articles/git-and-github-learning-resources/)
-* [Jekyll Tutorials](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
+* [Free Jekyll Themes](https://jekyllthemes.io/free){:target="_blank"}
+* [Git and Github learning resources](https://help.github.com/articles/git-and-github-learning-resources/){:target="_blank"}
+* [Jekyll Tutorials](https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB){:target="_blank"}
