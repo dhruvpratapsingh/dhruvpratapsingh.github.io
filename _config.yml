@@ -19,7 +19,8 @@ navigation: # enables navigation in header
 favicons: # see http://fontawesome.io/icons/#brand for all possible icons
   - github: "https://github.com/dhruvpratapsingh"
   - envelope: "mailto:dhruvpsg@gmail.com"
-  - feed: "feed.xml"
+  - linkedin: "https://www.linkedin.com/in/dhruv-pratap-singh-b918045b"
+  #- feed: "feed.xml"
 
 comments: # embed comments
   disqus: "dps-ai"
