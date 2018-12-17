@@ -1,32 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-17T15:24:04-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">2001: Intro to Deep Learning</title><link href="http://localhost:4000/2018/12/17/intro-to-deep-learning/" rel="alternate" type="text/html" title="2001: Intro to Deep Learning" /><published>2018-12-17T00:00:00-06:00</published><updated>2018-12-17T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/17/intro-to-deep-learning</id><content type="html" xml:base="http://localhost:4000/2018/12/17/intro-to-deep-learning/">&lt;p&gt;Before we start digging into the fundamentals of Deep Learning, let’s setup the our toolset.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-17T16:29:18-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">2001: Intro to Deep Learning</title><link href="http://localhost:4000/2018/12/17/intro-to-deep-learning/" rel="alternate" type="text/html" title="2001: Intro to Deep Learning" /><published>2018-12-17T00:00:00-06:00</published><updated>2018-12-17T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/17/intro-to-deep-learning</id><content type="html" xml:base="http://localhost:4000/2018/12/17/intro-to-deep-learning/">&lt;p&gt;Before we start digging into the fundamentals of Deep Learning, let’s take a look at the tools we will be using going forward.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;http://colab.research.google.com/&quot;&gt;Google Colaboratory&lt;/a&gt; : You can run your code on GPUs hosted by Google for free.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://research.google.com/seedbank/&quot;&gt;Seebank&lt;/a&gt; : Collection of interactive machine learning examples for Colab or Jupyter.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://research.google.com/seedbank/&quot;&gt;Seedbank&lt;/a&gt; : Collection of interactive machine learning examples for Colab or Jupyter.&lt;/li&gt;
   &lt;li&gt;Create a profile on &lt;a href=&quot;https://www.kaggle.com/&quot;&gt;Kaggle&lt;/a&gt;, if are not already signed up for it.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Deep learning
 |-- Supervised
-|     |-- CNN: Convolutional Neural Networks
-|     |-- RNN: Recurrent Neural Networks
+|     |-- MLP:  Multilayer perceptron
+|     |-- CNN:  Convolutional Neural Networks
+|     |-- RNN:  Recurrent Neural Networks
+|     |-- RNN:  Recursive Neural Networks
+|     |-- LSTM: Long short-term memory
+|     |-- SQS:  Sequence-to-sequence models
+|     |-- SNN:  Shallow Neural Networks
 |-- Unsupervised
-      |-- SOM: Self Organizing Maps
-      |-- BM:  Boltzmann Machines
-      |-- AE:  AutoEncoders
+      |-- SOM:  Self Organizing Maps
+      |-- BM:   Boltzmann Machines
+      |-- AE:   AutoEncoders
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;supervised-deep-learning&quot;&gt;Supervised Deep learning&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;DL form where an output label exists for every input example. The labels are used to compare the output of Deep Neural Nets to the ground-truth values and minimize the cost function. Other forms of Deep learning are semi-supervised and Unsupervised.&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./../../../../assets/images/colored_neural_network.svg&quot; alt=&quot;Neural Network&quot; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Smartest and most complex thing on this planet is human brain and with deep leaning we try to mimic how human brain works by creating “Artificial Neural Networks”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;What is an ANN?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Artificial Neural Network (ANN) is&lt;/p&gt;
+
+&lt;!-- Image for ANN --&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;./../../../../assets/images/colored_neural_network.svg&quot; /&gt;
+&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;ANN: Artificial Neural Networks&lt;/strong&gt;&lt;/p&gt;
-
-    &lt;p&gt;DL form where an output label exists for every input example. The labels are used to compare the output of Deep Neural Nets to the ground-truth values and minimize the cost function. Other forms of Deep learning are semi-supervised and Unsupervised.&lt;/p&gt;
-  &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;CNN: Convolutional Neural Networks&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;RNN: Recurrent Neural Networks&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -37,7 +48,13 @@
   &lt;li&gt;&lt;strong&gt;SOM: Self Organizing Maps&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;BM:  Boltzmann Machines&lt;/strong&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;AE:  AutoEncoders&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Before we start digging into the fundamentals of Deep Learning, let’s setup the our toolset. Google Colaboratory : You can run your code on GPUs hosted by Google for free. Seebank : Collection of interactive machine learning examples for Colab or Jupyter. Create a profile on Kaggle, if are not already signed up for it. Deep learning |-- Supervised | |-- CNN: Convolutional Neural Networks | |-- RNN: Recurrent Neural Networks |-- Unsupervised |-- SOM: Self Organizing Maps |-- BM: Boltzmann Machines |-- AE: AutoEncoders Supervised Deep learning DL form where an output label exists for every input example. The labels are used to compare the output of Deep Neural Nets to the ground-truth values and minimize the cost function. Other forms of Deep learning are semi-supervised and Unsupervised. ANN: Artificial Neural Networks DL form where an output label exists for every input example. The labels are used to compare the output of Deep Neural Nets to the ground-truth values and minimize the cost function. Other forms of Deep learning are semi-supervised and Unsupervised. CNN: Convolutional Neural Networks RNN: Recurrent Neural Networks Unsupervised Deep Learning SOM: Self Organizing Maps BM: Boltzmann Machines AE: AutoEncoders</summary></entry><entry><title type="html">0002: Resources</title><link href="http://localhost:4000/2018/12/16/ai-resources/" rel="alternate" type="text/html" title="0002: Resources" /><published>2018-12-16T00:00:00-06:00</published><updated>2018-12-16T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/16/ai-resources</id><content type="html" xml:base="http://localhost:4000/2018/12/16/ai-resources/">&lt;h1 id=&quot;statistics&quot;&gt;Statistics:&lt;/h1&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;some-useful-resources&quot;&gt;&lt;strong&gt;Some useful resources&lt;/strong&gt;&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;See in action: &lt;a href=&quot;https://playground.tensorflow.org/&quot;&gt;Tensorflow Playground&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Flashcards of the interview: &lt;a href=&quot;https://towardsdatascience.com/the-deep-learning-ai-dictionary-ade421df39e4&quot;&gt;Deep Learning Dictionary&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Before we start digging into the fundamentals of Deep Learning, let’s take a look at the tools we will be using going forward. Google Colaboratory : You can run your code on GPUs hosted by Google for free. Seedbank : Collection of interactive machine learning examples for Colab or Jupyter. Create a profile on Kaggle, if are not already signed up for it. Deep learning |-- Supervised | |-- MLP: Multilayer perceptron | |-- CNN: Convolutional Neural Networks | |-- RNN: Recurrent Neural Networks | |-- RNN: Recursive Neural Networks | |-- LSTM: Long short-term memory | |-- SQS: Sequence-to-sequence models | |-- SNN: Shallow Neural Networks |-- Unsupervised |-- SOM: Self Organizing Maps |-- BM: Boltzmann Machines |-- AE: AutoEncoders Supervised Deep learning DL form where an output label exists for every input example. The labels are used to compare the output of Deep Neural Nets to the ground-truth values and minimize the cost function. Other forms of Deep learning are semi-supervised and Unsupervised. Smartest and most complex thing on this planet is human brain and with deep leaning we try to mimic how human brain works by creating “Artificial Neural Networks”. What is an ANN? Artificial Neural Network (ANN) is CNN: Convolutional Neural Networks RNN: Recurrent Neural Networks Unsupervised Deep Learning SOM: Self Organizing Maps BM: Boltzmann Machines AE: AutoEncoders Some useful resources See in action: Tensorflow Playground Flashcards of the interview: Deep Learning Dictionary</summary></entry><entry><title type="html">0002: Resources</title><link href="http://localhost:4000/2018/12/16/ai-resources/" rel="alternate" type="text/html" title="0002: Resources" /><published>2018-12-16T00:00:00-06:00</published><updated>2018-12-16T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/16/ai-resources</id><content type="html" xml:base="http://localhost:4000/2018/12/16/ai-resources/">&lt;h1 id=&quot;statistics&quot;&gt;Statistics:&lt;/h1&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://seeing-theory.brown.edu/&quot;&gt;Seeing Theory&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www-bcf.usc.edu/~gareth/ISL/&quot;&gt;Intro to Statistical Learning&lt;/a&gt; =&amp;gt; Must Read&lt;/li&gt;
