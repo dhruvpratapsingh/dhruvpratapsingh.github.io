@@ -17,6 +17,7 @@ title:  "0002: Resources"
 
 # Datasets
   1. [UCI Machine Learning Datasets](http://archive.ics.uci.edu/ml/datasets.html)
+  2. [Kaggle Datasets](https://www.kaggle.com/datasets)
 
 # Python Libraries
   1. [Matplotlib](https://heartbeat.fritz.ai/introduction-to-matplotlib-data-visualization-in-python-d9143287ae39)
