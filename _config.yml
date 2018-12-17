@@ -14,7 +14,7 @@ dark: true # enables dark mode
 navigation: # enables navigation in header
   - index.html
   - archive.html
-  - about.md
+  # - about.md
 
 favicons: # see http://fontawesome.io/icons/#brand for all possible icons
   - github: "https://github.com/dhruvpratapsingh"
