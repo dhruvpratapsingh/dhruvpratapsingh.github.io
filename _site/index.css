@@ -26,18 +26,16 @@ a.gray:hover {
 }
 
 body {
-  background: #fefefe;
-  color: #333;
+  background: #2a2a2a;
+  color: #fff;
 }
 
 body > header, body > footer {
-  background: #fff;
-  box-shadow: 0 0 2em #f8f8f8;
+  background: #282828;
 }
 
 body > footer {
-  color: gray;
-  border-top: 1px solid #f0f0f0;
+  color: #999;
 }
 
 body {
