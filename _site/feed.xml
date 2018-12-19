@@ -1,4 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-18T09:31:27-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">2001: Intro to Deep Learning</title><link href="http://localhost:4000/2018/12/17/intro-to-deep-learning/" rel="alternate" type="text/html" title="2001: Intro to Deep Learning" /><published>2018-12-17T00:00:00-06:00</published><updated>2018-12-17T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/17/intro-to-deep-learning</id><content type="html" xml:base="http://localhost:4000/2018/12/17/intro-to-deep-learning/">&lt;p&gt;Before we start digging into the fundamentals of Deep Learning, let’s take a look at the tools we will be using going forward.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-19T13:47:19-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">2002: Hello Deep Leaning World! Using Google Drive</title><link href="http://localhost:4000/2018/12/19/deep-learning-hello-world-using-google-drive/" rel="alternate" type="text/html" title="2002: Hello Deep Leaning World! Using Google Drive" /><published>2018-12-19T00:00:00-06:00</published><updated>2018-12-19T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/19/deep-learning-hello-world-using-google-drive</id><content type="html" xml:base="http://localhost:4000/2018/12/19/deep-learning-hello-world-using-google-drive/">&lt;h3 id=&quot;1-login-to-google-drive&quot;&gt;1. Login to &lt;a href=&quot;https://drive.google.com&quot;&gt;Google Drive&lt;/a&gt;.&lt;/h3&gt;
+
+&lt;p&gt;Create a directory structure like below or of your preference.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./../../../../assets/images/gd-directory.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy Data File (.csv in this case) to the above Google Drive directory.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-open-google-colaboratory&quot;&gt;2. Open Google Colaboratory.&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Colaboratory is Jupyter notebook in the form of Software As A Service provided by Google.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can select it from the options or click on “Connect more apps” if you don’t already have it as an option.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;./../../../../assets/images/gd-colab.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;./../../../../assets/images/gd-add-colab.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;3-mount-google-drive-to-colab-notebook&quot;&gt;3. Mount Google Drive to Colab Notebook.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Mount the Google Drive&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;google.colab&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;drive&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;drive&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mount&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'/content/gdrive'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You can run linux commands by prefixing the commands with an ‘!’ exclamation.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# List the contents of the directory.
+!ls -la /content/gdrive/My\ Drive/Deep\ Learning/Supervised\ Deep\ Learning/ANN/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;4-data-preprocessing&quot;&gt;4. Data Preprocessing.&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;c&quot;&gt;# Importing the libraries&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;numpy&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;np&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;plt&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;pandas&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Importing the dataset&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read_csv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'/content/gdrive/My Drive/Deep Learning/Supervised Deep Learning/ANN/Churn_Modelling.csv'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;X&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dataset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;iloc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;13&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">1. Login to Google Drive. Create a directory structure like below or of your preference. Copy Data File (.csv in this case) to the above Google Drive directory. 2. Open Google Colaboratory. Colaboratory is Jupyter notebook in the form of Software As A Service provided by Google. You can select it from the options or click on “Connect more apps” if you don’t already have it as an option. 3. Mount Google Drive to Colab Notebook. Mount the Google Drive from google.colab import drive drive.mount('/content/gdrive') You can run linux commands by prefixing the commands with an ‘!’ exclamation. # List the contents of the directory. !ls -la /content/gdrive/My\ Drive/Deep\ Learning/Supervised\ Deep\ Learning/ANN/ 4. Data Preprocessing. # Importing the libraries import numpy as np import matplotlib.pyplot as plt import pandas as pd # Importing the dataset dataset = pd.read_csv('/content/gdrive/My Drive/Deep Learning/Supervised Deep Learning/ANN/Churn_Modelling.csv') X = dataset.iloc[:, 3:13].values y = dataset.iloc[:, 13].values</summary></entry><entry><title type="html">2001: Intro to Deep Learning</title><link href="http://localhost:4000/2018/12/17/intro-to-deep-learning/" rel="alternate" type="text/html" title="2001: Intro to Deep Learning" /><published>2018-12-17T00:00:00-06:00</published><updated>2018-12-17T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/17/intro-to-deep-learning</id><content type="html" xml:base="http://localhost:4000/2018/12/17/intro-to-deep-learning/">&lt;p&gt;Before we start digging into the fundamentals of Deep Learning, let’s take a look at the tools we will be using going forward.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;http://colab.research.google.com/&quot;&gt;Google Colaboratory&lt;/a&gt; : You can run your code on GPUs hosted by Google for free.&lt;/li&gt;
@@ -33,9 +81,9 @@
 &lt;p&gt;Artificial Neural Network (ANN) is&lt;/p&gt;
 
 &lt;!-- Image for ANN --&gt;
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;./../../../../assets/images/colored_neural_network.svg&quot; /&gt;
-&lt;/p&gt;
+&lt;!-- &lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;./../../../../assets/images/colored_neural_network.svg&quot;/&gt;
+&lt;/p&gt; --&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;strong&gt;CNN: Convolutional Neural Networks&lt;/strong&gt;&lt;/li&gt;

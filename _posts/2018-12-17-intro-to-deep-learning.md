@@ -34,9 +34,9 @@ Deep learning
 Artificial Neural Network (ANN) is
 
 <!-- Image for ANN -->
-<p align="center">
+<!-- <p align="center">
   <img src="./../../../../assets/images/colored_neural_network.svg"/>
-</p>
+</p> -->
 
 1. **CNN: Convolutional Neural Networks**
 2. **RNN: Recurrent Neural Networks**
