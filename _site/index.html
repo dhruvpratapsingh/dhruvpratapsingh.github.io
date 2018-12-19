@@ -36,8 +36,6 @@
 
 <p><img src="./../../../../assets/images/gd-directory.png" /></p>
 
-<p>Copy Data File (.csv in this case) to the above Google Drive directory.</p>
-
 <h3 id="2-open-google-colaboratory">2. Open Google Colaboratory.</h3>
 <blockquote>
   <p>Colaboratory is Jupyter notebook in the form of Software As A Service provided by Google.</p>
@@ -55,7 +53,9 @@
 
 <h3 id="3-mount-google-drive-to-colab-notebook">3. Mount Google Drive to Colab Notebook.</h3>
 
-<p><strong>Mount the Google Drive</strong></p>
+<!-- *Copy Data File (.csv in this case) to the above Google Drive directory.*
+
+**Mount the Google Drive** -->
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">google.colab</span> <span class="kn">import</span> <span class="n">drive</span>
 <span class="n">drive</span><span class="o">.</span><span class="n">mount</span><span class="p">(</span><span class="s">'/content/gdrive'</span><span class="p">)</span></code></pre></figure>
@@ -68,19 +68,15 @@
 !ls -la /content/gdrive/My\ Drive/Deep\ Learning/Supervised\ Deep\ Learning/ANN/
 </code></pre></div></div>
 
-<h3 id="4-data-preprocessing">4. Data Preprocessing.</h3>
+<h3 id="4-train-and-test-simple-convnet-on-the-mnist-dataset">4. Train and Test simple convnet on the MNIST dataset.</h3>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Importing the libraries</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
-
-<span class="c"># Importing the dataset</span>
-<span class="n">dataset</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'/content/gdrive/My Drive/Deep Learning/Supervised Deep Learning/ANN/Churn_Modelling.csv'</span><span class="p">)</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">:</span><span class="mi">13</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">13</span><span class="p">]</span><span class="o">.</span><span class="n">values</span></code></pre></figure>
+<p><strong>Install Keras</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>!pip install -q keras
+</code></pre></div></div>
 
 
+    
+    <footer><a class="ghost" href="/2018/12/19/deep-learning-hello-world-using-google-drive/">read more »</a></footer>
     
   </article>
 
