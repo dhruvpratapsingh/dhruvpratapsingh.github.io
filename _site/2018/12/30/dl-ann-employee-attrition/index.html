@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="author" content="Dhruv Pratap Singh">
+<meta name="description" content="Everything AI">
+<title>2003: Artificial Neural Networks : Employee Attrition › dps.ai</title>
+<link rel="canonical" href="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/">
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/basic.css" rel="stylesheet">
+<link href="/highlight.css" rel="stylesheet">
+<link href="/index.css" rel="stylesheet">
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="dps.ai" />
+<script src="//dps-ai.disqus.com/embed.js" async></script>
+
+<header>
+  
+  <h1><a href="">dps.ai</a></h1>
+  <nav class="large">
+    <div><a href="/">Home</a><a href="/archive/">Archive</a></div>
+  
+    <div><a href="https://github.com/dhruvpratapsingh" target="_blank"><i class="fa fa-github"></i></a><a href="mailto:dhruvpsg@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a><a href="https://www.linkedin.com/in/dhruv-pratap-singh-b918045b" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+  </nav>
+</header>
+<main>
+  <article>
+    <header>
+      <h1><a href="/2018/12/30/dl-ann-employee-attrition/">2003: Artificial Neural Networks : Employee Attrition</a></h1>
+      <time datetime="2018-12-30T00:00:00-06:00">December 30, 2018</time>
+    </header>
+<p>We will predict Employee Attrition using Artificial Neural Networks.</p>
+
+<h3 id="table-of-contents">Table of Contents</h3>
+<ol>
+  <li>Data Preprocessing</li>
+  <li>Create ANN</li>
+  <li>Make predictions</li>
+  <li>Evaluate - Improve - Tune ANN</li>
+</ol>
+
+<h2 id="part-1-data-preprocessing">Part 1: Data Preprocessing</h2>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Import the libraries</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span></code></pre></figure>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Get data from Github and copy that in the cache
+!wget https://raw.githubusercontent.com/dhruvpratapsingh/Deep-Learning/master/SupervisedDL/ANN/employee_attrition/Employee-Attrition.csv ./
+</code></pre></div></div>
+
+<p>If you click on “Files” tab in the left panel, you should see the .csv file.</p>
+
+<p align="center">
+  <img src="./../../../../assets/images/csv_loaded.png" />
+</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Importing the dataset</span>
+<span class="n">dataset</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'Employee-Attrition.csv'</span><span class="p">)</span></code></pre></figure>
+
+<h3 id="intuition-for-cleaning-the-data">Intuition for Cleaning the data</h3>
+
+<p><em>1. Remove a column with same value for all the rows</em>
+        <strong>StandardHours</strong>
+        <strong>Over18</strong></p>
+
+<p><em>2. Remove the columns with PII(Personally identifiable information)</em>
+        <strong>EmployeeID</strong></p>
+
+<p><em>3. Move y to start or the end column, to make things easier to slice (Optional)</em></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c">#removing standard hours, Over18 and employeeID + attrition as first row</span>
+<span class="n">dataset</span> <span class="o">=</span> <span class="n">dataset</span><span class="p">[[</span><span class="s">'Attrition'</span><span class="p">,</span>
+                   <span class="s">'Age'</span><span class="p">,</span>
+                   <span class="s">'BusinessTravel'</span><span class="p">,</span>
+                   <span class="s">'DailyRate'</span><span class="p">,</span>
+                   <span class="s">'Department'</span><span class="p">,</span>
+                   <span class="s">'DistanceFromHome'</span><span class="p">,</span>
+                   <span class="s">'Education'</span><span class="p">,</span>
+                   <span class="s">'EducationField'</span><span class="p">,</span>
+                   <span class="s">'EmployeeCount'</span><span class="p">,</span>
+                   <span class="s">'EnvironmentSatisfaction'</span><span class="p">,</span>
+                   <span class="s">'Gender'</span><span class="p">,</span>
+                   <span class="s">'HourlyRate'</span><span class="p">,</span>
+                   <span class="s">'JobInvolvement'</span><span class="p">,</span>
+                   <span class="s">'JobLevel'</span><span class="p">,</span>
+                   <span class="s">'JobRole'</span><span class="p">,</span>
+                   <span class="s">'JobSatisfaction'</span><span class="p">,</span>
+                   <span class="s">'MaritalStatus'</span><span class="p">,</span>
+                   <span class="s">'MonthlyIncome'</span><span class="p">,</span>
+                   <span class="s">'MonthlyRate'</span><span class="p">,</span>
+                   <span class="s">'NumCompaniesWorked'</span><span class="p">,</span>
+                   <span class="s">'OverTime'</span><span class="p">,</span>
+                   <span class="s">'PercentSalaryHike'</span><span class="p">,</span>
+                   <span class="s">'PerformanceRating'</span><span class="p">,</span>
+                   <span class="s">'RelationshipSatisfaction'</span><span class="p">,</span>
+                   <span class="s">'StockOptionLevel'</span><span class="p">,</span>
+                   <span class="s">'TotalWorkingYears'</span><span class="p">,</span>
+                   <span class="s">'TrainingTimesLastYear'</span><span class="p">,</span>
+                   <span class="s">'WorkLifeBalance'</span><span class="p">,</span>
+                   <span class="s">'YearsAtCompany'</span><span class="p">,</span>
+                   <span class="s">'YearsInCurrentRole'</span><span class="p">,</span>
+                   <span class="s">'YearsSinceLastPromotion'</span><span class="p">,</span>
+                   <span class="s">'YearsWithCurrManager'</span><span class="p">]]</span></code></pre></figure>
+
+<p>Remember that in python index slicing we include the start index and exclude the end index.
+Use first index i.e. 0 as y (dependent variable) and 1-32 as X (independent variables)</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">X</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">:]</span><span class="o">.</span><span class="n">values</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">values</span></code></pre></figure>
+
+<p>SOME TRICKS</p>
+
+<ol>
+  <li>‘print(y)’ or to see the y vector.</li>
+  <li>‘X.shape’ to see the shape of the matrix.</li>
+  <li>We use Uppercase X as it is a matrix and lowercase y as it is a vector</li>
+</ol>
+
+<h3 id="encoding-categorical-data">Encoding categorical data</h3>
+<p>As the algorithms work best with numbers.</p>
+
+<h4 id="set-the-display-max-columns-to-see-all-columns">Set the display max columns to see all columns.</h4>
+<p>Columns that need to encoded:</p>
+<ol>
+  <li>Attrition y[0]</li>
+  <li>BusinessTravel X[1]</li>
+  <li>Department X[3]</li>
+  <li>EducationField X[6]</li>
+  <li>Gender X[9]</li>
+  <li>JobRole X[13]</li>
+  <li>MaritalStatus X[15]</li>
+  <li>OverTime X[19]</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s">'display.max_columns'</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+<span class="n">dataset</span><span class="o">.</span><span class="n">head</span><span class="p">()</span></code></pre></figure>
+
+<p>First 5 rows look something like this… rest of the columns not in the image.</p>
+<p align="center">
+  <img src="./../../../../assets/images/table.png" />
+</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Encoding categorical data</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">LabelEncoder</span><span class="p">,</span> <span class="n">OneHotEncoder</span>
+<span class="n">labelencoder_X_1</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
+<span class="n">X</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">labelencoder_X_1</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">])</span>
+<span class="n">labelencoder_X_2</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
+<span class="n">X</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">=</span> <span class="n">labelencoder_X_2</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">[:,</span> <span class="mi">3</span><span class="p">])</span>
+<span class="n">labelencoder_X_3</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
+<span class="n">X</span><span class="p">[:,</span> <span class="mi">6</span><span class="p">]</span> <span class="o">=</span> <span class="n">labelencoder_X_3</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">[:,</span> <span class="mi">6</span><span class="p">])</span>
+<span class="n">labelencoder_X_4</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
+<span class="n">X</span><span class="p">[:,</span> <span class="mi">9</span><span class="p">]</span> <span class="o">=</span> <span class="n">labelencoder_X_4</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">[:,</span> <span class="mi">9</span><span class="p">])</span>
+<span class="n">labelencoder_X_5</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
+<span class="n">X</span><span class="p">[:,</span> <span class="mi">13</span><span class="p">]</span> <span class="o">=</span> <span class="n">labelencoder_X_5</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">[:,</span> <span class="mi">13</span><span class="p">])</span>
+<span class="n">labelencoder_X_6</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
+<span class="n">X</span><span class="p">[:,</span> <span class="mi">15</span><span class="p">]</span> <span class="o">=</span> <span class="n">labelencoder_X_6</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">[:,</span> <span class="mi">15</span><span class="p">])</span>
+<span class="n">labelencoder_X_7</span> <span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
+<span class="n">X</span><span class="p">[:,</span> <span class="mi">19</span><span class="p">]</span> <span class="o">=</span> <span class="n">labelencoder_X_7</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">[:,</span> <span class="mi">19</span><span class="p">])</span>
+<span class="n">labelencoder_y</span><span class="o">=</span> <span class="n">LabelEncoder</span><span class="p">()</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">labelencoder_y</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">y</span><span class="p">)</span>
+
+<span class="c">#no dummy trap</span>
+<span class="n">onehotencoder1</span> <span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">categorical_features</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">onehotencoder1</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span><span class="mi">1</span><span class="p">:]</span>
+<span class="n">onehotencoder3</span> <span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">categorical_features</span> <span class="o">=</span> <span class="p">[</span><span class="mi">4</span><span class="p">])</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">onehotencoder3</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span><span class="mi">1</span><span class="p">:]</span>
+<span class="n">onehotencoder6</span> <span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">categorical_features</span> <span class="o">=</span> <span class="p">[</span><span class="mi">8</span><span class="p">])</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">onehotencoder6</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span><span class="mi">1</span><span class="p">:]</span>
+<span class="n">onehotencoder13</span> <span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">categorical_features</span> <span class="o">=</span> <span class="p">[</span><span class="mi">19</span><span class="p">])</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">onehotencoder13</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span><span class="mi">1</span><span class="p">:]</span>
+<span class="n">onehotencoder15</span> <span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">(</span><span class="n">categorical_features</span> <span class="o">=</span> <span class="p">[</span><span class="mi">28</span><span class="p">])</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">onehotencoder15</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="p">[:,</span><span class="mi">1</span><span class="p">:]</span></code></pre></figure>
+
+<h3 id="splitt-data-into-training-and-test-set">Splitt data into training and test set</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Splitting the dataset into the Training set and Test set</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span></code></pre></figure>
+
+<h3 id="feature-scaling">Feature Scaling</h3>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Feature Scaling</span>
+<span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+<span class="n">sc</span> <span class="o">=</span> <span class="n">StandardScaler</span><span class="p">()</span>
+<span class="n">X_train</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X_train</span><span class="p">)</span>
+<span class="n">X_test</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span></code></pre></figure>
+
+<h2 id="part-2-create-artificial-neural-network">Part 2: Create Artificial Neural Network</h2>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Importing the Keras libraries and packages</span>
+<span class="kn">import</span> <span class="nn">keras</span>
+<span class="kn">from</span> <span class="nn">keras.models</span> <span class="kn">import</span> <span class="n">Sequential</span>
+<span class="kn">from</span> <span class="nn">keras.layers</span> <span class="kn">import</span> <span class="n">Dense</span>
+<span class="kn">from</span> <span class="nn">keras.layers</span> <span class="kn">import</span> <span class="n">Dropout</span>
+<span class="kn">from</span> <span class="nn">keras.wrappers.scikit_learn</span> <span class="kn">import</span> <span class="n">KerasClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">cross_val_score</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">GridSearchCV</span>
+
+<span class="c">#Parameters</span>
+<span class="n">dropout</span> <span class="o">=</span> <span class="mf">0.1</span>
+<span class="n">epochs</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">batch_size</span> <span class="o">=</span> <span class="mi">30</span>
+<span class="n">optimizer</span> <span class="o">=</span> <span class="s">'adam'</span>
+<span class="n">k</span> <span class="o">=</span> <span class="mi">20</span>
+
+<span class="k">def</span> <span class="nf">build_ann_classifier</span><span class="p">():</span>
+  <span class="c"># Initialising the ANN</span>
+  <span class="n">classifier</span> <span class="o">=</span> <span class="n">Sequential</span><span class="p">()</span>
+
+  <span class="c"># Adding the input layer and the first hidden layer</span>
+  <span class="n">classifier</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dense</span><span class="p">(</span><span class="n">units</span> <span class="o">=</span> <span class="mi">16</span><span class="p">,</span> <span class="n">kernel_initializer</span> <span class="o">=</span> <span class="s">'uniform'</span><span class="p">,</span> <span class="n">activation</span> <span class="o">=</span> <span class="s">'relu'</span><span class="p">,</span> <span class="n">input_shape</span> <span class="o">=</span> <span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],)))</span>
+
+  <span class="n">classifier</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">))</span>
+
+  <span class="c"># Adding the output layer</span>
+  <span class="n">classifier</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dense</span><span class="p">(</span><span class="n">units</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">kernel_initializer</span> <span class="o">=</span> <span class="s">'uniform'</span><span class="p">,</span> <span class="n">activation</span> <span class="o">=</span> <span class="s">'sigmoid'</span><span class="p">))</span>
+
+  <span class="c"># Compiling the ANN</span>
+  <span class="n">classifier</span><span class="o">.</span><span class="nb">compile</span><span class="p">(</span><span class="n">optimizer</span> <span class="o">=</span> <span class="s">'adam'</span><span class="p">,</span> <span class="n">loss</span> <span class="o">=</span> <span class="s">'binary_crossentropy'</span><span class="p">,</span> <span class="n">metrics</span> <span class="o">=</span> <span class="p">[</span><span class="s">'accuracy'</span><span class="p">])</span>
+
+  <span class="k">return</span> <span class="n">classifier</span>
+
+  <span class="n">classifier</span> <span class="o">=</span> <span class="n">KerasClassifier</span><span class="p">(</span><span class="n">build_fn</span> <span class="o">=</span> <span class="n">build_ann_classifier</span><span class="p">,</span> <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">epochs</span> <span class="o">=</span> <span class="n">epochs</span><span class="p">,</span> <span class="n">verbose</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="n">accuracies</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">estimator</span> <span class="o">=</span> <span class="n">classifier</span><span class="p">,</span> <span class="n">X</span> <span class="o">=</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">cv</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span> <span class="n">n_jobs</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+  <span class="nb">max</span> <span class="o">=</span> <span class="n">accuracies</span><span class="o">.</span><span class="nb">max</span><span class="p">()</span>
+  <span class="k">print</span><span class="p">(</span><span class="nb">max</span><span class="p">)</span>
+  <span class="n">mean</span> <span class="o">=</span> <span class="n">accuracies</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+  <span class="n">variance</span> <span class="o">=</span> <span class="n">accuracies</span><span class="o">.</span><span class="n">std</span><span class="p">()</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">mean</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">variance</span><span class="p">)</span></code></pre></figure>
+
+<p>The result of this is: We got <strong>92.3%</strong> accuracy at best.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0.9237288095183291
+0.8596697045390578
+0.030821566189208408
+</code></pre></div></div>
+
+<h3 id="tune-parameters-using-gridsearchcv-cross-validation">Tune parameters using GridSearchCV (Cross Validation)</h3>
+<p>To find the best parameters we can give grid_search some values to test and it will find the best combo.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">build_ann_classifier</span><span class="p">(</span><span class="n">optimizer</span><span class="p">):</span>
+  <span class="c"># Initialising the ANN</span>
+  <span class="n">classifier</span> <span class="o">=</span> <span class="n">Sequential</span><span class="p">()</span>
+
+  <span class="c"># Adding the input layer and the first hidden layer</span>
+  <span class="n">classifier</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dense</span><span class="p">(</span><span class="n">units</span> <span class="o">=</span> <span class="mi">16</span><span class="p">,</span> <span class="n">kernel_initializer</span> <span class="o">=</span> <span class="s">'uniform'</span><span class="p">,</span> <span class="n">activation</span> <span class="o">=</span> <span class="s">'relu'</span><span class="p">,</span> <span class="n">input_shape</span> <span class="o">=</span> <span class="p">(</span><span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">1</span><span class="p">],)))</span>
+
+  <span class="n">classifier</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dropout</span><span class="p">(</span><span class="n">dropout</span><span class="p">))</span>
+
+  <span class="c"># Adding the output layer</span>
+  <span class="n">classifier</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">Dense</span><span class="p">(</span><span class="n">units</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">kernel_initializer</span> <span class="o">=</span> <span class="s">'uniform'</span><span class="p">,</span> <span class="n">activation</span> <span class="o">=</span> <span class="s">'sigmoid'</span><span class="p">))</span>
+
+  <span class="c"># Compiling the ANN</span>
+  <span class="n">classifier</span><span class="o">.</span><span class="nb">compile</span><span class="p">(</span><span class="n">optimizer</span> <span class="o">=</span> <span class="n">optimizer</span><span class="p">,</span> <span class="n">loss</span> <span class="o">=</span> <span class="s">'binary_crossentropy'</span><span class="p">,</span> <span class="n">metrics</span> <span class="o">=</span> <span class="p">[</span><span class="s">'accuracy'</span><span class="p">])</span>
+
+  <span class="k">return</span> <span class="n">classifier</span>
+
+
+<span class="n">classifier</span> <span class="o">=</span> <span class="n">KerasClassifier</span><span class="p">(</span><span class="n">build_fn</span> <span class="o">=</span> <span class="n">build_ann_classifier</span><span class="p">,</span> <span class="n">verbose</span> <span class="o">=</span> <span class="mi">0</span><span class="p">)</span>
+<span class="n">parameters</span> <span class="o">=</span> <span class="p">{</span><span class="s">'batch_size'</span><span class="p">:</span> <span class="p">[</span><span class="mi">25</span><span class="p">,</span> <span class="mi">32</span><span class="p">],</span>
+              <span class="s">'epochs'</span><span class="p">:</span> <span class="p">[</span><span class="mi">100</span><span class="p">],</span>
+              <span class="s">'optimizer'</span><span class="p">:</span> <span class="p">[</span><span class="s">'adam'</span><span class="p">,</span> <span class="s">'rmsprop'</span><span class="p">]}</span>
+<span class="n">grid_search</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">estimator</span> <span class="o">=</span> <span class="n">classifier</span><span class="p">,</span>
+                           <span class="n">param_grid</span> <span class="o">=</span> <span class="n">parameters</span><span class="p">,</span>
+                           <span class="n">scoring</span> <span class="o">=</span> <span class="s">'accuracy'</span><span class="p">,</span>
+                           <span class="n">cv</span> <span class="o">=</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">grid_search</span> <span class="o">=</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+<span class="n">best_parameters</span> <span class="o">=</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_params_</span>
+<span class="n">best_accuracy</span> <span class="o">=</span> <span class="n">grid_search</span><span class="o">.</span><span class="n">best_score_</span></code></pre></figure>
+
+<p>Resulting best parameters:</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{'batch_size': 25, 'epochs': 100, 'optimizer': 'adam'}
+</code></pre></div></div>
+
+<p>You can find complete python code <a href="https://github.com/dhruvpratapsingh/Deep-Learning/tree/master/SupervisedDL/ANN/employee_attrition">here.</a></p>
+
+<p>Please let me know if you have any questions or suggestions in the comments section below. Thanks.</p>
+
+    
+    
+    <hr><div id="disqus_thread"></div>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+  </article>
+</main>
+
+
+<footer>
+     <span></span> 
+    <a href="/2018/12/19/deep-learning-hello-world-using-google-drive/">2002: Hello Deep Learning World! Using Google Drive »</a>
+</footer>
+
