@@ -1,4 +1,4 @@
-# [dps.ai](dps.ai)
+# [dps.ai](https://www.dps.ai/)
 
 Sharing my journey to Artificial Intelligence.
 
