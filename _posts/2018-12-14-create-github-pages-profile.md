@@ -1,7 +1,7 @@
 ---
 title:  "0001: Start Creating Your Data Scientist Profile Using Github Pages"
 ---
-![GitHub Pages](https://source.unsplash.com/hRZDd1ekhrA/1200x600)
+![GitHub Pages](https://source.unsplash.com/OVbeSXRk_9E/1200x600)
 
 # Summary:
 
