@@ -21,31 +21,100 @@ Once installed successfully, add lines below to the scripts property in your pro
 "prettier:write": "npm run prettier:base -- --write \"src/**/*.{ts,tsx}\""
 ```
 Would be placed something like this.
-<!-- Image for Prettier in package.json -->
-<p align="center">
-  <img src="./../../../../assets/images/angular/scripts-prettier.png"/>
-</p>
+
+```javascript
+"scripts": {
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build",
+  "test": "ng test",
+  "lint": "ng lint",
+  "e2e": "ng e2e",
+  "prettier:base": "prettier --parser typescript --single-quote",
+  "prettier:check": "npm run prettier:base -- --list-different \"src/**/*.{ts,tsx}\"",
+  "prettier:write": "npm run prettier:base -- --write \"src/**/*.{ts,tsx}\""
+},
+```
 
 Test it:
 
 Open your app.component.ts
 
 Unformatted:
-<p align="center">
-  <img src="./../../../../assets/images/angular/unformatted-prettier.png"/>
-</p>
+```javascript
+import { Component } from '@angular/core';
 
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'levanteq';
+
+  testPrettier(reallyLongArg, omgSoManyParameters, IShouldRefactorThis, isThereSeriouslyAnotherOne) {
+                            const isTooFarFromBoundary = true;
+}
+}
 ```
-# Run prettier on the changed files
+# Run prettier
 npm run prettier:write
-```
+
 Formatted:
-<p align="center">
-  <img src="./../../../../assets/images/angular/formatted-prettier.png"/>
-</p>
+```javascript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'levanteq';
+
+  testPrettier(
+    reallyLongArg,
+    omgSoManyParameters,
+    IShouldRefactorThis,
+    isThereSeriouslyAnotherOne
+  ) {
+    const isTooFarFromBoundary = true;
+  }
+}
+```
 
 It's magical!!
+
+If you want to override a style you can do it by simply adding `.prettierrc` file parallel to package.json file. Here is a sample from our app.
+
+```javascript
+{
+  "printWidth": 120,
+  "singleQuote": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": true,
+  "bracketSpacing": true
+}
+```
 
 # [Husky](https://www.npmjs.com/package/husky){:target="_blank"}
 
 Husky provides us with a pre-commit hook so we don't have to do this manually. Everytime you commit, it will format the code for you by running Prettier.
+
+```
+# Install husky as a dev-dependency
+npm install husky -D
+```
+
+Create a file named `.huskyrc` and add it parallel to package.json file. Add below to it.
+
+```javascript
+{
+  "hooks": {
+    "pre-commit": "npm run prettier:write"
+  }
+}
+```
+
+You can test that now when you commit your code
