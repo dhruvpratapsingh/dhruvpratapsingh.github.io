@@ -1,10 +1,10 @@
 ---
-title: "3001: Angular Amplify - Auto-Format With Prettier & Husky"
+title: "3001: Angular Amplify - Auto Format With Prettier & Husky"
 ---
 
 In this tutorial we will be installing Prettier & Husky to help us with code formatting. When we started migrating to Angular we had a lot to figure out and wanted to avoid wasting time on formatting changes. So we researched a bit and found two fantastic libraries. After 10k+ commits we still haven't asked anyone to fix formatting of their code in the code review channel, thanks to these amazing duos.
 
-Before we start, please follow the setup steps from Angular website to get the starter app running. [Angular Setup](https://angular.io/guide/setup-local){:target="_blank"}
+Before we start, please follow the setup steps from Angular website to get the starter app running. We will be enabling routing by default and using SCSS. [Angular Setup](https://angular.io/guide/setup-local){:target="_blank"}
 
 Now that we have the Welcome-app running, let's add auto-formatting to our app.
 
