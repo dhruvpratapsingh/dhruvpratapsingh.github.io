@@ -1,5 +1,5 @@
 ---
-title: "3001: Angular Amplify - Install Prettier & Husky"
+title: "3001: Angular Amplify - [Tooling] Automatic Formatting With Prettier & Husky"
 ---
 
 In this tutorial we will be installing Prettier & Husky to help us with code formatting. When we started migrating to Angular we had a lot to figure out and wanted to avoid wasting time on formatting changes. So we researched a bit and found two fantastic libraries. After 10k+ commits we still haven't asked anyone to fix formatting of their code in the code review channel, thanks to these amazing duos.
@@ -57,7 +57,7 @@ export class AppComponent {
 }
 }
 ```
-# Run prettier
+### Run prettier
 npm run prettier:write
 
 Formatted:
@@ -117,4 +117,34 @@ Create a file named `.huskyrc` and add it parallel to package.json file. Add bel
 }
 ```
 
-You can test that now when you commit your code
+You can test that now when you commit your code, your code will be formatted.
+
+# Bonus:
+
+Check out `pretty-quick` for formatting only staged files.
+```
+npm install pretty-quick -D
+```
+
+Remove prettier scripts from the package.json and add below `format:fix`
+```javascript
+"scripts": {
+  "ng": "ng",
+  "start": "ng serve",
+  "build": "ng build",
+  "test": "ng test",
+  "lint": "ng lint",
+  "e2e": "ng e2e",
+  "format:fix": "pretty-quick --staged"
+},
+```
+
+Update .huskyrc to below: `run-s` will run the commands in sequence. So now when you commit your changes it will format it first and lint it after that.
+
+```javascript
+{
+  "hooks": {
+    "pre-commit": "npm run-s format:fix lint"
+  }
+}
+```
