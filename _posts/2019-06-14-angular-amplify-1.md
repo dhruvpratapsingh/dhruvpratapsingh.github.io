@@ -4,7 +4,11 @@ title: "3001: Angular Amplify - [Tooling] Automatic Formatting With Prettier & H
 
 In this tutorial we will be installing Prettier & Husky to help us with code formatting. When we started migrating to Angular we had a lot to figure out and wanted to avoid wasting time on formatting changes. So we researched a bit and found two fantastic libraries. After 10k+ commits we still haven't asked anyone to fix formatting of their code in the code review channel, thanks to these amazing duos.
 
-# [Prettier](https://prettier.io/)
+Before we start, please follow the setup steps from Angular website to get the starter app running. [Angular Setup](https://angular.io/guide/setup-local){:target="_blank"}
+
+Now that we have the Welcome-app running, let's add auto-formatting to our app.
+
+# [Prettier](https://prettier.io/){:target="_blank"}
 
 Prettier is an opinionated code formatter which we will be using to format our Typescript code. It parses the code and formats based on the pre-defined rules. We will start with adding Prettier to our project and later we will override some of the rules to fit our needs.
 
@@ -139,7 +143,7 @@ Remove prettier scripts from the package.json and add below `format:fix`
 },
 ```
 
-Update .huskyrc to below: `run-s` will run the commands in sequence. So now when you commit your changes it will format it first and lint it after that.
+Update .huskyrc to below: `run-s` will run the commands in sequence. Now if you commit your changes it will format it first and lint it after that.
 
 ```javascript
 {
