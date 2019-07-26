@@ -67,6 +67,13 @@ Finally! Time for fun.
 
 We will be using [Glitch](https://glitch.com/~material-theme-builder) for our we component design and testing.
 
-There are plugins for Adobe and Sketch to test and play with the material theme to generate components for you. But since they need license, I preferred to use Glitch for the purpose of this tutorial. It can be slow sometimes but it also does a lot behind the scenes.
+There are plugins for Sketch to test and play with the material theme to generate components for you. But since they need license, I preferred to use Glitch for the purpose of this tutorial. It can be slow sometimes but it also does a lot behind the scenes.
 
 Let's [Create New Theme](https://glitch.com/edit/#!/remix/material-theme-builder) on Glitch.
+
+### Color Palette
+Visit [Material Color Palette](http://mcg.mbitson.com) to get the color palette for your primary and secondary colors. You can click on notepad icon to generate color palette for you app by further selecting Angular Js 2(Material 2 option). Paste the color palette in you app-theme.scss file.
+
+```
+
+```
