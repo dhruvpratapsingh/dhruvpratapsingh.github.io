@@ -19,6 +19,15 @@ layout: blank
   <img src="./../../../assets/images/umn.png" height="40" width="160" />
 </div>
 
+<main class="archive">
+  <article>
+  <h2 align="center">
+    Let's Connect
+  </h2>
+
+  dhruvpsg@gmail.com | +1 612-227-2734 | New York, New York, USA
+  </article>
+</main>
 ## Tech Stack
 
 #### Languages
@@ -43,9 +52,3 @@ layout: blank
 #### Familiar AI libraries
   1. Tensorflow
   1. SciKit Learn
-
-<h2 align="center">
-  Let's Connect
-</h2>
-
-dhruvpsg@gmail.com | +1 612-227-2734 | New York, New York, USA
