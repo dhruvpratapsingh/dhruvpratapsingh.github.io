@@ -14,9 +14,8 @@ layout: blank
   <article>
   <div align="center">
     <h1>Education</h1>
-    <br/>
-    <img src="./../../../assets/images/umn.png" height="40" width="160" />
   </div>
+  <p><img src="./../../../assets/images/umn.png" height="40" width="160" /></p>
   </article>
 
   <article>
