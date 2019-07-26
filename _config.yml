@@ -12,7 +12,7 @@ archive_is_homepage: true # shows archive instead of excerpts on the index page
 dark: false # enables dark mode
 
 navigation: # enables navigation in header
-  - index.html
+  # - index.html
   - archive.html
   # - about.md
 
