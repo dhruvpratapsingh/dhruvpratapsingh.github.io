@@ -3,7 +3,13 @@ title: "About Me"
 categories: index
 ---
 
-### About Me
+<p align="center">
+  <img src="./../../../assets/images/dhruv.jpg"/>
+</p>
+
+<h3 align="center">
+  Dhruv Pratap Singh
+</h3>
 
 
 ### My life
