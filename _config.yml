@@ -1,4 +1,4 @@
-title: "dps.ai"
+title: "Dhruv Pratap Singh"
 author: "Dhruv Pratap Singh"
 description: "Everything AI"
 more: "read more »"
@@ -8,7 +8,7 @@ paginate: 2
 permalink: pretty
 excerpt_separator: "\n\n\n" # end excerpt with two blank lines
 
-archive_is_homepage: false # shows archive instead of excerpts on the index page
+archive_is_homepage: true # shows archive instead of excerpts on the index page
 dark: false # enables dark mode
 
 navigation: # enables navigation in header
