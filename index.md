@@ -5,25 +5,20 @@ layout: blank
 ---
 <!-- <br/> -->
 <div align="center">
+  <div>
+    <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
+    <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
+    <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
+  </div>
   <img src="./../../../assets/images/dhruv_blue.png" height="250" width="150"/>
   <h3>Dhruv Pratap Singh</h3>
   <i>A society grows great when old men plant trees who’s shade they know they shall never sit in.</i>
-  <div>
-      <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
-      <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
-      <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
-  </div>
 </div>
 
 <main class="archive">
   <article align="center">
     <h1>Education</h1>
     <img src="./../../../assets/images/umn.png" height="50" width="200" />
-    <div align="center">
-        <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
-        <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
-        <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
-    </div>
   </article>
 
   <article>
