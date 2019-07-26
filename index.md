@@ -3,15 +3,15 @@ title: "About Me"
 categories: index
 layout: blank
 ---
-<!-- <br/> -->
+<br/>
 <div align="center">
+  <img src="./../../../assets/images/dhruv_blue.png" height="250" width="150"/>
+  <h3>Dhruv Pratap Singh</h3>
   <div>
     <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
     <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
     <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
   </div>
-  <img src="./../../../assets/images/dhruv_blue.png" height="250" width="150"/>
-  <h3>Dhruv Pratap Singh</h3>
   <i>A society grows great when old men plant trees who’s shade they know they shall never sit in.</i>
 </div>
 
@@ -19,6 +19,7 @@ layout: blank
   <article align="center">
     <h1>Education</h1>
     <img src="./../../../assets/images/umn.png" height="50" width="200" />
+    <div><i>Bachelor Of Electrical Engineering - 2014</i></div>
   </article>
 
   <article>
