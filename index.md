@@ -7,14 +7,23 @@ layout: blank
 <div align="center">
   <img src="./../../../assets/images/dhruv_blue.png" height="250" width="150"/>
   <h3>Dhruv Pratap Singh</h3>
-  <img src="./../../../assets/images/favicon.png" height="20" width="20"/>
-  <div><i>A society grows great when old men plant trees who’s shade they know they shall never sit in.</i></div>
+  <i>A society grows great when old men plant trees who’s shade they know they shall never sit in.</i>
+  <div>
+      <img src="./../../../assets/images/favicon.png" height="30" width="35"/>
+      <img src="./../../../assets/images/favicon.png" height="30" width="35"/>
+      <img src="./../../../assets/images/favicon.png" height="30" width="35"/>
+  </div>
 </div>
 
 <main class="archive">
   <article align="center">
     <h1>Education</h1>
     <img src="./../../../assets/images/umn.png" height="50" width="200" />
+    <div>
+        <img src="./../../../assets/images/favicon.png" height="30" width="35"/>
+        <img src="./../../../assets/images/favicon.png" height="30" width="35"/>
+        <img src="./../../../assets/images/favicon.png" height="30" width="35"/>
+    </div>
   </article>
 
   <article>
