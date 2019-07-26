@@ -15,12 +15,13 @@ layout: blank
 
 
 <div align="center">
-  <h2>Education</h3>
+  <h2>Education</h2>
+
   <img src="./../../../assets/images/umn.png" height="150" width="600"/>
 </div>
 
-## Tech Stack
 
+## Tech Stack
 #### Languages
   1. python
   1. Java

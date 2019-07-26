@@ -78,9 +78,11 @@ dataset.head(5)
 {% endhighlight %}
 
 **Download dataset from a url to Google Drive and use it**
-```
+{% highlight python %}
+
 !wget https://raw.githubusercontent.com/vincentarelbundock/Rdatasets/master/csv/datasets/Titanic.csv /content/gdrive/My\ Drive/Deep\ Learning/Supervised\ Deep\ Learning/ANN/
-```
+
+{% endhighlight %}
 
 **Install libraries**
 {% highlight python %}
