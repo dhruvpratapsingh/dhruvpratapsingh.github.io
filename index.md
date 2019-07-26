@@ -11,11 +11,9 @@ layout: blank
 </div>
 
 <main class="archive">
-  <article>
-  <div align="center">
+  <article align="center">
     <h1>Education</h1>
-  </div>
-  <p><img src="./../../../assets/images/umn.png" height="40" width="160" /></p>
+    <img src="./../../../assets/images/umn.png" height="50" width="200" />
   </article>
 
   <article>
