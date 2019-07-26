@@ -3,12 +3,9 @@ title: "About Me"
 categories: index
 layout: blank
 ---
-
-<p align="center">
-  <img src="./../../../assets/images/dhruv_blue.png" height="250" width="150"/>
-</p>
-
+<br/>
 <div align="center">
+  <img src="./../../../assets/images/dhruv_blue.png" height="250" width="150"/>
   <h3>Dhruv Pratap Singh</h3>
   <i>A society grows great when old men plant trees who’s shade they know they shall never sit in.</i>
 </div>
