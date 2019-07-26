@@ -29,7 +29,7 @@ me-img: "https://github.com/dhruvpratapsingh.png?size=500"
 navigation: # enables navigation in header
   - index.md
   # - about.md
-  - Blog: "archive.html"
+  Blog: "archive.html"
   - archive.html
 
 favicons: # see http://fontawesome.io/icons/#brand for all possible icons
