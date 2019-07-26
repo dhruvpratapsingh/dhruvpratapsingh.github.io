@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 categories: index
+layout: blank
 ---
 
 <p align="center">
@@ -13,6 +14,10 @@ categories: index
 </div>
 
 
+<div align="center">
+  <h2>Education</h3>
+  <img src="./../../../assets/images/umn.png" height="150" width="600"/>
+</div>
 
 ## Tech Stack
 
