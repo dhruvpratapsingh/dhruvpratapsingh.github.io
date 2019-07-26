@@ -10,13 +10,14 @@ layout: blank
   <i>A society grows great when old men plant trees who’s shade they know they shall never sit in.</i>
 </div>
 
-<div align="center">
-  <h1>Education</h1>
-
-  <img src="./../../../assets/images/umn.png" height="40" width="160" />
-</div>
-
 <main class="archive">
+  <article>
+    <div align="center">
+      <h1>Education</h1>
+    <img src="./../../../assets/images/umn.png" height="40" width="160" />
+  </div>
+  </article>
+
   <article>
   ## Tech Stack
 
