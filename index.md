@@ -14,7 +14,7 @@ layout: blank
   <article>
   <div align="center">
     <h1>Education</h1>
-
+    <br/>
     <img src="./../../../assets/images/umn.png" height="40" width="160" />
   </div>
   </article>
@@ -47,11 +47,9 @@ layout: blank
   </article>
 
   <article>
-  <h1 align="center">
-    Let's Connect
-  </h1>
-  <div align="center">
-      dhruvpsg@gmail.com | +1 612-227-2734 | New York City, New York, USA
-  </div>
+    <h1 align="center">
+      Let's Connect
+    </h1>
+    <p align="center">dhruvpsg@gmail.com | +1 612-227-2734 | New York City, New York, USA</p>
   </article>
 </main>
