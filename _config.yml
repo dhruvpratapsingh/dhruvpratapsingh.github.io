@@ -1,4 +1,4 @@
-title: "Dhruv Pratap Singh"
+title: "dps.ai"
 author: "Dhruv Pratap Singh"
 description: "Everything AI"
 more: "read more »"
@@ -24,8 +24,14 @@ lines: # You can add HTML Tags in the Text
 
 me-img: "https://github.com/dhruvpratapsingh.png?size=500"
 
+pages_list:
+  About: 'about'
+  Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
 navigation: # enables navigation in header
-  # - index.html
+  - index.html
   - archive.html
   # - about.md
 
@@ -33,9 +39,17 @@ favicons: # see http://fontawesome.io/icons/#brand for all possible icons
   - github: "https://github.com/dhruvpratapsingh"
   - stack-overflow: "https://stackoverflow.com/users/5942489/dhruv"
   - medium: "https://medium.com/@dhruv.singh"
-  - envelope: "mailto:dhruvpsg@gmail.com"
+  # - envelope: "mailto:dhruvpsg@gmail.com"
   - linkedin: "https://www.linkedin.com/in/dhruv-pratap-singh-b918045b"
   #- feed: "feed.xml"
+
+syntax-highlight: True
+
+###########
+# Contact #
+###########
+
+email: "dhruvpsg@gmail.com"
 
 comments: # embed comments
   disqus: "dps-ai"
