@@ -4,7 +4,7 @@ categories: index
 ---
 
 <p align="center">
-  <img src="./../../../assets/images/dhruv1.png" height="400" width="350"/>
+  <img src="./../../../assets/images/dhruv1.png" height="300" width="200"/>
 </p>
 
 <h3 align="center">
@@ -41,8 +41,8 @@ categories: index
   1. Tensorflow
   1. SciKit Learn
 
-<h3 align="center">
+<h2 align="center">
   Let's Connect
-</h3>
+</h2>
 
 dhruvpsg@gmail.com | +1 612-227-2734 | New York, New York, USA
