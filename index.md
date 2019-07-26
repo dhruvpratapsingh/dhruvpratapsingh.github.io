@@ -19,10 +19,16 @@ layout: blank
   <article align="center">
     <h1>Education</h1>
     <img src="./../../../assets/images/umn.png" height="50" width="200" />
-    <div><i>Bachelor Of Electrical Engineering - 2014</i></div>
+    <div align="center"><i>Bachelor Of Electrical Engineering - 2014</i></div>
   </article>
 
-  <article>
+  <article align="center">
+    <h1>Professional Experience</h1>
+    <img src="./../../../assets/images/umn.png" height="50" width="200" />
+    <div align="center"><i>Bachelor Of Electrical Engineering - 2014</i></div>
+  </article>
+
+  <!-- <article>
   ## Tech Stack
 
   #### Languages
@@ -47,7 +53,7 @@ layout: blank
   #### Familiar AI libraries
     1. Tensorflow
     1. SciKit Learn
-  </article>
+  </article> -->
 
   <article>
     <h1 align="center">
