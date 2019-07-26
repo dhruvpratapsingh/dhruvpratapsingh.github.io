@@ -16,15 +16,10 @@ layout: blank
 </div>
 
 <main class="archive">
-  <article>
-    <div align="center">
-      <h1>Education</h1>
-      <img src="./../../../assets/images/umn.png" height="50" width="200" />
-      <div>
-        <i>Bachelor Of Electrical Engineering - 2014</i>
-      </div>
-    </div>
-    <div align="center"> Bachelor Of Electrical Engineering - 2014</div>
+  <article align="center">
+    <h1>Education</h1>
+    <img src="./../../../assets/images/umn.png" height="50" width="200" />
+    <p align="center"><i>Bachelor Of Electrical Engineering - 2014</i></p>
   </article>
 
   <article align="center">
