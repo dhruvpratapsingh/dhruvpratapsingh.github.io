@@ -51,7 +51,7 @@ layout: blank
     Let's Connect
   </h1>
   <div align="center">
-      dhruvpsg@gmail.com | +1 612-227-2734 | New York, New York, USA
+      dhruvpsg@gmail.com | +1 612-227-2734 | New York City, New York, USA
   </div>
   </article>
 </main>
