@@ -4,7 +4,7 @@ categories: index
 ---
 
 <p align="center">
-  <img src="./../../../assets/images/dhruv1.png" height="300" width="200"/>
+  <img src="./../../../assets/images/dhruv.png" height="300" width="200"/>
 </p>
 
 <h3 align="center">
