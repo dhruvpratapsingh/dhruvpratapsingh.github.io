@@ -8,6 +8,8 @@ paginate: 2
 permalink: pretty
 excerpt_separator: "\n\n\n" # end excerpt with two blank lines
 
+avatar: "https://github.com/dhruvpratapsingh.png?size=500"
+
 archive_is_homepage: true # shows archive instead of excerpts on the index page
 dark: false # enables dark mode
 
