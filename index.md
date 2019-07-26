@@ -17,7 +17,7 @@ layout: blank
 <div align="center">
   <h2>Education</h2>
 
-  <img src="./../../../assets/images/umn.png" height="150" width="600"/>
+  <img src="./../../../assets/images/umn.png" height="75" width="300"/>
 </div>
 
 
