@@ -18,34 +18,38 @@ layout: blank
 
 <main class="archive">
   <article>
-  <h2 align="center">
-    Let's Connect
-  </h2>
+  ## Tech Stack
 
-  dhruvpsg@gmail.com | +1 612-227-2734 | New York, New York, USA
+  #### Languages
+    1. python
+    1. Java
+    1. Javascript
+
+  #### Cloud Platforms
+    1. AWS (*Certified Solutions Architect - Associate*)
+    1. GCP
+
+  #### Visualizations
+    1. Tableau
+    1. D3.js
+
+  #### Data Engineering
+    1. Productionalizing ML Models
+    1. Containers (Docker, Kubernetes)
+    1. Hadoop
+    1. Linux
+
+  #### Familiar AI libraries
+    1. Tensorflow
+    1. SciKit Learn
+  </article>
+
+  <article>
+  <h1 align="center">
+    Let's Connect
+  </h1>
+  <div align="center">
+      dhruvpsg@gmail.com | +1 612-227-2734 | New York, New York, USA
+  </div>
   </article>
 </main>
-## Tech Stack
-
-#### Languages
-  1. python
-  1. Java
-  1. Javascript
-
-#### Cloud Platforms
-  1. AWS (*Certified Solutions Architect - Associate*)
-  1. GCP
-
-#### Visualizations
-  1. Tableau
-  1. D3.js
-
-#### Data Engineering
-  1. Productionalizing ML Models
-  1. Containers (Docker, Kubernetes)
-  1. Hadoop
-  1. Linux
-
-#### Familiar AI libraries
-  1. Tensorflow
-  1. SciKit Learn
