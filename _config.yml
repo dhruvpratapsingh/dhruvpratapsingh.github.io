@@ -10,7 +10,7 @@ excerpt_separator: "\n\n\n" # end excerpt with two blank lines
 
 avatar: "https://github.com/dhruvpratapsingh.png?size=500"
 
-archive_is_homepage: true # shows archive instead of excerpts on the index page
+archive_is_homepage: false # shows archive instead of excerpts on the index page
 dark: false # enables dark mode
 
 dynamic-typing: True
@@ -28,8 +28,8 @@ me-img: "https://github.com/dhruvpratapsingh.png?size=500"
 
 navigation: # enables navigation in header
   # - index.html
-  - archive.html
   - about.md
+  - archive.html
 
 favicons: # see http://fontawesome.io/icons/#brand for all possible icons
   - github: "https://github.com/dhruvpratapsingh"
