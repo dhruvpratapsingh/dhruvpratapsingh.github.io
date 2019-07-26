@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 categories: index
+layout: blank
 ---
 
 <p align="center">
