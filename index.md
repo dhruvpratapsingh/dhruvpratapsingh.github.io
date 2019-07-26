@@ -7,13 +7,11 @@ categories: index
   <img src="./../../../assets/images/dhruv.png" height="300" width="200"/>
 </p>
 
-<h3 align="center">
-  Dhruv Pratap Singh
-</h3>
-
 <div align="center">
+  <h3>Dhruv Pratap Singh</h3>
   <i>A society grows great when old men plant trees who’s shade they know they shall never sit in.</i>
 </div>
+
 
 
 ## Tech Stack
