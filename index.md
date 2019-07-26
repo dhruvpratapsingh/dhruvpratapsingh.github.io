@@ -25,6 +25,16 @@ layout: blank
   <article align="center">
     <h1>Professional Experience</h1>
     <img src="./../../../assets/images/tr.png" height="50" width="200" />
+
+    <p> Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum </p>
+
+    <img src="./../../../assets/images/capgemini.png" height="50" width="200" />
+
+    <p> Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum </p>
+
+    <img src="./../../../assets/images/reemo.png" height="50" width="200" />
+
+    <p> Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum </p>
   </article>
 
   <!-- <article>
