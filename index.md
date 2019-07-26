@@ -4,7 +4,7 @@ categories: index
 ---
 
 <p align="center">
-  <img src="./../../../assets/images/dhruv1.png" height="200" width="150"/>
+  <img src="./../../../assets/images/dhruv1.png" height="400" width="350"/>
 </p>
 
 <h3 align="center">
@@ -45,4 +45,4 @@ categories: index
   Let's Connect
 </h3>
 
-<i> dhruvpsg@gmail.com </i> |  <i> +16122272734 </i> | <i> New York, New York, USA </i>
+dhruvpsg@gmail.com | +1 612-227-2734 | New York, New York, USA
