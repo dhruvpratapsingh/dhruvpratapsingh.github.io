@@ -45,4 +45,4 @@ categories: index
   Let's Connect
 </h3>
 
-<i> dhruvpsg@gmail.com </i> **|**  <i> +16122272734 </i>**|** <i> New York, New York, USA </i>
+<i> dhruvpsg@gmail.com </i> |  <i> +16122272734 </i> | <i> New York, New York, USA </i>
