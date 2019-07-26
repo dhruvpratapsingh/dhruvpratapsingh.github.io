@@ -27,8 +27,8 @@ lines: # You can add HTML Tags in the Text
 me-img: "https://github.com/dhruvpratapsingh.png?size=500"
 
 navigation: # enables navigation in header
-  # - index.html
-  - about.md
+  - index.md
+  # - about.md
   - archive.html
 
 favicons: # see http://fontawesome.io/icons/#brand for all possible icons
