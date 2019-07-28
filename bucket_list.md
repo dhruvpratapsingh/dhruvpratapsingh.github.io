@@ -18,4 +18,4 @@ categories: index
 
 ## Done
 1. Work for a startup right out of Undergrad, even for lesser/no pay. Worked for *Reemo Health*.
-1. Work for best technology company *(Thomson Reuters)* in Twin Cities and play crucial role in launching one of their smartest research Products(Checkpoint Edge).
+1. Work for the best technology company *(Thomson Reuters)* in Twin Cities and play crucial role in launching one of their smartest research Products(Checkpoint Edge).
