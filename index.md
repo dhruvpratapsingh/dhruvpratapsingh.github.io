@@ -28,7 +28,7 @@ layout: blank
     <p align="center">2017 - Present</p>
 
     <b>Senior Software Engineer (Checkpoint)</b>
-    <div>
+    <div align="center">
     <img src="./../../../assets/images/tr-ai.png" height="50" width="200" />
     <img src="./../../../assets/images/cpa-award.png" height="150" width="150" />
     </div>
