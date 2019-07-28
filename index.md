@@ -5,7 +5,7 @@ layout: blank
 ---
 <br/>
 <div align="center">
-  <img src="./../../../assets/images/dhruv_blue.png" height="250" width="150"/>
+  <img src="./../../../assets/images/dps1.png" height="250" width="250"/>
   <h3>Dhruv Pratap Singh</h3>
   <div>
     <img src="./../../../assets/images/favicon.png" height="30" width="25"/>
