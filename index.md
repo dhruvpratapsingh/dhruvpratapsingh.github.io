@@ -25,9 +25,10 @@ layout: blank
   <article align="center">
     <h1>Professional Experience</h1>
     <img src="./../../../assets/images/tr.png" height="50" width="200" />
-    <div align="center">2017 - Present</div>
+    <p align="center">2017 - Present</p>
 
-    <p>**Checkpoint**: </p>
+    <b>Senior Software Engineer (Checkpoint)</b>
+    
 
     <img src="./../../../assets/images/capgemini.png" height="50" width="200" />
 
