@@ -11,7 +11,7 @@ categories: index
 
 
 ## In Progress
-1. *Write an AI Playbook*
+1. *Write an AI Playbook* => [AI Playbook](https://levanteq.github.io/#/)
 1. *Build a 5 year investment portfolio with average return of 20%. 2019-2024.*
 1. *Give your 100% at the current job and appreciate the opportunities you get. Work hard and stay humble.*
 
