@@ -17,5 +17,5 @@ categories: index
 
 
 ## Done
-1. Work for a startup right out of Undergrad, even for lesser/no pay. Worked for *Reemo Health*.
-1. Work for the best technology company *(Thomson Reuters)* in Twin Cities and play crucial role in launching one of their most intelligent AI driven research Products([Checkpoint Edge](https://tax.thomsonreuters.com/en/checkpoint/edge)).
+1. Work for a startup right out of Undergrad, even for lesser/no pay. Worked for *[Reemo Health](https://reemohealth.com/)*.
+1. Work for the best technology company *([Thomson Reuters](https://www.thomsonreuters.com/en.html))* in Twin Cities and play crucial role in launching one of their most intelligent AI driven research Products([Checkpoint Edge](https://tax.thomsonreuters.com/en/checkpoint/edge)).
