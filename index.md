@@ -28,10 +28,9 @@ layout: blank
     <p align="center">2017 - Present</p>
 
     <b>Senior Software Engineer (Checkpoint)</b>
-    <div>
-      <p align="left"><img src="./../../../assets/images/tr-ai.png" height="100" width="200" /></p>
-      <p align="right"><img src="./../../../assets/images/cpa-award.png" height="150" width="150" /></p>
-    </div>
+
+    <p align="center"><img src="./../../../assets/images/tr-ai.png" height="150" width="200" /></p>
+    <p align="center"><img src="./../../../assets/images/cpa-award.png" height="150" width="150" /></p>
 
     <p> Checkpoint Edge is the next generation of our Checkpoint research and guidance tool for tax and accounting professionals, trusted by 200,000 users. It delivers the latest in artificial intelligence, cognitive computing, and machine learning technologies, combined with the tax and accounting expertise of our editorial staff. It enables you to find fast, accurate answers with a more fluid and intuitive user experience.</p>
 
