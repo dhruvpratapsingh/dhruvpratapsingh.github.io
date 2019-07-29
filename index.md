@@ -44,7 +44,7 @@ layout: blank
 
     <p align="center">2013 - 2015</p>
 
-    <b>Founding Engineer (Microsoft Ventures)</b>
+    <b>Founding Engineer (Microsoft Ventures Resident)</b>
 
     <p align="center"><iframe src="https://www.youtube.com/embed/rhzXoYxtvGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
     <p align="center"><img src="./../../../assets/images/reemo-watch.jpg" height="150" width="150" /></p>
