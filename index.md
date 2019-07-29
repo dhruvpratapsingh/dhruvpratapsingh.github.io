@@ -34,6 +34,8 @@ layout: blank
 
     <p> Checkpoint Edge is the next generation of our Checkpoint research and guidance tool for tax and accounting professionals, trusted by 200,000 users. It delivers the latest in artificial intelligence, cognitive computing, and machine learning technologies, combined with the tax and accounting expertise of our editorial staff. It enables you to find fast, accurate answers with a more fluid and intuitive user experience.</p>
 
+    <p> <b>My Role</b> Checkpoint Edge is the next generation of our Checkpoint research and guidance tool for tax and accounting professionals, trusted by 200,000 users. It delivers the latest in artificial intelligence, cognitive computing, and machine learning technologies, combined with the tax and accounting expertise of our editorial staff. It enables you to find fast, accurate answers with a more fluid and intuitive user experience.</p>
+
     <img src="./../../../assets/images/capgemini.png" height="50" width="200" />
 
     <p> Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum </p>
