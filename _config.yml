@@ -36,6 +36,7 @@ favicons: # see http://fontawesome.io/icons/#brand for all possible icons
   - stack-overflow: "https://stackoverflow.com/users/5942489/dhruv"
   - medium: "https://medium.com/@dhruv.singh"
   - envelope: "mailto:dhruvpsg@gmail.com"
+  - kaggle: "https://www.kaggle.com/dhruvpratapsingh"
   - linkedin: "https://www.linkedin.com/in/dhruv-pratap-singh-b918045b"
   #- feed: "feed.xml"
 
