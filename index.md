@@ -83,6 +83,6 @@ layout: blank
     <h1 align="center">
       Let's Connect
     </h1>
-    <p align="center">dhruvpsg@gmail.com | +1 612-227-2734 | New York City, New York, USA</p>
+    <p align="center">dhruvpsg@gmail.com | New York City, New York, USA</p>
   </article>
 </main>
