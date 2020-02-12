@@ -19,7 +19,7 @@ layout: blank
   <article align="center">
     <h1>Education</h1>
   </article>
-  <article align="center" style="background-color:#d7f4e6;">
+  <article align="center" style="background-color:#fff5d7;">
     <img src="./../../../assets/images/umn.png" height="50" width="200" />
     <p align="center"><i>Bachelor Of Electrical Engineering - 2014</i></p>
   </article>
@@ -49,7 +49,7 @@ layout: blank
    <p> Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum Write some loren epsum </p> 
    </article>
   
-   <article align="center" style="background-color:#d7f4e6;">
+   <article align="center" style="background-color:#fff5d7;">
     <img src="./../../../assets/images/reemo.png" height="50" width="200" />
     
    <p align="center">2013 - 2015</p>
