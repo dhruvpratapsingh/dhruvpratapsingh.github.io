@@ -6,8 +6,8 @@ layout: blank
     <header>
       <h1><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-      {% include analytics.html %}
-        {% include ads.html %}
+      <script data-ad-client="ca-pub-8652997754086304" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        {% include analytics.html %}
     </header>
 {{ content }}
       {% include ads.html %}
