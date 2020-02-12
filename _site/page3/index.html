@@ -17,9 +17,9 @@
   
   <h1><a href="">dps.ai</a></h1>
   <nav class="large">
-    <div><a href="/">Home</a><a href="/archive/">Archive</a></div>
+    <div><a href="/">About Me</a><a href="/archive/">Blog</a><a href="/bucket_list/">Bucket List</a></div>
   
-    <div><a href="https://github.com/dhruvpratapsingh" target="_blank"><i class="fa fa-github"></i></a><a href="mailto:dhruvpsg@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a><a href="https://www.linkedin.com/in/dhruv-pratap-singh-b918045b" target="_blank"><i class="fa fa-linkedin"></i></a></div>
+    <div><a href="https://github.com/dhruvpratapsingh" target="_blank"><i class="fa fa-github"></i></a><a href="https://stackoverflow.com/users/5942489/dhruv" target="_blank"><i class="fa fa-stack-overflow"></i></a><a href="https://medium.com/@dhruv.singh" target="_blank"><i class="fa fa-medium"></i></a><a href="mailto:dhruvpsg@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a><a href="https://www.linkedin.com/in/dhruv-pratap-singh-b918045b" target="_blank"><i class="fa fa-linkedin"></i></a></div>
   </nav>
 </header>
 
@@ -27,49 +27,65 @@
   
   <article>
     <header>
-      <h1><a href="/2018/12/16/ai-resources/">0002: Resources</a></h1>
-      <time datetime="2018-12-16T00:00:00-06:00">December 16, 2018</time>
+      <h1><a href="/2018/12/17/intro-to-deep-learning/">2001: Intro to Deep Learning</a></h1>
+      <time datetime="2018-12-17T00:00:00-05:00">December 17, 2018</time>
     </header>
-<h1 id="statistics">Statistics:</h1>
+<p>Before we start digging into the fundamentals of Deep Learning, let’s take a look at the tools we will be using going forward.</p>
+
 <ol>
-  <li><a href="https://seeing-theory.brown.edu/">Seeing Theory</a></li>
-  <li><a href="http://www-bcf.usc.edu/~gareth/ISL/">Intro to Statistical Learning</a> =&gt; Must Read</li>
+  <li><a href="http://colab.research.google.com/">Google Colaboratory</a> : You can run your code on GPUs hosted by Google for free.</li>
+  <li><a href="https://research.google.com/seedbank/">Seedbank</a> : Collection of interactive machine learning examples for Colab or Jupyter.</li>
+  <li>Create a profile on <a href="https://www.kaggle.com/">Kaggle</a>, if are not already signed up for it.</li>
 </ol>
 
-<h1 id="machine-learning">Machine Learning:</h1>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Deep learning
+|-- Supervised
+|     |-- MLP:  Multilayer perceptron
+|     |-- CNN:  Convolutional Neural Networks
+|     |-- RNN:  Recurrent Neural Networks
+|     |-- RNN:  Recursive Neural Networks
+|     |-- LSTM: Long short-term memory
+|     |-- SQS:  Sequence-to-sequence models
+|     |-- SNN:  Shallow Neural Networks
+|-- Unsupervised
+      |-- SOM:  Self Organizing Maps
+      |-- BM:   Boltzmann Machines
+      |-- AE:   AutoEncoders
+</code></pre></div></div>
+
+<h2 id="supervised-deep-learning">Supervised Deep learning</h2>
+<p><em>DL form where an output label exists for every input example. The labels are used to compare the output of Deep Neural Nets to the ground-truth values and minimize the cost function. Other forms of Deep learning are semi-supervised and Unsupervised.</em></p>
+
+<blockquote>
+  <p>Smartest and most complex thing on this planet is human brain and with deep leaning we try to mimic how human brain works by creating “Artificial Neural Networks”.</p>
+</blockquote>
+
+<p><strong>What is an ANN?</strong></p>
+
+<p>Artificial Neural Network (ANN) is</p>
+
+<!-- Image for ANN -->
+<!-- <p align="center">
+  <img src="./../../../../assets/images/colored_neural_network.svg"/>
+</p> -->
+
 <ol>
-  <li><a href="http://nbviewer.jupyter.org/github/fonnesbeck/Bios366/blob/master/notebooks/Section6_1-Scikit-Learn.ipynb">Intro to SciKit Learn : Jupyter</a></li>
+  <li><strong>CNN: Convolutional Neural Networks</strong></li>
+  <li><strong>RNN: Recurrent Neural Networks</strong></li>
 </ol>
 
-<h1 id="deep-learning">Deep Learning:</h1>
+<h2 id="unsupervised-deep-learning">Unsupervised Deep Learning</h2>
+
 <ol>
-  <li><a href="https://towardsdatascience.com/the-deep-learning-ai-dictionary-ade421df39e4">Deep Learning dictionary</a></li>
+  <li><strong>SOM: Self Organizing Maps</strong></li>
+  <li><strong>BM:  Boltzmann Machines</strong></li>
+  <li><strong>AE:  AutoEncoders</strong></li>
 </ol>
 
-<h1 id="books">Books</h1>
+<h2 id="some-useful-resources"><strong>Some useful resources</strong></h2>
 <ol>
-  <li><a href="http://columbia-applied-data-science.github.io/appdatasci.pdf">Applied Data Science by Ian Langmore &amp; Daniel Krasner</a></li>
-</ol>
-
-<h1 id="datasets">Datasets</h1>
-<ol>
-  <li><a href="http://archive.ics.uci.edu/ml/datasets.html">UCI Machine Learning Datasets</a></li>
-  <li><a href="https://www.kaggle.com/datasets">Kaggle Datasets</a></li>
-</ol>
-
-<h1 id="python-libraries">Python Libraries</h1>
-<ol>
-  <li><a href="https://heartbeat.fritz.ai/introduction-to-matplotlib-data-visualization-in-python-d9143287ae39">Matplotlib</a></li>
-</ol>
-
-<h1 id="data-engineering">Data Engineering</h1>
-<ol>
-  <li><a href="http://www.mmds.org/">Mining Massive Datasets</a></li>
-</ol>
-
-<h1 id="pioneers">Pioneers</h1>
-<ol>
-  <li><a href="http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html">Hugo Larochelle</a></li>
+  <li>See in action: <a href="https://playground.tensorflow.org/">Tensorflow Playground</a></li>
+  <li>Flashcards of the interview: <a href="https://towardsdatascience.com/the-deep-learning-ai-dictionary-ade421df39e4">Deep Learning Dictionary</a></li>
 </ol>
 
     
@@ -77,31 +93,18 @@
 
   <article>
     <header>
-      <h1><a href="/2018/12/14/create-github-pages-profile/">0001: Start Creating Your Data Scientist Profile Using Github Pages</a></h1>
-      <time datetime="2018-12-14T00:00:00-06:00">December 14, 2018</time>
+      <h1><a href="/2018/12/16/chatbots-intro/">0003: Intro to Chatbots</a></h1>
+      <time datetime="2018-12-16T00:00:00-05:00">December 16, 2018</time>
     </header>
-<p><img src="https://source.unsplash.com/hRZDd1ekhrA/1200x600" alt="GitHub Pages" /></p>
-
-<h1 id="summary">Summary:</h1>
-
+<h3 id="resources">Resources:</h3>
 <ol>
-  <li>Register a domain name.</li>
-  <li>Register for a Github account and configure Github pages.</li>
-  <li>Choose a Jekyll Theme and Setup your environment.</li>
-  <li>Setup Github Pages.</li>
-  <li>Add your Custom domain to Github Pages.</li>
+  <li><a href="https://itsalive.io/">Facebook Chatbots</a></li>
+  <li><a href="https://chatfuel.com/bots/">Chatfuel</a></li>
+  <li><a href="https://wit.ai/">Wit.ai</a></li>
+  <li><a href="https://docs.motion.ai/">Motion.ai</a></li>
+  <li><a href="https://dialogflow.com/">Dialogflow</a></li>
 </ol>
 
-<h2 id="1-register-a-your-domain-name-optional">1. Register a your domain name. (Optional)</h2>
-
-<p>I like <a href="https://www.namecheap.com/" target="_blank">Namecheap</a>
- for domain registration, they also offer FREE domain registrations for students. Check out https://nc.me/ to register your own domain name. If you are not a student you can still register for one with a small charge. You can also look at <a href="https://www.godaddy.com/" target="_blank">Godaddy</a>, <a href="https://www.ionos.com/" target="_blank">1&amp;1</a> etc…</p>
-
-<p>Once you have a domain name registered jump on to the next section.</p>
-
-
-    
-    <footer><a class="ghost" href="/2018/12/14/create-github-pages-profile/">read more »</a></footer>
     
   </article>
 
@@ -109,8 +112,8 @@
 
 <footer>
     <a  class="gray" href="/page2" >« newer posts</a>
-    <span class="paginate">page 3 of 3</span>
-    <a  class="disabled" >older posts »</a>
+    <span class="paginate">page 3 of 4</span>
+    <a  class="gray" href="/page4" >older posts »</a>
 </footer>
 
 
