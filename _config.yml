@@ -43,6 +43,7 @@ comments: # embed comments
   disqus: "dps-ai"
   # isso: "comments.mysite.org"
 
-defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true}}]
+defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true, related: true,
+                                                                                                         autoads: true}}]
 sass: {style: expanded}
 plugins: [jekyll-feed, jekyll-paginate, jekyll-seo-tag]
