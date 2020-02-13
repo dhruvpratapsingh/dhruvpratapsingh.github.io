@@ -63,7 +63,6 @@ layout: blank
     
    <p> Reemo Health is the leading provider of modern, consumer-centric wearable technology solutions designed to improve health and wellbeing. An easy-to-use smartwatch, with 24/7 telephonic Live Concierge Help™, engages seniors, their caregivers and healthcare organizations, with a better user experience and enhanced health outcomes.</p>
    </article>
-    {% include ads2.html %}
   <article>
     <h1 align="center">
       Let's Connect
