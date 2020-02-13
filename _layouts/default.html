@@ -6,7 +6,6 @@ layout: blank
     <header>
       <h1><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1>
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-<!--        {% include analytics.html %}-->
     </header>
 {{ content }}
     {% if site.comments.isso and page.comments %}
