@@ -8,6 +8,7 @@ layout: blank
       <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
         {% include analytics.html %}
     </header>
+      {% include ads2.html %}
 {{ content }}
     {% if site.comments.isso and page.comments %}
     <hr><div id="isso-thread"></div>
