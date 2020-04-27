@@ -1,5 +1,5 @@
 ---
-title: "2001: Intro to Deep Learning"
+title: "Intro to Deep Learning"
 ---
 
 Before we start digging into the fundamentals of Deep Learning, let's take a look at the tools we will be using going forward.
@@ -32,11 +32,6 @@ Deep learning
 **What is an ANN?**
 
 Artificial Neural Network (ANN) is
-
-<!-- Image for ANN -->
-<!-- <p align="center">
-  <img src="./../../../../assets/images/colored_neural_network.svg"/>
-</p> -->
 
 1. **CNN: Convolutional Neural Networks**
 2. **RNN: Recurrent Neural Networks**

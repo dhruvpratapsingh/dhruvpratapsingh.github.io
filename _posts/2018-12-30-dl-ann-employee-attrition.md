@@ -1,5 +1,5 @@
 ---
-title: "2003: Artificial Neural Networks : Employee Attrition"
+title: "Artificial Neural Networks : Employee Attrition"
 ---
 We will predict Employee Attrition using Artificial Neural Networks.
 

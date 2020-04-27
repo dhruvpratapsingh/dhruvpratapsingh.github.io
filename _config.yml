@@ -37,13 +37,18 @@ favicons: # see http://fontawesome.io/icons/#brand for all possible icons
   - medium: "https://medium.com/@dhruv.singh"
   - envelope: "mailto:dhruvpsg@gmail.com"
   - linkedin: "https://www.linkedin.com/in/dhruv-pratap-singh-b918045b"
-  #- feed: "feed.xml"
+  - devto: "https://dev.to/dps"
 
 comments: # embed comments
   disqus: "dps-ai"
-  # isso: "comments.mysite.org"
 
 defaults: [{scope: {path: ""}, values: {layout: "default"}}, {scope: {path: "", type: "posts"}, values: {comments: true, related: true,
                                                                                                          autoads: true}}]
 sass: {style: expanded}
-plugins: [jekyll-feed, jekyll-paginate, jekyll-seo-tag]
+# plugins: [jekyll-feed, jekyll-paginate, jekyll-seo-tag, jekyll-gist]
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-gist

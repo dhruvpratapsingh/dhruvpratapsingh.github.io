@@ -1,5 +1,5 @@
 ---
-title: "2002: Hello Deep Learning World! Using Google Drive"
+title: "Hello Deep Learning World! Using Google Drive"
 ---
 ### 1. Login to [Google Drive](https://drive.google.com).
 

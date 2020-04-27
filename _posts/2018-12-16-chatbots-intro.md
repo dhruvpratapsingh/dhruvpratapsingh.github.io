@@ -1,5 +1,5 @@
 ---
-title: "0003: Intro to Chatbots"
+title: "Chatbots: Links & Resources"
 ---
 
 ### Resources:

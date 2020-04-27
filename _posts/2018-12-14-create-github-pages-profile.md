@@ -1,5 +1,5 @@
 ---
-title:  "0001: Start Creating Your Data Scientist Profile Using Github Pages"
+title:  "Getting Started: Create Your Data Scientist Profile Using Github Pages"
 ---
 ![GitHub Pages](https://source.unsplash.com/OVbeSXRk_9E/1200x600)
 

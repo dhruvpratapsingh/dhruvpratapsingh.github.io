@@ -1,5 +1,5 @@
 ---
-title:  "0002: Resources"
+title:  "General AI Resources"
 ---
 
 # Statistics:
