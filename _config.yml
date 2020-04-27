@@ -37,7 +37,7 @@ favicons: # see http://fontawesome.io/icons/#brand for all possible icons
   - medium: "https://medium.com/@dhruv.singh"
   - envelope: "mailto:dhruvpsg@gmail.com"
   - linkedin: "https://www.linkedin.com/in/dhruv-pratap-singh-b918045b"
-  - devto: "https://dev.to/dps"
+  - gitlab: "https://sourcerer.io/dhruvpratapsingh"
 
 comments: # embed comments
   disqus: "dps-ai"
