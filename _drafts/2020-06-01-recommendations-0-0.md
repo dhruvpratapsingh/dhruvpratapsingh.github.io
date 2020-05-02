@@ -14,7 +14,8 @@ categories: ai
 ## Introduction
 A good recommendation system helps user to find useful item from a large collection. Two common use cases can be:
  * Quickly find related content : Recommend based on the item the user is currently looking at. When you are looking at an item to buy, Amazon.com might recommend similar items for the user to buy or compare.[**Content Based**]
- * Suggest items based on other users history: Recommed other items based on similar purchages in the past from other users. [**Collaborative**]
+ * Suggest items based on other users history: Recommend other items based on similar purchases in the past from other users
+ . [**Collaborative**]
 
 ### Features For Common Types Of Recommendations:
 > 1. Content-Based

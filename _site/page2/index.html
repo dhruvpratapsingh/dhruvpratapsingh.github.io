@@ -39,32 +39,273 @@
   
   <article>
     <header>
-      <h1><a href="/ai/2020/06/03/recommendations-3/">Recommendation Systems on AWS - Collaborative Filtering - (Part-3)</a></h1>
-      <time datetime="2020-06-03T18:37:00-05:00">June 3, 2020</time>
+      <h1><a href="/2019/06/14/angular-amplify-1/">3001: Angular Amplify - Auto Format With Prettier & Husky</a></h1>
+      <time datetime="2019-06-14T00:00:00-05:00">June 14, 2019</time>
     </header>
+<p>In this tutorial we will be installing Prettier &amp; Husky to help us with code formatting. When we started migrating to Angular we had a lot to figure out and wanted to avoid wasting time on formatting changes. So we researched a bit and found two fantastic libraries. After 10k+ commits we still haven’t asked anyone to fix formatting of their code in the code review channel, thanks to these amazing duos.</p>
 
+<p>Before we start, please follow the setup steps from Angular website to get the starter app running. We will be enabling routing by default and using SCSS. <a href="https://angular.io/guide/setup-local" target="_blank">Angular Setup</a></p>
+
+<p>Now that we have the Welcome-app running, let’s add auto-formatting to our app.</p>
+
+<h1 id="prettier"><a href="https://prettier.io/" target="_blank">Prettier</a></h1>
+
+<p>Prettier is an opinionated code formatter which we will be using to format our Typescript code. It parses the code and formats based on the pre-defined rules. We will start with adding Prettier to our project and later we will override some of the rules to fit our needs.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Install Prettier as dev-dependency
+npm install prettier -D
+</code></pre></div></div>
+
+<p>Once installed successfully, add lines below to the scripts property in your project’s <code class="highlighter-rouge">package.json</code> file.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"prettier:base": "prettier --parser typescript --single-quote",
+"prettier:check": "npm run prettier:base -- --list-different \"src/**/*.{ts,tsx}\"",
+"prettier:write": "npm run prettier:base -- --write \"src/**/*.{ts,tsx}\""
+</code></pre></div></div>
+<p>Would be placed something like this.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s2">"scripts"</span><span class="p">:</span> <span class="p">{</span>
+  <span class="s2">"ng"</span><span class="p">:</span> <span class="s2">"ng"</span><span class="p">,</span>
+  <span class="s2">"start"</span><span class="p">:</span> <span class="s2">"ng serve"</span><span class="p">,</span>
+  <span class="s2">"build"</span><span class="p">:</span> <span class="s2">"ng build"</span><span class="p">,</span>
+  <span class="s2">"test"</span><span class="p">:</span> <span class="s2">"ng test"</span><span class="p">,</span>
+  <span class="s2">"lint"</span><span class="p">:</span> <span class="s2">"ng lint"</span><span class="p">,</span>
+  <span class="s2">"e2e"</span><span class="p">:</span> <span class="s2">"ng e2e"</span><span class="p">,</span>
+  <span class="s2">"prettier:base"</span><span class="p">:</span> <span class="s2">"prettier --parser typescript --single-quote"</span><span class="p">,</span>
+  <span class="s2">"prettier:check"</span><span class="p">:</span> <span class="s2">"npm run prettier:base -- --list-different </span><span class="se">\"</span><span class="s2">src/**/*.{ts,tsx}</span><span class="se">\"</span><span class="s2">"</span><span class="p">,</span>
+  <span class="s2">"prettier:write"</span><span class="p">:</span> <span class="s2">"npm run prettier:base -- --write </span><span class="se">\"</span><span class="s2">src/**/*.{ts,tsx}</span><span class="se">\"</span><span class="s2">"</span>
+<span class="p">},</span>
+</code></pre></div></div>
+
+<p>Test it:</p>
+
+<p>Open your app.component.ts</p>
+
+<p>Unformatted:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">Component</span> <span class="p">}</span> <span class="k">from</span> <span class="s1">'@angular/core'</span><span class="p">;</span>
+
+<span class="p">@</span><span class="nd">Component</span><span class="p">({</span>
+  <span class="na">selector</span><span class="p">:</span> <span class="s1">'app-root'</span><span class="p">,</span>
+  <span class="na">templateUrl</span><span class="p">:</span> <span class="s1">'./app.component.html'</span><span class="p">,</span>
+  <span class="na">styleUrls</span><span class="p">:</span> <span class="p">[</span><span class="s1">'./app.component.scss'</span><span class="p">]</span>
+<span class="p">})</span>
+<span class="k">export</span> <span class="kd">class</span> <span class="nx">AppComponent</span> <span class="p">{</span>
+  <span class="nx">title</span> <span class="o">=</span> <span class="s1">'levanteq'</span><span class="p">;</span>
+
+  <span class="nx">testPrettier</span><span class="p">(</span><span class="nx">reallyLongArg</span><span class="p">,</span> <span class="nx">omgSoManyParameters</span><span class="p">,</span> <span class="nx">IShouldRefactorThis</span><span class="p">,</span> <span class="nx">isThereSeriouslyAnotherOne</span><span class="p">)</span> <span class="p">{</span>
+                            <span class="kd">const</span> <span class="nx">isTooFarFromBoundary</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<h3 id="run-prettier">Run prettier</h3>
+<p>npm run prettier:write</p>
+
+<p>Formatted:</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">import</span> <span class="p">{</span> <span class="nx">Component</span> <span class="p">}</span> <span class="k">from</span> <span class="s1">'@angular/core'</span><span class="p">;</span>
+
+<span class="p">@</span><span class="nd">Component</span><span class="p">({</span>
+  <span class="na">selector</span><span class="p">:</span> <span class="s1">'app-root'</span><span class="p">,</span>
+  <span class="na">templateUrl</span><span class="p">:</span> <span class="s1">'./app.component.html'</span><span class="p">,</span>
+  <span class="na">styleUrls</span><span class="p">:</span> <span class="p">[</span><span class="s1">'./app.component.scss'</span><span class="p">]</span>
+<span class="p">})</span>
+<span class="k">export</span> <span class="kd">class</span> <span class="nx">AppComponent</span> <span class="p">{</span>
+  <span class="nx">title</span> <span class="o">=</span> <span class="s1">'levanteq'</span><span class="p">;</span>
+
+  <span class="nx">testPrettier</span><span class="p">(</span>
+    <span class="nx">reallyLongArg</span><span class="p">,</span>
+    <span class="nx">omgSoManyParameters</span><span class="p">,</span>
+    <span class="nx">IShouldRefactorThis</span><span class="p">,</span>
+    <span class="nx">isThereSeriouslyAnotherOne</span>
+  <span class="p">)</span> <span class="p">{</span>
+    <span class="kd">const</span> <span class="nx">isTooFarFromBoundary</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>It’s magical!!</p>
+
+<p>If you want to override a style you can do it by simply adding <code class="highlighter-rouge">.prettierrc</code> file parallel to package.json file. Here is a sample from our app.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+  <span class="s2">"printWidth"</span><span class="p">:</span> <span class="mi">120</span><span class="p">,</span>
+  <span class="s2">"singleQuote"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+  <span class="s2">"useTabs"</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+  <span class="s2">"tabWidth"</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span>
+  <span class="s2">"semi"</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
+  <span class="s2">"bracketSpacing"</span><span class="p">:</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="husky"><a href="https://www.npmjs.com/package/husky" target="_blank">Husky</a></h1>
+
+<p>Husky provides us with a pre-commit hook so we don’t have to do this manually. Everytime you commit, it will format the code for you by running Prettier.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Install husky as a dev-dependency
+npm install husky -D
+</code></pre></div></div>
+
+<p>Create a file named <code class="highlighter-rouge">.huskyrc</code> and add it parallel to package.json file. Add below to it.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+  <span class="s2">"hooks"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s2">"pre-commit"</span><span class="p">:</span> <span class="s2">"npm run prettier:write"</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can test that now when you commit your code, your code will be formatted.</p>
+
+<h1 id="bonus">Bonus:</h1>
+
+<p>Check out <code class="highlighter-rouge">pretty-quick</code> for formatting only staged files.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm install pretty-quick -D
+</code></pre></div></div>
+
+<p>Remove prettier scripts from the package.json and add below <code class="highlighter-rouge">format:fix</code></p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s2">"scripts"</span><span class="p">:</span> <span class="p">{</span>
+  <span class="s2">"ng"</span><span class="p">:</span> <span class="s2">"ng"</span><span class="p">,</span>
+  <span class="s2">"start"</span><span class="p">:</span> <span class="s2">"ng serve"</span><span class="p">,</span>
+  <span class="s2">"build"</span><span class="p">:</span> <span class="s2">"ng build"</span><span class="p">,</span>
+  <span class="s2">"test"</span><span class="p">:</span> <span class="s2">"ng test"</span><span class="p">,</span>
+  <span class="s2">"lint"</span><span class="p">:</span> <span class="s2">"ng lint"</span><span class="p">,</span>
+  <span class="s2">"e2e"</span><span class="p">:</span> <span class="s2">"ng e2e"</span><span class="p">,</span>
+  <span class="s2">"format:fix"</span><span class="p">:</span> <span class="s2">"pretty-quick --staged"</span>
+<span class="p">},</span>
+</code></pre></div></div>
+
+<p>Update .huskyrc to below: <code class="highlighter-rouge">run-s</code> will run the commands in sequence. Now if you commit your changes it will format it first and lint it after that.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span>
+  <span class="s2">"hooks"</span><span class="p">:</span> <span class="p">{</span>
+    <span class="s2">"pre-commit"</span><span class="p">:</span> <span class="s2">"npm run-s format:fix lint"</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
     
   </article>
 
   <article>
     <header>
-      <h1><a href="/ai/2020/06/02/recommendations-2-3/">Recommendation Systems on AWS: 2.3 - JSON to SQL using AWS Glue + AWS Athena - (Optional)</a></h1>
-      <time datetime="2020-06-02T18:37:00-05:00">June 2, 2020</time>
+      <h1><a href="/2018/12/30/dl-ann-employee-attrition/">Artificial Neural Networks : Employee Attrition</a></h1>
+      <time datetime="2018-12-30T00:00:00-06:00">December 30, 2018</time>
     </header>
-<h3 id="table-of-contents">Table Of Contents:</h3>
-<blockquote>
-  <ol>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#architecture">Architecture</a></li>
-    <li><a href="#technology-stack">Technology Stack</a></li>
-    <li><a href="#bonus-resources">Bonus Resources</a></li>
-  </ol>
-</blockquote>
+<p>We will predict Employee Attrition using Artificial Neural Networks.</p>
+
+<h3 id="table-of-contents">Table of Contents</h3>
+<ol>
+  <li>Data Preprocessing</li>
+  <li>Create ANN</li>
+  <li>Make predictions</li>
+  <li>Evaluate - Improve - Tune ANN</li>
+</ol>
+
+<h2 id="part-1-data-preprocessing">Part 1: Data Preprocessing</h2>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Import the libraries</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span></code></pre></figure>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Get data from Github and copy that in the cache
+!wget https://raw.githubusercontent.com/dhruvpratapsingh/Deep-Learning/master/SupervisedDL/ANN/employee_attrition/Employee-Attrition.csv ./
+</code></pre></div></div>
+
+<p>If you click on “Files” tab in the left panel, you should see the .csv file.</p>
+
+<p align="center">
+  <img src="./../../../../assets/images/csv_loaded.png" />
+</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c"># Importing the dataset</span>
+<span class="n">dataset</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'Employee-Attrition.csv'</span><span class="p">)</span></code></pre></figure>
+
+<h3 id="intuition-for-cleaning-the-data">Intuition for Cleaning the data</h3>
+
+<p><em>1. Remove a column with same value for all the rows</em>
+        <strong>StandardHours</strong>
+        <strong>Over18</strong></p>
+
+<p><em>2. Remove the columns with PII(Personally identifiable information)</em>
+        <strong>EmployeeID</strong></p>
+
+<p><em>3. Move y to start or the end column, to make things easier to slice (Optional)</em></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c">#removing standard hours, Over18 and employeeID + attrition as first row</span>
+<span class="n">dataset</span> <span class="o">=</span> <span class="n">dataset</span><span class="p">[[</span><span class="s">'Attrition'</span><span class="p">,</span>
+                   <span class="s">'Age'</span><span class="p">,</span>
+                   <span class="s">'BusinessTravel'</span><span class="p">,</span>
+                   <span class="s">'DailyRate'</span><span class="p">,</span>
+                   <span class="s">'Department'</span><span class="p">,</span>
+                   <span class="s">'DistanceFromHome'</span><span class="p">,</span>
+                   <span class="s">'Education'</span><span class="p">,</span>
+                   <span class="s">'EducationField'</span><span class="p">,</span>
+                   <span class="s">'EmployeeCount'</span><span class="p">,</span>
+                   <span class="s">'EnvironmentSatisfaction'</span><span class="p">,</span>
+                   <span class="s">'Gender'</span><span class="p">,</span>
+                   <span class="s">'HourlyRate'</span><span class="p">,</span>
+                   <span class="s">'JobInvolvement'</span><span class="p">,</span>
+                   <span class="s">'JobLevel'</span><span class="p">,</span>
+                   <span class="s">'JobRole'</span><span class="p">,</span>
+                   <span class="s">'JobSatisfaction'</span><span class="p">,</span>
+                   <span class="s">'MaritalStatus'</span><span class="p">,</span>
+                   <span class="s">'MonthlyIncome'</span><span class="p">,</span>
+                   <span class="s">'MonthlyRate'</span><span class="p">,</span>
+                   <span class="s">'NumCompaniesWorked'</span><span class="p">,</span>
+                   <span class="s">'OverTime'</span><span class="p">,</span>
+                   <span class="s">'PercentSalaryHike'</span><span class="p">,</span>
+                   <span class="s">'PerformanceRating'</span><span class="p">,</span>
+                   <span class="s">'RelationshipSatisfaction'</span><span class="p">,</span>
+                   <span class="s">'StockOptionLevel'</span><span class="p">,</span>
+                   <span class="s">'TotalWorkingYears'</span><span class="p">,</span>
+                   <span class="s">'TrainingTimesLastYear'</span><span class="p">,</span>
+                   <span class="s">'WorkLifeBalance'</span><span class="p">,</span>
+                   <span class="s">'YearsAtCompany'</span><span class="p">,</span>
+                   <span class="s">'YearsInCurrentRole'</span><span class="p">,</span>
+                   <span class="s">'YearsSinceLastPromotion'</span><span class="p">,</span>
+                   <span class="s">'YearsWithCurrManager'</span><span class="p">]]</span></code></pre></figure>
+
+<p>Remember that in python index slicing we include the start index and exclude the end index.
+Use first index i.e. 0 as y (dependent variable) and 1-32 as X (independent variables)</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">X</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">1</span><span class="p">:]</span><span class="o">.</span><span class="n">values</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">values</span></code></pre></figure>
+
+<p>SOME TRICKS</p>
+
+<ol>
+  <li>‘print(y)’ or to see the y vector.</li>
+  <li>‘X.shape’ to see the shape of the matrix.</li>
+  <li>We use Uppercase X as it is a matrix and lowercase y as it is a vector</li>
+</ol>
+
+<h3 id="encoding-categorical-data">Encoding categorical data</h3>
+<p>As the algorithms work best with numbers.</p>
+
+<h4 id="set-the-display-max-columns-to-see-all-columns">Set the display max columns to see all columns.</h4>
+<p>Columns that need to encoded:</p>
+<ol>
+  <li>Attrition y[0]</li>
+  <li>BusinessTravel X[1]</li>
+  <li>Department X[3]</li>
+  <li>EducationField X[6]</li>
+  <li>Gender X[9]</li>
+  <li>JobRole X[13]</li>
+  <li>MaritalStatus X[15]</li>
+  <li>OverTime X[19]</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">pd</span><span class="o">.</span><span class="n">set_option</span><span class="p">(</span><span class="s">'display.max_columns'</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+<span class="n">dataset</span><span class="o">.</span><span class="n">head</span><span class="p">()</span></code></pre></figure>
+
+<p>First 5 rows look something like this… rest of the columns not in the image.</p>
+<p align="center">
+  <img src="./../../../../assets/images/table.png" />
+</p>
 
 
     
-    <footer><a class="ghost" href="/ai/2020/06/02/recommendations-2-3/">read more »</a></footer>
+    <footer><a class="ghost" href="/2018/12/30/dl-ann-employee-attrition/">read more »</a></footer>
     
   </article>
 
@@ -72,7 +313,7 @@
 
 <footer>
     <a  class="gray" href="/" >« newer posts</a>
-    <span class="paginate">page 2 of 10</span>
+    <span class="paginate">page 2 of 5</span>
     <a  class="gray" href="/page3" >older posts »</a>
 </footer>
 

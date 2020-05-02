@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-02T13:54:13-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Artificial Neural Networks : Employee Attrition</title><link href="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/" rel="alternate" type="text/html" title="Artificial Neural Networks : Employee Attrition" /><published>2018-12-30T00:00:00-06:00</published><updated>2018-12-30T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/30/dl-ann-employee-attrition</id><content type="html" xml:base="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/">&lt;p&gt;We will predict Employee Attrition using Artificial Neural Networks.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-02T15:37:30-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: My Play</title><link href="http://localhost:4000/finance/2020/05/02/what-the-finance/" rel="alternate" type="text/html" title="Finance: My Play" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/what-the-finance</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/what-the-finance/">&lt;h3 id=&quot;table-of-contents&quot;&gt;Table Of Contents:&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;#introduction&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#managing-my-finance&quot;&gt;Managing My Finance&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#stock-portfolio-strategies&quot;&gt;Stock Portfolio Strategies&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#tax-loss-harvesting&quot;&gt;Tax Loss Harvesting&lt;/a&gt;&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;I work in finance and after my work I spend atleast couple of hours reading about finance, It’s a passion for me and I keep learning
+ something new every day. Recently, I decided to start writing about it and get thoughts from other people.&lt;/p&gt;
+
+&lt;p&gt;For me it all started with my internship at Aon, when I was done with my internship, my boss gave me a book to read… &lt;em&gt;“Rich Dad
+ , PoorDad”&lt;/em&gt;. It was about 6 years ago and in these last few years I have learned so much about how the money works.&lt;/p&gt;
+
+&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;amp;OneJS=1&amp;amp;Operation=GetAdHtml&amp;amp;MarketPlace=US&amp;amp;source=ac&amp;amp;ref=qf_sp_asin_til&amp;amp;ad_type=product_link&amp;amp;tracking_id=dpsai-20&amp;amp;marketplace=amazon&amp;amp;region=US&amp;amp;placement=B0019OVZCS&amp;amp;asins=B0019OVZCS&amp;amp;linkId=ddbad65dbba761e8f9948547cf5bc5c6&amp;amp;show_border=false&amp;amp;link_opens_in_new_window=true&amp;amp;price_color=333333&amp;amp;title_color=0066c0&amp;amp;bg_color=ffffff&quot;&gt;
+     &lt;/iframe&gt;
+
+&lt;p&gt;In this financial series I will talk about Retirement, Equities, AI in Finance. Don’t be surprised when quote my favs like &lt;em&gt;Chamath
+  Palihapitiya&lt;/em&gt; &amp;amp; &lt;em&gt;Ray Dalio&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;managing-my-finance&quot;&gt;Managing My Finance&lt;/h2&gt;
+&lt;h3 id=&quot;why-the-heck&quot;&gt;Why the heck?&lt;/h3&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Table Of Contents: Introduction Managing My Finance Stock Portfolio Strategies Tax Loss Harvesting</summary></entry><entry><title type="html">Artificial Neural Networks : Employee Attrition</title><link href="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/" rel="alternate" type="text/html" title="Artificial Neural Networks : Employee Attrition" /><published>2018-12-30T00:00:00-06:00</published><updated>2018-12-30T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/30/dl-ann-employee-attrition</id><content type="html" xml:base="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/">&lt;p&gt;We will predict Employee Attrition using Artificial Neural Networks.&lt;/p&gt;
 
 &lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
 &lt;ol&gt;
