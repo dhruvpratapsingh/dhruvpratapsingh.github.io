@@ -1,5 +1,5 @@
 ---
-title:  "Recommendation Systems on AWS: 1.1 - Item Similarity - Semantic"
+title:  "Recommendation Systems on AWS: 1.3 - Item Similarity - Semantic"
 date:   2020-06-02 23:37:00
 categories: ai
 ---

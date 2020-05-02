@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="author" content="Dhruv Pratap Singh">
+<meta name="description" content="Everything AI">
+<title>Example Objects › dps.ai</title>
+<link rel="canonical" href="http://localhost:4000/objects/2017/02/01/example-objects/">
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/basic.css" rel="stylesheet">
+<link href="/highlight.css" rel="stylesheet">
+<link href="/index.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="http://localhost:4000/favicon.png">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158338102-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158338102-1');
+</script>
+
+<script data-ad-client="ca-pub-6502220257226570" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="dps.ai" />
+<script src="//dps-ai.disqus.com/embed.js" async></script>
+
+<header>
+  
+  <h1><a href="">dps.ai</a></h1>
+  <nav class="large">
+    <div><a href="/">About Me</a><a href="/archive/">Blog</a><a href="/bucket_list/">Bucket List</a><a href="/rusomi/">Rusomi</a></div>
+  
+    <div><a href="https://github.com/dhruvpratapsingh" target="_blank"><i class="fa fa-github"></i></a><a href="https://stackoverflow.com/users/5942489/dhruv" target="_blank"><i class="fa fa-stack-overflow"></i></a><a href="https://medium.com/@dhruv.singh" target="_blank"><i class="fa fa-medium"></i></a><a href="mailto:dhruvpsg@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a><a href="https://www.linkedin.com/in/dhruv-pratap-singh-b918045b" target="_blank"><i class="fa fa-linkedin"></i></a><a href="https://sourcerer.io/dhruvpratapsingh" target="_blank"><i class="fa fa-gitlab"></i></a></div>
+  </nav>
+</header>
+<main>
+  <article>
+    <header>
+      <h1><a href="/objects/2017/02/01/example-objects/">Example Objects</a></h1>
+      <time datetime="2017-02-01T16:30:00-06:00">February 1, 2017</time>
+    </header>
+<p>Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipiscing elit, <code class="highlighter-rouge">sed do eiusmod tempor</code> incididunt ut <em>labore</em> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <strong><em>exercitation</em></strong> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute <em>irure dolor</em> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+<p>The term was coined in 1964 by two <a href="https://en.wikipedia.org/wiki/Australia">Australian</a> <a href="https://en.wikipedia.org/wiki/CSIRO">CSIRO</a> researchers, Isabel Joy Bear and Richard G. Thomas, for an article in the journal <a href="https://en.wikipedia.org/wiki/Nature_(journal)">Nature</a>. In the article, the authors describe how the smell derives from an oil exuded by certain <a href="https://en.wikipedia.org/wiki/Plants">plants</a> during dry periods, whereupon it is <a href="https://en.wikipedia.org/wiki/Absorption_(chemistry)">absorbed</a> by <a href="https://en.wikipedia.org/wiki/Clay">clay</a>-based <a href="https://en.wikipedia.org/wiki/Soil">soils</a> and <a href="https://en.wikipedia.org/wiki/Rock_(geology)">rocks</a>.</p>
+
+<p>Some scientists believe that humans appreciate the rain scent because ancestors may have relied on rainy weather for survival.</p>
+
+<h3 id="lists">Lists</h3>
+
+<h4 id="unordered">Unordered</h4>
+
+<ul>
+  <li>lorem</li>
+  <li>ipsum</li>
+  <li>dolor</li>
+  <li>sit amet</li>
+</ul>
+
+<h4 id="ordered">Ordered</h4>
+
+<ol>
+  <li>lorem</li>
+  <li>ipsum</li>
+  <li>dolor</li>
+  <li>sit amet</li>
+</ol>
+
+<h3 id="code">Code</h3>
+
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="k">static</span> <span class="kt">void</span> <span class="nf">asyncEnabled</span><span class="p">(</span><span class="n">Dict</span><span class="o">*</span> <span class="n">args</span><span class="p">,</span> <span class="kt">void</span><span class="o">*</span> <span class="n">vAdmin</span><span class="p">,</span> <span class="n">String</span><span class="o">*</span> <span class="n">txid</span><span class="p">,</span> <span class="k">struct</span> <span class="n">Allocator</span><span class="o">*</span> <span class="n">requestAlloc</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span> <span class="n">admin</span> <span class="o">=</span> <span class="n">Identity_check</span><span class="p">((</span><span class="k">struct</span> <span class="n">Admin</span><span class="o">*</span><span class="p">)</span> <span class="n">vAdmin</span><span class="p">);</span>
+    <span class="kt">int64_t</span> <span class="n">enabled</span> <span class="o">=</span> <span class="n">admin</span><span class="o">-&gt;</span><span class="n">asyncEnabled</span><span class="p">;</span>
+    <span class="n">Dict</span> <span class="n">d</span> <span class="o">=</span> <span class="n">Dict_CONST</span><span class="p">(</span><span class="n">String_CONST</span><span class="p">(</span><span class="s">"asyncEnabled"</span><span class="p">),</span> <span class="n">Int_OBJ</span><span class="p">(</span><span class="n">enabled</span><span class="p">),</span> <span class="nb">NULL</span><span class="p">);</span>
+    <span class="n">Admin_sendMessage</span><span class="p">(</span><span class="o">&amp;</span><span class="n">d</span><span class="p">,</span> <span class="n">txid</span><span class="p">,</span> <span class="n">admin</span><span class="p">);</span>
+<span class="p">}</span></code></pre></figure>
+
+<h3 id="quote">Quote</h3>
+
+<blockquote>
+  <p>Pagination is the process of dividing a document into discrete pages, either electronic pages or printed pages.</p>
+
+  <p>In reference to books produced without a computer, pagination can mean the consecutive page numbering to indicate the proper order of the pages, which was rarely found in documents pre-dating 1500, and only became common practice c. 1550, when it replaced foliation, which numbered only the front sides of folios.</p>
+
+  <p>- <a href="https://en.wikipedia.org/wiki/Pagination">Wikipedia</a></p>
+</blockquote>
+
+<h3 id="table">Table</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>First Header</th>
+      <th>Second Header</th>
+      <th>Third Header</th>
+      <th>Fourth Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>First Entry</td>
+      <td>Second Entry</td>
+      <td>Third Entry</td>
+      <td>Fourth Entry</td>
+    </tr>
+    <tr>
+      <td>Fifth Entry</td>
+      <td>Sixth Entry</td>
+      <td>Seventh Entry</td>
+      <td>Eight Entry</td>
+    </tr>
+    <tr>
+      <td>Ninth Entry</td>
+      <td>Tenth Entry</td>
+      <td>Eleventh Entry</td>
+      <td>Twelfth Entry</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="image">Image</h3>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Photography_by_Victor_Albert_Grigas_%281919-2017%29_000172050002_%2837159721864%29.jpg/1039px-Photography_by_Victor_Albert_Grigas_%281919-2017%29_000172050002_%2837159721864%29.jpg" alt="subtle swirly bokeh in the background" /></p>
+
+
+    
+    
+    <hr><div id="disqus_thread"></div>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+  </article>
+</main>
+
+
+<footer>
+    <a href="/2018/12/14/create-github-pages-profile/">« Getting Started: Create Your Data Scientist Profile Using Github Pages</a>
+     <span></span> 
+</footer>
+
