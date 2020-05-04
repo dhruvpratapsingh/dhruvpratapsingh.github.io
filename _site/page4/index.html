@@ -11,7 +11,7 @@
 <link href="/highlight.css" rel="stylesheet">
 <link href="/index.css" rel="stylesheet">
 <link rel="shortcut icon" type="image/png" href="http://localhost:4000/favicon.png">
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!--<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158338102-1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -20,7 +20,7 @@
 
     gtag('config', 'UA-158338102-1');
 </script>
-
+-->
 <script data-ad-client="ca-pub-6502220257226570" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="dps.ai" />
 
@@ -39,6 +39,67 @@
   
   <article>
     <header>
+      <h1><a href="/2018/12/17/intro-to-deep-learning/">Intro to Deep Learning</a></h1>
+      <time datetime="2018-12-17T00:00:00-06:00">December 17, 2018</time>
+    </header>
+<p>Before we start digging into the fundamentals of Deep Learning, let’s take a look at the tools we will be using going forward.</p>
+
+<ol>
+  <li><a href="http://colab.research.google.com/">Google Colaboratory</a> : You can run your code on GPUs hosted by Google for free.</li>
+  <li><a href="https://research.google.com/seedbank/">Seedbank</a> : Collection of interactive machine learning examples for Colab or Jupyter.</li>
+  <li>Create a profile on <a href="https://www.kaggle.com/">Kaggle</a>, if are not already signed up for it.</li>
+</ol>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Deep learning
+|-- Supervised
+|     |-- MLP:  Multilayer perceptron
+|     |-- CNN:  Convolutional Neural Networks
+|     |-- RNN:  Recurrent Neural Networks
+|     |-- RNN:  Recursive Neural Networks
+|     |-- LSTM: Long short-term memory
+|     |-- SQS:  Sequence-to-sequence models
+|     |-- SNN:  Shallow Neural Networks
+|-- Unsupervised
+      |-- SOM:  Self Organizing Maps
+      |-- BM:   Boltzmann Machines
+      |-- AE:   AutoEncoders
+</code></pre></div></div>
+
+<h2 id="supervised-deep-learning">Supervised Deep learning</h2>
+<p><em>DL form where an output label exists for every input example. The labels are used to compare the output of Deep Neural Nets to the ground-truth values and minimize the cost function. Other forms of Deep learning are semi-supervised and Unsupervised.</em></p>
+
+<blockquote>
+  <p>Smartest and most complex thing on this planet is human brain and with deep leaning we try to mimic how human brain works by creating “Artificial Neural Networks”.</p>
+</blockquote>
+
+<p><strong>What is an ANN?</strong></p>
+
+<p>Artificial Neural Network (ANN) is</p>
+
+<ol>
+  <li><strong>CNN: Convolutional Neural Networks</strong></li>
+  <li><strong>RNN: Recurrent Neural Networks</strong></li>
+</ol>
+
+<h2 id="unsupervised-deep-learning">Unsupervised Deep Learning</h2>
+
+<ol>
+  <li><strong>SOM: Self Organizing Maps</strong></li>
+  <li><strong>BM:  Boltzmann Machines</strong></li>
+  <li><strong>AE:  AutoEncoders</strong></li>
+</ol>
+
+<h2 id="some-useful-resources"><strong>Some useful resources</strong></h2>
+<ol>
+  <li>See in action: <a href="https://playground.tensorflow.org/">Tensorflow Playground</a></li>
+  <li>Flashcards of the interview: <a href="https://towardsdatascience.com/the-deep-learning-ai-dictionary-ade421df39e4">Deep Learning Dictionary</a></li>
+</ol>
+
+    
+  </article>
+
+  <article>
+    <header>
       <h1><a href="/2018/12/16/chatbots-intro/">Chatbots: Links & Resources</a></h1>
       <time datetime="2018-12-16T00:00:00-06:00">December 16, 2018</time>
     </header>
@@ -54,61 +115,11 @@
     
   </article>
 
-  <article>
-    <header>
-      <h1><a href="/2018/12/16/ai-resources/">General AI Resources</a></h1>
-      <time datetime="2018-12-16T00:00:00-06:00">December 16, 2018</time>
-    </header>
-<h1 id="statistics">Statistics:</h1>
-<ol>
-  <li><a href="https://seeing-theory.brown.edu/">Seeing Theory</a></li>
-  <li><a href="http://www-bcf.usc.edu/~gareth/ISL/">Intro to Statistical Learning</a> =&gt; Must Read</li>
-</ol>
-
-<h1 id="machine-learning">Machine Learning:</h1>
-<ol>
-  <li><a href="http://nbviewer.jupyter.org/github/fonnesbeck/Bios366/blob/master/notebooks/Section6_1-Scikit-Learn.ipynb">Intro to SciKit Learn : Jupyter</a></li>
-</ol>
-
-<h1 id="deep-learning">Deep Learning:</h1>
-<ol>
-  <li><a href="https://towardsdatascience.com/the-deep-learning-ai-dictionary-ade421df39e4">Deep Learning dictionary</a></li>
-</ol>
-
-<h1 id="books">Books</h1>
-<ol>
-  <li><a href="http://columbia-applied-data-science.github.io/appdatasci.pdf">Applied Data Science by Ian Langmore &amp; Daniel Krasner</a></li>
-</ol>
-
-<h1 id="datasets">Datasets</h1>
-<ol>
-  <li><a href="http://archive.ics.uci.edu/ml/datasets.html">UCI Machine Learning Datasets</a></li>
-  <li><a href="https://www.kaggle.com/datasets">Kaggle Datasets</a></li>
-</ol>
-
-<h1 id="python-libraries">Python Libraries</h1>
-<ol>
-  <li><a href="https://heartbeat.fritz.ai/introduction-to-matplotlib-data-visualization-in-python-d9143287ae39">Matplotlib</a></li>
-</ol>
-
-<h1 id="data-engineering">Data Engineering</h1>
-<ol>
-  <li><a href="http://www.mmds.org/">Mining Massive Datasets</a></li>
-</ol>
-
-<h1 id="pioneers">Pioneers</h1>
-<ol>
-  <li><a href="http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html">Hugo Larochelle</a></li>
-</ol>
-
-    
-  </article>
-
 </main>
 
 <footer>
     <a  class="gray" href="/page3" >« newer posts</a>
-    <span class="paginate">page 4 of 5</span>
+    <span class="paginate">page 4 of 6</span>
     <a  class="gray" href="/page5" >older posts »</a>
 </footer>
 

@@ -74,4 +74,3 @@ Let's [Create New Theme](https://glitch.com/edit/#!/remix/material-theme-builder
 ### Color Palette
 Visit [Material Color Palette](http://mcg.mbitson.com) to get the color palette for your primary and secondary colors. You can click on notepad icon to generate color palette for you app by further selecting Angular Js 2(Material 2 option). Paste the color palette in you app-theme.scss file.
 
-{% include ads.html %}
