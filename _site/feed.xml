@@ -1,4 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-04T14:27:33-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: My Play</title><link href="http://localhost:4000/finance/2020/05/02/what-the-finance/" rel="alternate" type="text/html" title="Finance: My Play" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/what-the-finance</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/what-the-finance/">&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/5gGcn2PRrtc/1600x900&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-04T15:20:27-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: My Play</title><link href="http://localhost:4000/finance/2020/05/02/what-the-finance/" rel="alternate" type="text/html" title="Finance: My Play" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/what-the-finance</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/what-the-finance/">&lt;!-- TradingView Widget BEGIN --&gt;
+&lt;div class=&quot;tradingview-widget-container&quot; align=&quot;center&quot;&gt;
+  &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;tradingview-widget-copyright&quot;&gt;&lt;a href=&quot;https://www.tradingview.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;blue-text&quot;&gt;Ticker Tape&lt;/span&gt;&lt;/a&gt; by TradingView&lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js&quot; async=&quot;&quot;&gt;
+  {
+  &quot;symbols&quot;: [
+    {
+      &quot;proName&quot;: &quot;FOREXCOM:SPXUSD&quot;,
+      &quot;title&quot;: &quot;S&amp;P 500&quot;
+    },
+    {
+      &quot;proName&quot;: &quot;FOREXCOM:NSXUSD&quot;,
+      &quot;title&quot;: &quot;Nasdaq 100&quot;
+    },
+    {
+      &quot;proName&quot;: &quot;FX_IDC:EURUSD&quot;,
+      &quot;title&quot;: &quot;EUR/USD&quot;
+    },
+    {
+      &quot;proName&quot;: &quot;BITSTAMP:BTCUSD&quot;,
+      &quot;title&quot;: &quot;BTC/USD&quot;
+    },
+    {
+      &quot;proName&quot;: &quot;BITSTAMP:ETHUSD&quot;,
+      &quot;title&quot;: &quot;ETH/USD&quot;
+    }
+  ],
+  &quot;colorTheme&quot;: &quot;light&quot;,
+  &quot;isTransparent&quot;: false,
+  &quot;displayMode&quot;: &quot;adaptive&quot;,
+  &quot;locale&quot;: &quot;en&quot;
+}
+  &lt;/script&gt;
+
+&lt;/div&gt;
+&lt;!-- TradingView Widget END --&gt;
+&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/5gGcn2PRrtc/1600x900&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Before we start:&lt;/p&gt;
 &lt;blockquote&gt;
@@ -54,7 +91,76 @@
 &lt;p&gt;“Debt is Dumb”: is more of psychological approach rather than a mathematical one.&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;
  &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/H2Zd0-0XLBU&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
- &lt;/p&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Before we start: - Disclaimer: This is not a financial advise, invest at your own risk. Table Of Contents: Introduction Managing My Finance Stock Portfolio Strategies Tax Loss Harvesting</summary></entry><entry><title type="html">Artificial Neural Networks : Employee Attrition</title><link href="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/" rel="alternate" type="text/html" title="Artificial Neural Networks : Employee Attrition" /><published>2018-12-30T00:00:00-06:00</published><updated>2018-12-30T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/30/dl-ann-employee-attrition</id><content type="html" xml:base="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/">&lt;p&gt;We will predict Employee Attrition using Artificial Neural Networks.&lt;/p&gt;
+ &lt;/p&gt;
+
+&lt;p&gt;Fast Forward: My current investment strategies.&lt;/p&gt;
+
+&lt;h3 id=&quot;retirement&quot;&gt;Retirement:&lt;/h3&gt;
+
+&lt;p&gt;Remember the phrase: &lt;strong&gt;“Match before Roth, Roth before Traditional”&lt;/strong&gt;
+I match my work 401k match and put the remaining money into Roth IRA using Fidelity. Once the Roth IRA is maxed out, I try to max out
+ my 401k(so far haven’t been able to do that, tyring none the less).&lt;/p&gt;
+
+&lt;h3 id=&quot;individual-brokerage&quot;&gt;Individual Brokerage&lt;/h3&gt;
+&lt;p&gt;Apps: Fidelity, &lt;a href=&quot;http://join.robinhood.com/dhruvs16&quot;&gt;Robinhood&lt;/a&gt;, M1 Finance(not anymore).&lt;/p&gt;
+
+&lt;h3 id=&quot;investment-strategies-i-am-27-years-old-and-can-take-risks-higher-than-a-lot-of-people&quot;&gt;Investment Strategies: I am 27 Years old and can take risks higher than a lot of people.&lt;/h3&gt;
+
+&lt;p&gt;Below strategy of mine is solely based on my trust in American Economy.
+Plan A: Buy SPY, IVV, VOO
+Plan B: When the Market is down about 10%: Use the Margin @ &amp;lt;= 5% APY (no more than 3 months of savings) to invest in SPY.
+Plan C: If the Market is down more than 30%: I go all in with leveraged ETFs(SPXL, SOXL, UPRO, TQQQ etc…) or options. This is a very high
+ risk
+ investment, I never do this with my retirement.&lt;/p&gt;
+
+&lt;p&gt;It has worked out very well for me thus far(might change in future as the markets evolve).&lt;/p&gt;
+
+&lt;h3 id=&quot;financial-research-platforms&quot;&gt;Financial Research Platforms&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://finance.yahoo.com/quote/SPY?p=SPY&amp;amp;.tsrc=fin-srch&quot;&gt;Yahoo Finance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.simplysafedividends.com/features&quot;&gt;Simply Safe Dividends&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+&lt;p&gt;I will go over how to use AI in building Financial Tools &amp;amp; Models in future posts. Stay connected.&lt;/p&gt;
+
+&lt;!-- TradingView Widget BEGIN --&gt;
+&lt;div class=&quot;tradingview-widget-container&quot; align=&quot;center&quot;&gt;
+  &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;tradingview-widget-copyright&quot;&gt;&lt;a href=&quot;https://www.tradingview.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;blue-text&quot;&gt;Ticker Tape&lt;/span&gt;&lt;/a&gt; by TradingView&lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js&quot; async=&quot;&quot;&gt;
+  {
+  &quot;symbols&quot;: [
+    {
+      &quot;proName&quot;: &quot;FOREXCOM:SPXUSD&quot;,
+      &quot;title&quot;: &quot;S&amp;P 500&quot;
+    },
+    {
+      &quot;proName&quot;: &quot;FOREXCOM:NSXUSD&quot;,
+      &quot;title&quot;: &quot;Nasdaq 100&quot;
+    },
+    {
+      &quot;proName&quot;: &quot;FX_IDC:EURUSD&quot;,
+      &quot;title&quot;: &quot;EUR/USD&quot;
+    },
+    {
+      &quot;proName&quot;: &quot;BITSTAMP:BTCUSD&quot;,
+      &quot;title&quot;: &quot;BTC/USD&quot;
+    },
+    {
+      &quot;proName&quot;: &quot;BITSTAMP:ETHUSD&quot;,
+      &quot;title&quot;: &quot;ETH/USD&quot;
+    }
+  ],
+  &quot;colorTheme&quot;: &quot;light&quot;,
+  &quot;isTransparent&quot;: false,
+  &quot;displayMode&quot;: &quot;adaptive&quot;,
+  &quot;locale&quot;: &quot;en&quot;
+}
+  &lt;/script&gt;
+
+&lt;/div&gt;
+&lt;!-- TradingView Widget END --&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Ticker Tape by TradingView Before we start: - Disclaimer: This is not a financial advise, invest at your own risk. Table Of Contents: Introduction Managing My Finance Stock Portfolio Strategies Tax Loss Harvesting</summary></entry><entry><title type="html">Artificial Neural Networks : Employee Attrition</title><link href="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/" rel="alternate" type="text/html" title="Artificial Neural Networks : Employee Attrition" /><published>2018-12-30T00:00:00-06:00</published><updated>2018-12-30T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/30/dl-ann-employee-attrition</id><content type="html" xml:base="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/">&lt;p&gt;We will predict Employee Attrition using Artificial Neural Networks.&lt;/p&gt;
 
 &lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
 &lt;ol&gt;

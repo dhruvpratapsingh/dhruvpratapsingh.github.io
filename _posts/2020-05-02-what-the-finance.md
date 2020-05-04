@@ -4,6 +4,43 @@ date:   2020-05-02 05:37:00
 categories: finance
 ---
 
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" align="center">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "Nasdaq 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "BTC/USD"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "ETH/USD"
+    }
+  ],
+  "colorTheme": "light",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+
+</div>
+<!-- TradingView Widget END -->
 <img src="https://source.unsplash.com/5gGcn2PRrtc/1600x900"/>
 
 Before we start:
@@ -57,4 +94,74 @@ My friend at work at that time introduced me to a guy named "Dave Ramsey". I wat
  <p align="center">
  <iframe width="560" height="315" src="https://www.youtube.com/embed/H2Zd0-0XLBU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  </p>
+ 
+Fast Forward: My current investment strategies.
+
+### Retirement:
+
+Remember the phrase: **"Match before Roth, Roth before Traditional"**
+I match my work 401k match and put the remaining money into Roth IRA using Fidelity. Once the Roth IRA is maxed out, I try to max out
+ my 401k(so far haven't been able to do that, tyring none the less).
+
+### Individual Brokerage
+Apps: Fidelity, [Robinhood](http://join.robinhood.com/dhruvs16), M1 Finance(not anymore).
+
+### Investment Strategies: I am 27 Years old and can take risks higher than a lot of people. 
+
+Below strategy of mine is solely based on my trust in American Economy.
+Plan A: Buy SPY, IVV, VOO
+Plan B: When the Market is down about 10%: Use the Margin @ <= 5% APY (no more than 3 months of savings) to invest in SPY.
+Plan C: If the Market is down more than 30%: I go all in with leveraged ETFs(SPXL, SOXL, UPRO, TQQQ etc...) or options. This is a very high
+ risk
+ investment, I never do this with my retirement.
+ 
+It has worked out very well for me thus far(might change in future as the markets evolve).
+
+### Financial Research Platforms
+1. [Yahoo Finance](https://finance.yahoo.com/quote/SPY?p=SPY&.tsrc=fin-srch)
+2. [Simply Safe Dividends](https://www.simplysafedividends.com/features)
+
+## What's next?
+I will go over how to use AI in building Financial Tools & Models in future posts. Stay connected.
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" align="center">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Ticker Tape</span></a> by TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "Nasdaq 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "BTC/USD"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "ETH/USD"
+    }
+  ],
+  "colorTheme": "light",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "en"
+}
+  </script>
+
+</div>
+<!-- TradingView Widget END -->
+
+
+    
 
