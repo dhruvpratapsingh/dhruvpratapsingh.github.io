@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-04T15:36:04-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: My Play</title><link href="http://localhost:4000/finance/2020/05/02/what-the-finance/" rel="alternate" type="text/html" title="Finance: My Play" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/what-the-finance</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/what-the-finance/">&lt;!-- TradingView Widget BEGIN --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-04T15:46:06-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: My Play</title><link href="http://localhost:4000/finance/2020/05/02/what-the-finance/" rel="alternate" type="text/html" title="Finance: My Play" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/what-the-finance</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/what-the-finance/">&lt;!-- TradingView Widget BEGIN --&gt;
 &lt;div class=&quot;tradingview-widget-container&quot; align=&quot;center&quot;&gt;
   &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;tradingview-widget-copyright&quot;&gt;&lt;a href=&quot;https://www.tradingview.com&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;blue-text&quot;&gt;Ticker Tape&lt;/span&gt;&lt;/a&gt; by TradingView&lt;/div&gt;
@@ -162,6 +162,60 @@ Plan C: If the Market is down more than 30%: I go all in with leveraged ETFs(SPX
 &lt;/div&gt;
 &lt;!-- TradingView Widget END --&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Ticker Tape by TradingView Before we start: - Disclaimer: This is not a financial advise, invest at your own risk. Table Of Contents: Introduction Managing My Finance Stock Portfolio Strategies Tax Loss Harvesting</summary></entry><entry><title type="html">Finance: GBTC: Grayscale Bitcoin Trust</title><link href="http://localhost:4000/finance/2020/05/02/gbtc/" rel="alternate" type="text/html" title="Finance: GBTC: Grayscale Bitcoin Trust" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/gbtc</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/gbtc/">&lt;!-- TradingView Widget BEGIN --&gt;
 &lt;div class=&quot;tradingview-widget-container&quot;&gt;
+  &lt;div id=&quot;tradingview_35c14&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;tradingview-widget-copyright&quot;&gt;&lt;a href=&quot;https://www.tradingview.com/symbols/OTC-GBTC/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;blue-text&quot;&gt;Grayscale Bitcoin Trust Quotes&lt;/span&gt;&lt;/a&gt; by TradingView&lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/tv.js&quot;&gt;&lt;/script&gt;
+  &lt;script type=&quot;text/javascript&quot;&gt;
+  new TradingView.MediumWidget(
+  {
+  &quot;symbols&quot;: [
+    [
+      &quot;Grayscale Bitcoin Trust&quot;,
+      &quot;OTC:GBTC|all&quot;
+    ]
+  ],
+  &quot;chartOnly&quot;: false,
+  &quot;width&quot;: &quot;920&quot;,
+  &quot;height&quot;: &quot;400&quot;,
+  &quot;locale&quot;: &quot;en&quot;,
+  &quot;colorTheme&quot;: &quot;dark&quot;,
+  &quot;gridLineColor&quot;: &quot;#2a2e39&quot;,
+  &quot;trendLineColor&quot;: &quot;#1976d2&quot;,
+  &quot;fontColor&quot;: &quot;#787b86&quot;,
+  &quot;underLineColor&quot;: &quot;rgba(55, 166, 239, 0.15)&quot;,
+  &quot;isTransparent&quot;: false,
+  &quot;autosize&quot;: false,
+  &quot;container_id&quot;: &quot;tradingview_35c14&quot;
+}
+  );
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;!-- TradingView Widget END --&gt;
+
+&lt;h2 id=&quot;what-does-the-indicator-say&quot;&gt;What does the indicator say?&lt;/h2&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;div class=&quot;tradingview-widget-container&quot;&gt;
+  &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;tradingview-widget-copyright&quot;&gt;&lt;a href=&quot;https://www.tradingview.com/symbols/OTC-GBTC/technicals/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;blue-text&quot;&gt;Technical Analysis for GBTC&lt;/span&gt;&lt;/a&gt; by TradingView&lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js&quot; async=&quot;&quot;&gt;
+  {
+  &quot;interval&quot;: &quot;1M&quot;,
+  &quot;width&quot;: 425,
+  &quot;isTransparent&quot;: false,
+  &quot;height&quot;: 450,
+  &quot;symbol&quot;: &quot;OTC:GBTC&quot;,
+  &quot;showIntervalTabs&quot;: true,
+  &quot;locale&quot;: &quot;en&quot;,
+  &quot;colorTheme&quot;: &quot;light&quot;
+}
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;dive-deeper&quot;&gt;Dive Deeper&lt;/h2&gt;
+
+&lt;!-- TradingView Widget BEGIN --&gt;
+&lt;div class=&quot;tradingview-widget-container&quot;&gt;
   &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
   &lt;div class=&quot;tradingview-widget-copyright&quot;&gt;&lt;a href=&quot;https://www.tradingview.com/symbols/OTC-GBTC/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;blue-text&quot;&gt;GBTC Fundamental Data&lt;/span&gt;&lt;/a&gt; by TradingView&lt;/div&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-financials.js&quot; async=&quot;&quot;&gt;
@@ -177,7 +231,7 @@ Plan C: If the Market is down more than 30%: I go all in with leveraged ETFs(SPX
 }
   &lt;/script&gt;
 &lt;/div&gt;
-&lt;!-- TradingView Widget END --&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">GBTC Fundamental Data by TradingView</summary></entry><entry><title type="html">Artificial Neural Networks : Employee Attrition</title><link href="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/" rel="alternate" type="text/html" title="Artificial Neural Networks : Employee Attrition" /><published>2018-12-30T00:00:00-06:00</published><updated>2018-12-30T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/30/dl-ann-employee-attrition</id><content type="html" xml:base="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/">&lt;p&gt;We will predict Employee Attrition using Artificial Neural Networks.&lt;/p&gt;
+&lt;!-- TradingView Widget END --&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Grayscale Bitcoin Trust Quotes by TradingView What does the indicator say? Technical Analysis for GBTC by TradingView</summary></entry><entry><title type="html">Artificial Neural Networks : Employee Attrition</title><link href="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/" rel="alternate" type="text/html" title="Artificial Neural Networks : Employee Attrition" /><published>2018-12-30T00:00:00-06:00</published><updated>2018-12-30T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/30/dl-ann-employee-attrition</id><content type="html" xml:base="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/">&lt;p&gt;We will predict Employee Attrition using Artificial Neural Networks.&lt;/p&gt;
 
 &lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
 &lt;ol&gt;
