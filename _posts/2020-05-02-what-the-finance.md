@@ -65,7 +65,7 @@ I work in finance and after my work I spend atleast couple of hours reading abou
  
 ## Managing My Finance
 
-### Step 1: What and Why
+### **Step 1: What is money and how economy works?**
 Why the heck? What is money and how the economy works?
 
 I think Ray Dalio can explain this 10x better than I might be able to. Here we go.
@@ -73,7 +73,7 @@ I think Ray Dalio can explain this 10x better than I might be able to. Here we g
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PHe0bXAIuk0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
-### Step 2: How
+### **Step 2: How I grew up to care?**
 I graduated from University of Minnesota, Twin Cities with BS in Electrical Engineering and a student loan of $105k+ at an APY of 14%(Plus
  all kinds of fees as my loan was through an Indian bank). To put that into perspective, I was paying more $15k every year just in
   interest. Luckily, I understood very well that I had to get my sh** together or our house and land that was used as
@@ -96,21 +96,25 @@ My friend at work at that time introduced me to a guy named "Dave Ramsey". I wat
  
 Fast Forward: My current investment strategies.
 
-### Retirement:
+### **Retirement:**
 
 Remember the phrase: **"Match before Roth, Roth before Traditional"**
 I match my work 401k match and put the remaining money into Roth IRA using Fidelity. Once the Roth IRA is maxed out, I try to max out
  my 401k(so far haven't been able to do that, tyring none the less).
 
-### Individual Brokerage
+### **Individual Brokerage**
 Apps: Fidelity, [Robinhood](http://join.robinhood.com/dhruvs16), M1 Finance(not anymore).
 
-### Investment Strategies: I am 27 Years old and can afford to be a little stupid at times. 
+### **Investment Strategies:** 
+
+*I am 27 Years old and can afford to be a little stupid at times.*
 
 Below strategy of mine is solely based on my trust in American Economy.
-Plan A: Buy SPY, IVV, VOO
-Plan B: When the Market is down about 10%: Use the Margin @ <= 5% APY (no more than 3 months of savings) to invest in SPY.
-Plan C: If the Market is down more than 30%: I go all in with leveraged ETFs(SPXL, SOXL, UPRO, TQQQ etc...) or options. This is a very high
+
+ * Plan A: Buy SPY, IVV, VOO
+ * Plan B: When the Market is down about 10%: Use the Margin @ <= 5% APY (no more than 3 months of savings) to invest in SPY.
+ * Plan C: If the Market is down more than 30%: I go all in with leveraged ETFs(SPXL, SOXL, UPRO, TQQQ etc...) or options. This is a very
+ high
  risk
  investment, I never do this with my retirement.
  
