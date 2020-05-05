@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-04T23:00:08-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio</title><link href="http://localhost:4000/finance/2020/05/04/gbtc/" rel="alternate" type="text/html" title="Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio" /><published>2020-05-04T00:37:00-05:00</published><updated>2020-05-04T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/04/gbtc</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/04/gbtc/">&lt;!-- TradingView Widget BEGIN --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-04T23:05:36-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio</title><link href="http://localhost:4000/finance/2020/05/04/gbtc/" rel="alternate" type="text/html" title="Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio" /><published>2020-05-04T00:37:00-05:00</published><updated>2020-05-04T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/04/gbtc</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/04/gbtc/">&lt;div align=&quot;center&quot;&gt;
+&lt;div class=&quot;tradingview-widget-container&quot;&gt;
+  &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js&quot; async=&quot;&quot;&gt;
+  {
+  &quot;interval&quot;: &quot;1M&quot;,
+  &quot;width&quot;: 425,
+  &quot;isTransparent&quot;: false,
+  &quot;height&quot;: 450,
+  &quot;symbol&quot;: &quot;OTC:GBTC&quot;,
+  &quot;showIntervalTabs&quot;: true,
+  &quot;locale&quot;: &quot;en&quot;,
+  &quot;colorTheme&quot;: &quot;light&quot;
+}
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- TradingView Widget BEGIN --&gt;
 &lt;div class=&quot;tradingview-widget-container&quot;&gt;
   &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js&quot; async=&quot;&quot;&gt;
@@ -36,24 +54,6 @@ It is the biggest asset class and most of the other digital currencies follow it
 From what understand the fund GBTC has a 2% management fee on top of that it sells on a premium of about 20%. Why would anyone still buy
  it instead of buying the Bitcoin itself? I think the fund guarantees the safety of the crypto keys and is completely compliant with OTC
   standards. GBTC is registered on OTCQX. I personally believe security of the key makes it all worth it.&lt;/p&gt;
-
-&lt;div align=&quot;center&quot;&gt;
-&lt;div class=&quot;tradingview-widget-container&quot;&gt;
-  &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
-  &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js&quot; async=&quot;&quot;&gt;
-  {
-  &quot;interval&quot;: &quot;1M&quot;,
-  &quot;width&quot;: 425,
-  &quot;isTransparent&quot;: false,
-  &quot;height&quot;: 450,
-  &quot;symbol&quot;: &quot;OTC:GBTC&quot;,
-  &quot;showIntervalTabs&quot;: true,
-  &quot;locale&quot;: &quot;en&quot;,
-  &quot;colorTheme&quot;: &quot;light&quot;
-}
-  &lt;/script&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 
 &lt;h1 id=&quot;research-from-ark-invest&quot;&gt;Research from Ark Invest?&lt;/h1&gt;
 
