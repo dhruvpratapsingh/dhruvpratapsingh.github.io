@@ -66,7 +66,7 @@ I work in finance and after my work I spend atleast couple of hours reading abou
 ## Managing My Finance
 
 ### **Step 1: What is money and how economy works?**
-Why the heck? What is money and how the economy works?
+Why the heck should we care?
 
 I think Ray Dalio can explain this 10x better than I might be able to. Here we go.
 <p align="center">
