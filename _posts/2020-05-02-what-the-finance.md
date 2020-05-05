@@ -105,7 +105,7 @@ I match my work 401k match and put the remaining money into Roth IRA using Fidel
 ### Individual Brokerage
 Apps: Fidelity, [Robinhood](http://join.robinhood.com/dhruvs16), M1 Finance(not anymore).
 
-### Investment Strategies: I am 27 Years old and can take risks higher than a lot of people. 
+### Investment Strategies: I am 27 Years old and can afford to be a little stupid at times. 
 
 Below strategy of mine is solely based on my trust in American Economy.
 Plan A: Buy SPY, IVV, VOO
