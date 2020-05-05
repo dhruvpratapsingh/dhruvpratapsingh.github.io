@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-04T16:14:13-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: My Play</title><link href="http://localhost:4000/finance/2020/05/02/what-the-finance/" rel="alternate" type="text/html" title="Finance: My Play" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/what-the-finance</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/what-the-finance/">&lt;!-- TradingView Widget BEGIN --&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-04T20:57:12-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: My Play</title><link href="http://localhost:4000/finance/2020/05/02/what-the-finance/" rel="alternate" type="text/html" title="Finance: My Play" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/what-the-finance</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/what-the-finance/">&lt;!-- TradingView Widget BEGIN --&gt;
 &lt;div class=&quot;tradingview-widget-container&quot; align=&quot;center&quot;&gt;
   &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js&quot; async=&quot;&quot;&gt;
@@ -158,32 +158,43 @@ Plan C: If the Market is down more than 30%: I go all in with leveraged ETFs(SPX
   &lt;/script&gt;
 
 &lt;/div&gt;
-&lt;!-- TradingView Widget END --&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Before we start: - Disclaimer: This is not a financial advise, invest at your own risk. Table Of Contents: Introduction Managing My Finance Stock Portfolio Strategies Tax Loss Harvesting</summary></entry><entry><title type="html">Finance: GBTC: Grayscale Bitcoin Trust</title><link href="http://localhost:4000/finance/2020/05/02/gbtc/" rel="alternate" type="text/html" title="Finance: GBTC: Grayscale Bitcoin Trust" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/gbtc</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/gbtc/">&lt;!-- TradingView Widget BEGIN --&gt;
+&lt;!-- TradingView Widget END --&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Before we start: - Disclaimer: This is not a financial advise, invest at your own risk. Table Of Contents: Introduction Managing My Finance Stock Portfolio Strategies Tax Loss Harvesting</summary></entry><entry><title type="html">Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio</title><link href="http://localhost:4000/finance/2020/05/02/gbtc/" rel="alternate" type="text/html" title="Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio" /><published>2020-05-02T00:37:00-05:00</published><updated>2020-05-02T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/02/gbtc</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/02/gbtc/">&lt;!-- TradingView Widget BEGIN --&gt;
 &lt;div class=&quot;tradingview-widget-container&quot;&gt;
-  &lt;div id=&quot;tradingview_215c5&quot;&gt;&lt;/div&gt;
-  &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/tv.js&quot;&gt;&lt;/script&gt;
-  &lt;script type=&quot;text/javascript&quot;&gt;
-  new TradingView.widget(
+  &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
+  &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-symbol-info.js&quot; async=&quot;&quot;&gt;
   {
-  &quot;width&quot;: 980,
-  &quot;height&quot;: 610,
   &quot;symbol&quot;: &quot;OTC:GBTC&quot;,
-  &quot;interval&quot;: &quot;D&quot;,
-  &quot;timezone&quot;: &quot;Etc/UTC&quot;,
-  &quot;theme&quot;: &quot;dark&quot;,
-  &quot;style&quot;: &quot;1&quot;,
+  &quot;width&quot;: 1000,
   &quot;locale&quot;: &quot;en&quot;,
-  &quot;toolbar_bg&quot;: &quot;#f1f3f6&quot;,
-  &quot;enable_publishing&quot;: false,
-  &quot;allow_symbol_change&quot;: true,
-  &quot;container_id&quot;: &quot;tradingview_215c5&quot;
+  &quot;colorTheme&quot;: &quot;dark&quot;,
+  &quot;isTransparent&quot;: false
 }
-  );
   &lt;/script&gt;
 &lt;/div&gt;
 &lt;!-- TradingView Widget END --&gt;
 
-&lt;h2 id=&quot;what-does-the-indicator-say&quot;&gt;What does the indicator say?&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;- &lt;strong&gt;Disclaimer&lt;/strong&gt;: This is not a financial advise, invest at your own risk.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;why-and-how-much-did-i-buy&quot;&gt;Why and how much did I buy?&lt;/h1&gt;
+&lt;p&gt;I recently added ~1% GBTC to my portfolio’s total value.&lt;/p&gt;
+
+&lt;p&gt;Why Digital Currency?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Feds policies such as Infinite Quantitative Easing and Buying Junk etc during this Pandemic and stocks seem to be at all time
+ high even when the jobless numbers are the worst. India did currency ban overnight. China-US continue to threaten each other with tariffs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Why Bitcoin?
+It is the biggest asset class and most of the other digital currencies follow it’s movement. Cathy Wood in the video below goes through a
+ few more reasons to elaborate more on that.&lt;/p&gt;
+
+&lt;p&gt;Why GBTC and not pure Bitcoin?
+From what understand the fund GBTC has a 2% management fee on top of that it sells on a premium of about 20%. Why would anyone still buy
+ it instead of buying the Bitcoin itself? I think the fund guarantees the safety of the crypto keys and is completely compliant with OTC
+  standards. GBTC is registered on OTCQX. I personally believe security of the key makes it all worth it.&lt;/p&gt;
+
 &lt;div align=&quot;center&quot;&gt;
 &lt;div class=&quot;tradingview-widget-container&quot;&gt;
   &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
@@ -202,7 +213,26 @@ Plan C: If the Market is down more than 30%: I go all in with leveraged ETFs(SPX
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&quot;dive-deeper&quot;&gt;Dive Deeper&lt;/h2&gt;
+&lt;h1 id=&quot;research-from-ark-invest&quot;&gt;Research from Ark Invest?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;- &lt;strong&gt;Podcasts &amp;amp; Papers&lt;/strong&gt;:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://research.ark-invest.com/hubfs/1_Download_Files_ARK-Invest/White_Papers/Bitcoin-Ringing-The-Bell-For-A-New-Asset-Class.pdf?hsCtaTracking=b61e33ed-207f-4a68-8c36-c30137cf54ea%7C4429a5e8-db0c-46e4-a9e9-e4d1a41fcb68&quot;&gt;Bitcoin: New Asset Class&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://research.ark-invest.com/hubfs/2_Download_Files_For_Campaigns/White_Papers/Bitcoin-Securing
+-the-Network-ARK-Invest-WP.pdf?hsCtaTracking=c529d643-d3fc-4bff-91dd-3bc61b543a55%7C0a353da6-9956-4e45-b297-6a858f2df5df&quot;&gt;Bitcoin: Securing the Network&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ark-invest.com/podcast/a-history-of
+-bitcoins-predecessors-dollarization-and-stablecoins-with-nic-carter/&quot;&gt;A History of Bitcoin’s Predecessors, Dollarization, and Stablecoins with Nic Carter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ark-invest.com/podcast/bitcoins-security-model-with-hasu/&quot;&gt;Bitcoin: Security Model&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And here is the lady(whom I idealize and respect, a ton) herself.&lt;/p&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/c50TMCKsktA&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;!-- TradingView Widget BEGIN --&gt;
 &lt;div class=&quot;tradingview-widget-container&quot;&gt;
@@ -215,12 +245,18 @@ Plan C: If the Market is down more than 30%: I go all in with leveraged ETFs(SPX
   &quot;largeChartUrl&quot;: &quot;&quot;,
   &quot;displayMode&quot;: &quot;regular&quot;,
   &quot;width&quot;: &quot;900&quot;,
-  &quot;height&quot;: &quot;830&quot;,
+  &quot;height&quot;: &quot;780&quot;,
   &quot;locale&quot;: &quot;en&quot;
 }
   &lt;/script&gt;
 &lt;/div&gt;
-&lt;!-- TradingView Widget END --&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">What does the indicator say?</summary></entry><entry><title type="html">Artificial Neural Networks : Employee Attrition</title><link href="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/" rel="alternate" type="text/html" title="Artificial Neural Networks : Employee Attrition" /><published>2018-12-30T00:00:00-06:00</published><updated>2018-12-30T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/30/dl-ann-employee-attrition</id><content type="html" xml:base="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/">&lt;p&gt;We will predict Employee Attrition using Artificial Neural Networks.&lt;/p&gt;
+&lt;!-- TradingView Widget END --&gt;
+
+&lt;h1 id=&quot;how-and-where-to-buy&quot;&gt;How and where to buy?&lt;/h1&gt;
+
+&lt;p&gt;You should be able to buy GBTC through &lt;a href=&quot;https://eresearch.fidelity.com/eresearch/evaluate/snapshot.jhtml?symbols=GBTC&quot;&gt;Fidelity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you would want to directly own Bitcoin, you can do so via &lt;a href=&quot;https://cash.app/app/LWGGTPW&quot;&gt;Sqaure&lt;/a&gt; or &lt;a href=&quot;http://join.robinhood.com/dhruvs16&quot;&gt;Robinhood&lt;/a&gt;&lt;/p&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">- Disclaimer: This is not a financial advise, invest at your own risk. Why and how much did I buy? I recently added ~1% GBTC to my portfolio’s total value. Why Digital Currency? Feds policies such as Infinite Quantitative Easing and Buying Junk etc during this Pandemic and stocks seem to be at all time high even when the jobless numbers are the worst. India did currency ban overnight. China-US continue to threaten each other with tariffs.</summary></entry><entry><title type="html">Artificial Neural Networks : Employee Attrition</title><link href="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/" rel="alternate" type="text/html" title="Artificial Neural Networks : Employee Attrition" /><published>2018-12-30T00:00:00-06:00</published><updated>2018-12-30T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/30/dl-ann-employee-attrition</id><content type="html" xml:base="http://localhost:4000/2018/12/30/dl-ann-employee-attrition/">&lt;p&gt;We will predict Employee Attrition using Artificial Neural Networks.&lt;/p&gt;
 
 &lt;h3 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h3&gt;
 &lt;ol&gt;
