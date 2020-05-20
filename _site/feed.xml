@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-04T23:05:36-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio</title><link href="http://localhost:4000/finance/2020/05/04/gbtc/" rel="alternate" type="text/html" title="Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio" /><published>2020-05-04T00:37:00-05:00</published><updated>2020-05-04T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/04/gbtc</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/04/gbtc/">&lt;div align=&quot;center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-20T12:27:52-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">dps.ai</title><subtitle>Everything AI</subtitle><author><name>Dhruv Pratap Singh</name></author><entry><title type="html">Finance: Saving Your First $100K Is A Bitch</title><link href="http://localhost:4000/finance/2020/05/20/100k/" rel="alternate" type="text/html" title="Finance: Saving Your First $100K Is A Bitch" /><published>2020-05-20T00:37:00-05:00</published><updated>2020-05-20T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/20/100k</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/20/100k/">&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;./../../../../../assets/images/networth-100k.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&quot;inspiration&quot;&gt;Inspiration&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://amzn.to/2Tlmluf&quot;&gt;Charlie Munger&lt;/a&gt; is one of the most influential investors of our time(mostly my Dad’s time). I do not always
+ agree with the his or Warren Buffet’s investment strategies but they have had great deal of influence on my life, specially on saving
+  money part. Below is a quote from a book by Janet Lowe on Charlie Munger.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://amzn.to/3dXFx9o&quot;&gt;Damn Right: Behind the Scenes with Berkshire Hathaway Billionaire Charlie Munger - by Janet Lowe&lt;/a&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+    &lt;a href=&quot;https://www.amazon.com/gp/product/0471446912/ref=as_li_ss_il?ie=UTF8&amp;amp;linkCode=li2&amp;amp;tag=dpsai-20&amp;amp;linkId=6853f4ece24f5e62443fb2e55f569b5f&amp;amp;language=en_US&quot; target=&quot;_blank&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;amp;ASIN=0471446912&amp;amp;Format=_SL160_&amp;amp;ID=AsinImage&amp;amp;MarketPlace=US&amp;amp;ServiceVersion=20070822&amp;amp;WS=1&amp;amp;tag=dpsai-20&amp;amp;language=en_US&quot; /&gt;&lt;/a&gt;&lt;img src=&quot;https://ir-na.amazon-adsystem.com/e/ir?t=dpsai-20&amp;amp;language=en_US&amp;amp;l=li2&amp;amp;o=1&amp;amp;a=0471446912&quot; width=&quot;1&quot; height=&quot;1&quot; border=&quot;0&quot; alt=&quot;&quot; style=&quot;border:none !important; margin:0px !important;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Munger has said that accumulating the first $100,000 from a standing start, with no seed money, is the most difficult part of building wealth. Making the first million was the next big hurdle. To do that a person must consistently underspend his income. Getting wealthy, he explains, is like rolling a snowball. It helps to start on top of a long hill—start early and try to roll that snowball for a very long time. It helps to live a long life.”&lt;/p&gt;
+
+  &lt;p&gt;-  Janet Lowe&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div align=&quot;center&quot;&gt;
+    &lt;div class=&quot;infogram-embed&quot; data-id=&quot;_/E6LCv6WTgOM1W8n1I0Qk&quot; data-type=&quot;interactive&quot; data-title=&quot;Savings Report - Average and median account balances by income&quot;&gt;&lt;/div&gt;&lt;script&gt;!function(e,i,n,s){var t=&quot;InfogramEmbeds&quot;,d=e.getElementsByTagName(&quot;script&quot;)[0];if(window[t]&amp;&amp;window[t].initialized)window[t].process&amp;&amp;window[t].process();else if(!e.getElementById(n)){var o=e.createElement(&quot;script&quot;);o.async=1,o.id=n,o.src=&quot;https://e.infogram.com/js/dist/embed-loader-min.js&quot;,d.parentNode.insertBefore(o,d)}}(document,0,&quot;infogram-async&quot;);&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&quot;surprise-millennials-are-saving-more-than-ever&quot;&gt;Surprise: Millennials are saving more than ever&lt;/h1&gt;
+&lt;p&gt;Below are the Millennial reports from Bank of America from 2018 &amp;amp; 2020.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://bettermoneyhabits.bankofamerica.com/en/millennial-report&quot;&gt;2018&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;./../../../../../assets/images/savings-millenials2018.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://about.bankofamerica.com/en-us/partnering-locally/bmh-millennial-report.html#fbid=LNAXwM9NSYr&quot;&gt;2020&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;./../../../../../assets/images/bmh-millennial-report-2020.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This is quite impressive improvement from a generation.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;next-goal-1m&quot;&gt;Next Goal ($1M)&lt;/h1&gt;
+&lt;p&gt;Just writing the capital &lt;code class=&quot;highlighter-rouge&quot;&gt;M&lt;/code&gt; feels strange and exciting at the same time, but we have a goal now.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-would-it-take&quot;&gt;What would it take?&lt;/h3&gt;
+&lt;p&gt;Current Age: 27
+Desired Age to get to $1M: 35&lt;/p&gt;
+
+&lt;p&gt;Let’s get to reality. We will use compound interest calculator from &lt;a href=&quot;https://www.investor.gov/financial-tools-calculators
+/calculators/compound-interest-calculator&quot;&gt;investor.gov&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;At my current return of 12%/Year compounded for next 9 years, I can get to the goal of $1M. Little more aggressive goal would be to get
+ to that goal a year early so I can stick to my 35 age timeline. For that, I will have to work hard to increase my income sources as the
+  return of 12% is already high enough.&lt;/p&gt;
+
+&lt;p&gt;Here is the projection chart from Investor.gov.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;./../../../../../assets/images/1m-projection.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&quot;give-back&quot;&gt;Give Back&lt;/h1&gt;
+&lt;p&gt;This country and city has given me enough and it’s about time for me to start giving back. I think giving back is one of the greatest
+ motivator in life. I plan to give back atleast 16 hours/month of physical service to the community and about ~0.5-1% of my net worth
+  back to
+  the community. I know it’s no where close to what people like Dave Ramsay suggest (10%) but seems like a good start for me. We all
+   should do what we can.&lt;/p&gt;
+
+&lt;p&gt;Thank you America for keeping this immigrant’s(officially on Non-Immigrant visa) dream alive.&lt;/p&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Inspiration Charlie Munger is one of the most influential investors of our time(mostly my Dad’s time). I do not always agree with the his or Warren Buffet’s investment strategies but they have had great deal of influence on my life, specially on saving money part. Below is a quote from a book by Janet Lowe on Charlie Munger. Damn Right: Behind the Scenes with Berkshire Hathaway Billionaire Charlie Munger - by Janet Lowe “Munger has said that accumulating the first $100,000 from a standing start, with no seed money, is the most difficult part of building wealth. Making the first million was the next big hurdle. To do that a person must consistently underspend his income. Getting wealthy, he explains, is like rolling a snowball. It helps to start on top of a long hill—start early and try to roll that snowball for a very long time. It helps to live a long life.” - Janet Lowe Surprise: Millennials are saving more than ever Below are the Millennial reports from Bank of America from 2018 &amp;amp; 2020. 2018 2020 This is quite impressive improvement from a generation. Next Goal ($1M) Just writing the capital M feels strange and exciting at the same time, but we have a goal now. What would it take? Current Age: 27 Desired Age to get to $1M: 35 Let’s get to reality. We will use compound interest calculator from investor.gov. At my current return of 12%/Year compounded for next 9 years, I can get to the goal of $1M. Little more aggressive goal would be to get to that goal a year early so I can stick to my 35 age timeline. For that, I will have to work hard to increase my income sources as the return of 12% is already high enough. Here is the projection chart from Investor.gov. Give Back This country and city has given me enough and it’s about time for me to start giving back. I think giving back is one of the greatest motivator in life. I plan to give back atleast 16 hours/month of physical service to the community and about ~0.5-1% of my net worth back to the community. I know it’s no where close to what people like Dave Ramsay suggest (10%) but seems like a good start for me. We all should do what we can. Thank you America for keeping this immigrant’s(officially on Non-Immigrant visa) dream alive.</summary></entry><entry><title type="html">Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio</title><link href="http://localhost:4000/finance/2020/05/04/gbtc/" rel="alternate" type="text/html" title="Finance: GBTC(Grayscale Bitcoin Trust): Why I added it to my Portfolio" /><published>2020-05-04T00:37:00-05:00</published><updated>2020-05-04T00:37:00-05:00</updated><id>http://localhost:4000/finance/2020/05/04/gbtc</id><content type="html" xml:base="http://localhost:4000/finance/2020/05/04/gbtc/">&lt;div align=&quot;center&quot;&gt;
 &lt;div class=&quot;tradingview-widget-container&quot;&gt;
   &lt;div class=&quot;tradingview-widget-container__widget&quot;&gt;&lt;/div&gt;
   &lt;script type=&quot;text/javascript&quot; src=&quot;https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js&quot; async=&quot;&quot;&gt;
@@ -657,7 +727,14 @@ Use first index i.e. 0 as y (dependent variable) and 1-32 as X (independent vari
 &lt;ol&gt;
   &lt;li&gt;See in action: &lt;a href=&quot;https://playground.tensorflow.org/&quot;&gt;Tensorflow Playground&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Flashcards of the interview: &lt;a href=&quot;https://towardsdatascience.com/the-deep-learning-ai-dictionary-ade421df39e4&quot;&gt;Deep Learning Dictionary&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Before we start digging into the fundamentals of Deep Learning, let’s take a look at the tools we will be using going forward. Google Colaboratory : You can run your code on GPUs hosted by Google for free. Seedbank : Collection of interactive machine learning examples for Colab or Jupyter. Create a profile on Kaggle, if are not already signed up for it. Deep learning |-- Supervised | |-- MLP: Multilayer perceptron | |-- CNN: Convolutional Neural Networks | |-- RNN: Recurrent Neural Networks | |-- RNN: Recursive Neural Networks | |-- LSTM: Long short-term memory | |-- SQS: Sequence-to-sequence models | |-- SNN: Shallow Neural Networks |-- Unsupervised |-- SOM: Self Organizing Maps |-- BM: Boltzmann Machines |-- AE: AutoEncoders Supervised Deep learning DL form where an output label exists for every input example. The labels are used to compare the output of Deep Neural Nets to the ground-truth values and minimize the cost function. Other forms of Deep learning are semi-supervised and Unsupervised. Smartest and most complex thing on this planet is human brain and with deep leaning we try to mimic how human brain works by creating “Artificial Neural Networks”. What is an ANN? Artificial Neural Network (ANN) is CNN: Convolutional Neural Networks RNN: Recurrent Neural Networks Unsupervised Deep Learning SOM: Self Organizing Maps BM: Boltzmann Machines AE: AutoEncoders Some useful resources See in action: Tensorflow Playground Flashcards of the interview: Deep Learning Dictionary</summary></entry><entry><title type="html">General AI Resources</title><link href="http://localhost:4000/2018/12/16/ai-resources/" rel="alternate" type="text/html" title="General AI Resources" /><published>2018-12-16T00:00:00-06:00</published><updated>2018-12-16T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/16/ai-resources</id><content type="html" xml:base="http://localhost:4000/2018/12/16/ai-resources/">&lt;h1 id=&quot;statistics&quot;&gt;Statistics:&lt;/h1&gt;
+&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Before we start digging into the fundamentals of Deep Learning, let’s take a look at the tools we will be using going forward. Google Colaboratory : You can run your code on GPUs hosted by Google for free. Seedbank : Collection of interactive machine learning examples for Colab or Jupyter. Create a profile on Kaggle, if are not already signed up for it. Deep learning |-- Supervised | |-- MLP: Multilayer perceptron | |-- CNN: Convolutional Neural Networks | |-- RNN: Recurrent Neural Networks | |-- RNN: Recursive Neural Networks | |-- LSTM: Long short-term memory | |-- SQS: Sequence-to-sequence models | |-- SNN: Shallow Neural Networks |-- Unsupervised |-- SOM: Self Organizing Maps |-- BM: Boltzmann Machines |-- AE: AutoEncoders Supervised Deep learning DL form where an output label exists for every input example. The labels are used to compare the output of Deep Neural Nets to the ground-truth values and minimize the cost function. Other forms of Deep learning are semi-supervised and Unsupervised. Smartest and most complex thing on this planet is human brain and with deep leaning we try to mimic how human brain works by creating “Artificial Neural Networks”. What is an ANN? Artificial Neural Network (ANN) is CNN: Convolutional Neural Networks RNN: Recurrent Neural Networks Unsupervised Deep Learning SOM: Self Organizing Maps BM: Boltzmann Machines AE: AutoEncoders Some useful resources See in action: Tensorflow Playground Flashcards of the interview: Deep Learning Dictionary</summary></entry><entry><title type="html">Chatbots: Links &amp;amp; Resources</title><link href="http://localhost:4000/2018/12/16/chatbots-intro/" rel="alternate" type="text/html" title="Chatbots: Links &amp; Resources" /><published>2018-12-16T00:00:00-06:00</published><updated>2018-12-16T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/16/chatbots-intro</id><content type="html" xml:base="http://localhost:4000/2018/12/16/chatbots-intro/">&lt;h3 id=&quot;resources&quot;&gt;Resources:&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://itsalive.io/&quot;&gt;Facebook Chatbots&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chatfuel.com/bots/&quot;&gt;Chatfuel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wit.ai/&quot;&gt;Wit.ai&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.motion.ai/&quot;&gt;Motion.ai&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dialogflow.com/&quot;&gt;Dialogflow&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Resources: Facebook Chatbots Chatfuel Wit.ai Motion.ai Dialogflow</summary></entry><entry><title type="html">General AI Resources</title><link href="http://localhost:4000/2018/12/16/ai-resources/" rel="alternate" type="text/html" title="General AI Resources" /><published>2018-12-16T00:00:00-06:00</published><updated>2018-12-16T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/16/ai-resources</id><content type="html" xml:base="http://localhost:4000/2018/12/16/ai-resources/">&lt;h1 id=&quot;statistics&quot;&gt;Statistics:&lt;/h1&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://seeing-theory.brown.edu/&quot;&gt;Seeing Theory&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www-bcf.usc.edu/~gareth/ISL/&quot;&gt;Intro to Statistical Learning&lt;/a&gt; =&amp;gt; Must Read&lt;/li&gt;
@@ -697,14 +774,7 @@ Use first index i.e. 0 as y (dependent variable) and 1-32 as X (independent vari
 &lt;h1 id=&quot;pioneers&quot;&gt;Pioneers&lt;/h1&gt;
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;http://info.usherbrooke.ca/hlarochelle/neural_networks/content.html&quot;&gt;Hugo Larochelle&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Statistics: Seeing Theory Intro to Statistical Learning =&amp;gt; Must Read Machine Learning: Intro to SciKit Learn : Jupyter Deep Learning: Deep Learning dictionary Books Applied Data Science by Ian Langmore &amp;amp; Daniel Krasner Datasets UCI Machine Learning Datasets Kaggle Datasets Python Libraries Matplotlib Data Engineering Mining Massive Datasets Pioneers Hugo Larochelle</summary></entry><entry><title type="html">Chatbots: Links &amp;amp; Resources</title><link href="http://localhost:4000/2018/12/16/chatbots-intro/" rel="alternate" type="text/html" title="Chatbots: Links &amp; Resources" /><published>2018-12-16T00:00:00-06:00</published><updated>2018-12-16T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/16/chatbots-intro</id><content type="html" xml:base="http://localhost:4000/2018/12/16/chatbots-intro/">&lt;h3 id=&quot;resources&quot;&gt;Resources:&lt;/h3&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://itsalive.io/&quot;&gt;Facebook Chatbots&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chatfuel.com/bots/&quot;&gt;Chatfuel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://wit.ai/&quot;&gt;Wit.ai&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.motion.ai/&quot;&gt;Motion.ai&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://dialogflow.com/&quot;&gt;Dialogflow&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Resources: Facebook Chatbots Chatfuel Wit.ai Motion.ai Dialogflow</summary></entry><entry><title type="html">Getting Started: Create Your Data Scientist Profile Using Github Pages</title><link href="http://localhost:4000/2018/12/14/create-github-pages-profile/" rel="alternate" type="text/html" title="Getting Started: Create Your Data Scientist Profile Using Github Pages" /><published>2018-12-14T00:00:00-06:00</published><updated>2018-12-14T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/14/create-github-pages-profile</id><content type="html" xml:base="http://localhost:4000/2018/12/14/create-github-pages-profile/">&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/OVbeSXRk_9E/1200x600&quot; alt=&quot;GitHub Pages&quot; /&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Dhruv Pratap Singh</name></author><summary type="html">Statistics: Seeing Theory Intro to Statistical Learning =&amp;gt; Must Read Machine Learning: Intro to SciKit Learn : Jupyter Deep Learning: Deep Learning dictionary Books Applied Data Science by Ian Langmore &amp;amp; Daniel Krasner Datasets UCI Machine Learning Datasets Kaggle Datasets Python Libraries Matplotlib Data Engineering Mining Massive Datasets Pioneers Hugo Larochelle</summary></entry><entry><title type="html">Getting Started: Create Your Data Scientist Profile Using Github Pages</title><link href="http://localhost:4000/2018/12/14/create-github-pages-profile/" rel="alternate" type="text/html" title="Getting Started: Create Your Data Scientist Profile Using Github Pages" /><published>2018-12-14T00:00:00-06:00</published><updated>2018-12-14T00:00:00-06:00</updated><id>http://localhost:4000/2018/12/14/create-github-pages-profile</id><content type="html" xml:base="http://localhost:4000/2018/12/14/create-github-pages-profile/">&lt;p&gt;&lt;img src=&quot;https://source.unsplash.com/OVbeSXRk_9E/1200x600&quot; alt=&quot;GitHub Pages&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;summary&quot;&gt;Summary:&lt;/h1&gt;
 

@@ -11,6 +11,15 @@ categories: ai
 > 4. [Bonus Resources](#bonus-resources)
 
 
+### Table Of Contents:
+> 1. [Introduction](#introduction)
+> 2. [Architecture](#architecture)
+> 3. [Technology Stack](#technology-stack)
+> 4. [Bonus Resources](#bonus-resources)
+
+{% gist 596747c81ef295aaa5618cfc3367dc22 app.py %}
+
+
 ## Introduction
 Benefits of recommendations (Two examples):
  * Quickly find related content : Recommend based on your history (like or dislike)
@@ -31,9 +40,13 @@ Recommend Articles User might be interested in.
 
 
 ## Architecture
-<script src="https://gist.github.com/yai333/acd37932e792c38aebeb19e00154b62f.js"></script>
+
+{% gist 596747c81ef295aaa5618cfc3367dc22 text2vec.py %}
 
 ## Technology Stack
 
+{% gist 596747c81ef295aaa5618cfc3367dc22 index-elasticsearch.py %}
+
+<script src="https://gist.github.com/dhruvpratapsingh/596747c81ef295aaa5618cfc3367dc22.js?file=text2vec.py"></script>
 
 ## Bonus Resources

@@ -40,58 +40,34 @@
       <h1><a href="/ai/2020/06/02/recommendations-1-1/">Recommendation Systems on AWS: 1.1 - Item Similarity - Lexical</a></h1>
       <time datetime="2020-06-02T18:37:00-05:00">June 2, 2020</time>
     </header>
-<h3 id="table-of-contents">Table Of Contents:</h3>
-<blockquote>
-  <ol>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#architecture">Architecture</a></li>
-    <li><a href="#technology-stack">Technology Stack</a></li>
-    <li><a href="#bonus-resources">Bonus Resources</a></li>
-  </ol>
-</blockquote>
+<p>picture</p>
 
-<script src="https://gist.github.com/596747c81ef295aaa5618cfc3367dc22.js?file=app.py"> </script>
+<p>Install: Docker + Elasticsearch
+https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html</p>
 
-<h2 id="introduction">Introduction</h2>
-<p>Benefits of recommendations (Two examples):</p>
-<ul>
-  <li>Quickly find related content : Recommend based on your history (like or dislike)</li>
-  <li>Explore New Content: Recommend some new things (Expanding the scope)</li>
-</ul>
-
-<h3 id="targets-goal">Targets (Goal)</h3>
-<p>Recommend Articles User might be interested in.</p>
-
-<h3 id="features-for-common-types-of-recommendations">Features For Common Types Of Recommendations:</h3>
-<blockquote>
-  <ol>
-    <li>Content-Based
-      <ul>
-        <li>Metadata of the User (Cluster Similar Users)</li>
-        <li>Metadata of the Article (Cluster Similar Articles)</li>
-      </ul>
-    </li>
-    <li>Collaborative Filtering
-      <ul>
-        <li>History of Articles read by the User</li>
-        <li>History of Users who viewed an Article</li>
-      </ul>
-    </li>
-    <li>Knowledge-Based</li>
-  </ol>
-</blockquote>
-
-<h2 id="architecture">Architecture</h2>
-
-<script src="https://gist.github.com/596747c81ef295aaa5618cfc3367dc22.js?file=text2vec.py"> </script>
-
-<h2 id="technology-stack">Technology Stack</h2>
-
-<script src="https://gist.github.com/596747c81ef295aaa5618cfc3367dc22.js?file=index-elasticsearch.py"> </script>
-
-<script src="https://gist.github.com/dhruvpratapsingh/596747c81ef295aaa5618cfc3367dc22.js?file=text2vec.py"></script>
-
-<h2 id="bonus-resources">Bonus Resources</h2>
+<ol>
+  <li>
+    <p>Status check</p>
+  </li>
+  <li>
+    <p>Create Index and Mappings</p>
+  </li>
+  <li>
+    <p>Get all Indexes</p>
+  </li>
+  <li>
+    <p>Use Elastichead</p>
+  </li>
+  <li>
+    <p>Insert single log to elasticsearch</p>
+  </li>
+  <li>
+    <p>Use JQ to do bulk insert</p>
+  </li>
+  <li>
+    <p>Use MLT query perform Lexical Recommendations</p>
+  </li>
+</ol>
 
     
     

@@ -39,43 +39,110 @@
   
   <article>
     <header>
-      <h1><a href="/ai/2020/06/02/recommendations-1-0/">Recommendation Systems on AWS: 1.0 - Item Similarity - Introduction</a></h1>
+      <h1><a href="/ai/2020/06/02/recommendations-1-1/">Recommendation Systems on AWS: 1.1 - Item Similarity - Lexical</a></h1>
       <time datetime="2020-06-02T18:37:00-05:00">June 2, 2020</time>
     </header>
-<h3 id="table-of-contents">Table Of Contents:</h3>
-<blockquote>
-  <ol>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#architecture">Architecture</a></li>
-    <li><a href="#technology-stack">Technology Stack</a></li>
-    <li><a href="#bonus-resources">Bonus Resources</a></li>
-  </ol>
-</blockquote>
+<p>picture</p>
 
+<p>Install: Docker + Elasticsearch
+https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html</p>
 
-    
-    <footer><a class="ghost" href="/ai/2020/06/02/recommendations-1-0/">read more »</a></footer>
+<ol>
+  <li>
+    <p>Status check</p>
+  </li>
+  <li>
+    <p>Create Index and Mappings</p>
+  </li>
+  <li>
+    <p>Get all Indexes</p>
+  </li>
+  <li>
+    <p>Use Elastichead</p>
+  </li>
+  <li>
+    <p>Insert single log to elasticsearch</p>
+  </li>
+  <li>
+    <p>Use JQ to do bulk insert</p>
+  </li>
+  <li>
+    <p>Use MLT query perform Lexical Recommendations</p>
+  </li>
+</ol>
+
     
   </article>
 
   <article>
     <header>
-      <h1><a href="/ai/2020/06/01/recommendations-0-0/">Recommendation Systems on AWS: 0.0 - Introduction</a></h1>
-      <time datetime="2020-06-01T18:37:00-05:00">June 1, 2020</time>
+      <h1><a href="/ai/2020/06/02/recommendations-1-0/">Recommendation Systems on AWS: 1.0 - Item Similarity - Introduction</a></h1>
+      <time datetime="2020-06-02T18:37:00-05:00">June 2, 2020</time>
     </header>
-<h3 id="table-of-contents">Table Of Contents:</h3>
-<blockquote>
-  <ol>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#terminology">Terminology</a></li>
-    <li><a href="#technology-stack">Technology Stack</a></li>
-    <li><a href="#bonus-tutorials">Bonus Tutorials</a></li>
-  </ol>
-</blockquote>
+<p><img src="https://source.unsplash.com/uENjpJ0sCb0/1600x900" /></p>
 
+<h2 id="introduction">Introduction</h2>
+<p>Ever wondered how Search engines such as Google or Bing find results that matches best your search term?</p>
 
-    
-    <footer><a class="ghost" href="/ai/2020/06/01/recommendations-0-0/">read more »</a></footer>
+<p>What goes behind the scenes when
+ you search for a movie on Netflix and the results that you get back? Sometimes you don’t find a TV show that you are looking for  Most of
+  the websites with any
+  kind corpus
+  has some
+  sort of search
+  functionality to help users find what they are looking for. TBT, if it was easy to build search engines, there would be tons
+   of Googles around us but there is a lot more goes into building search engines of that scale. We will leave data mining for some other
+    tutorial but for this one, we will cover modern search techniques using lucene based search tool …. <a href="https://www
+    .elastic.co/what-is/elasticsearch.">Elasticsearch</a>
+    The more I learn about Elasticsearch, the more I realize how little I know about its capabilities.</p>
+
+<p>Obviously there are times when Netflix disappoints you with it’s results and not return what you want(sucks when it doesn’t have it in it’s corpus). Like the below <code class="highlighter-rouge">Mandalorian</code> search.</p>
+
+<p align="center">
+  <img src="./../../../../../assets/images/netflix-mandalorian.png" />
+</p>
+
+<h3 id="how-does-search-work">How does search work?</h3>
+<p>I don’t think anyone does it better than Google, so I will let them explain it to you.</p>
+<ul>
+  <li><a href="https://www.google.com/search/howsearchworks/">Google Search Text</a></li>
+  <li><a href="https://www.youtube.com/watch?v=cxWo4ttPgAc#t=04m38s">Google Search Video</a></li>
+  <li><a href="https://ahrefs.com/blog/how-do-search-engines-work/">Google Rankings</a></li>
+</ul>
+
+<p>Since our use case is a lot simpler, we will look at how Elasticsearch works.</p>
+
+<p>Elasticsearch runs Lucene under the hood so by default it uses Lucene’s Practical Scoring Function. 
+This is a similarity model based on Term Frequency (tf) and Inverse Document Frequency (idf) aka TF/IDF. In recent versions of
+ Elasticsearch it moved towards more optimized implementation of <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/similarity.html">similarity</a> algorithm such as <a href="https://en.wikipedia.org
+ /wiki/Okapi_BM25">Okapi BM25</a>. This makes Elasticsearch a really powerful tool to search items. The problem occurs when a we would like to recommend
+  items based on their contextual meaning.</p>
+
+<p>Let’s say user searched for:</p>
+<ul>
+  <li>“Can puppy eat apricots?”</li>
+</ul>
+
+<p>Our search engine should be able to recommend answer for:</p>
+<ul>
+  <li>“Can dogs eat apricots?”</li>
+  <li>“Are dogs allergic to apricots?”</li>
+</ul>
+
+<p>TBH Elasticsearch does a great job at simple searches but we can modify it to use contextual meaning of the query terms to make our
+ search 2x better if not more.</p>
+
+<h3 id="lexical-search"><strong>Lexical Search</strong></h3>
+<p>Lexical search is a search implementation where the results are totally based on the occurrence of the search keywords. It is implemented
+ using algorithms such as TF/IDF.</p>
+
+<h3 id="semantic-search"><strong>Semantic Search</strong></h3>
+<p>Semantic search uses contextual meaning of the documents. We can enhance it further by using Deeplearning to find best possible embedding
+ that represents the whole sentence and even a complete article.</p>
+
+<h2 id="whats-next">What’s next?</h2>
+<p>In our next two tutorials, we will dive deeper into each technique and build a solution using Elasticsearch.</p>
+
     
   </article>
 
@@ -83,7 +150,7 @@
 
 <footer>
     <a  class="gray" href="/page4" >« newer posts</a>
-    <span class="paginate">page 5 of 10</span>
+    <span class="paginate">page 5 of 11</span>
     <a  class="gray" href="/page6" >older posts »</a>
 </footer>
 
