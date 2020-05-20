@@ -39,110 +39,31 @@
   
   <article>
     <header>
-      <h1><a href="/ai/2020/06/02/recommendations-1-1/">Recommendation Systems on AWS: 1.1 - Item Similarity - Lexical</a></h1>
-      <time datetime="2020-06-02T18:37:00-05:00">June 2, 2020</time>
+      <h1><a href="/2018/12/14/create-github-pages-profile/">Getting Started: Create Your Data Scientist Profile Using Github Pages</a></h1>
+      <time datetime="2018-12-14T00:00:00-06:00">December 14, 2018</time>
     </header>
-<p>picture</p>
+<p><img src="https://source.unsplash.com/OVbeSXRk_9E/1200x600" alt="GitHub Pages" /></p>
 
-<p>Install: Docker + Elasticsearch
-https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html</p>
+<h1 id="summary">Summary:</h1>
 
 <ol>
-  <li>
-    <p>Status check</p>
-  </li>
-  <li>
-    <p>Create Index and Mappings</p>
-  </li>
-  <li>
-    <p>Get all Indexes</p>
-  </li>
-  <li>
-    <p>Use Elastichead</p>
-  </li>
-  <li>
-    <p>Insert single log to elasticsearch</p>
-  </li>
-  <li>
-    <p>Use JQ to do bulk insert</p>
-  </li>
-  <li>
-    <p>Use MLT query perform Lexical Recommendations</p>
-  </li>
+  <li>Register a domain name.</li>
+  <li>Register for a Github account and configure Github pages.</li>
+  <li>Choose a Jekyll Theme and Setup your environment.</li>
+  <li>Setup Github Pages.</li>
+  <li>Add your Custom domain to Github Pages.</li>
 </ol>
 
+<h2 id="1-register-a-your-domain-name-optional">1. Register a your domain name. (Optional)</h2>
+
+<p>I like <a href="https://www.namecheap.com/" target="_blank">Namecheap</a>
+ for domain registration, they also offer FREE domain registrations for students. Check out https://nc.me/ to register your own domain name. If you are not a student you can still register for one with a small charge. You can also look at <a href="https://www.godaddy.com/" target="_blank">Godaddy</a>, <a href="https://www.ionos.com/" target="_blank">1&amp;1</a> etc…</p>
+
+<p>Once you have a domain name registered jump on to the next section.</p>
+
+
     
-  </article>
-
-  <article>
-    <header>
-      <h1><a href="/ai/2020/06/02/recommendations-1-0/">Recommendation Systems on AWS: 1.0 - Item Similarity - Introduction</a></h1>
-      <time datetime="2020-06-02T18:37:00-05:00">June 2, 2020</time>
-    </header>
-<p><img src="https://source.unsplash.com/uENjpJ0sCb0/1600x900" /></p>
-
-<h2 id="introduction">Introduction</h2>
-<p>Ever wondered how Search engines such as Google or Bing find results that matches best your search term?</p>
-
-<p>What goes behind the scenes when
- you search for a movie on Netflix and the results that you get back? Sometimes you don’t find a TV show that you are looking for  Most of
-  the websites with any
-  kind corpus
-  has some
-  sort of search
-  functionality to help users find what they are looking for. TBT, if it was easy to build search engines, there would be tons
-   of Googles around us but there is a lot more goes into building search engines of that scale. We will leave data mining for some other
-    tutorial but for this one, we will cover modern search techniques using lucene based search tool …. <a href="https://www
-    .elastic.co/what-is/elasticsearch.">Elasticsearch</a>
-    The more I learn about Elasticsearch, the more I realize how little I know about its capabilities.</p>
-
-<p>Obviously there are times when Netflix disappoints you with it’s results and not return what you want(sucks when it doesn’t have it in it’s corpus). Like the below <code class="highlighter-rouge">Mandalorian</code> search.</p>
-
-<p align="center">
-  <img src="./../../../../../assets/images/netflix-mandalorian.png" />
-</p>
-
-<h3 id="how-does-search-work">How does search work?</h3>
-<p>I don’t think anyone does it better than Google, so I will let them explain it to you.</p>
-<ul>
-  <li><a href="https://www.google.com/search/howsearchworks/">Google Search Text</a></li>
-  <li><a href="https://www.youtube.com/watch?v=cxWo4ttPgAc#t=04m38s">Google Search Video</a></li>
-  <li><a href="https://ahrefs.com/blog/how-do-search-engines-work/">Google Rankings</a></li>
-</ul>
-
-<p>Since our use case is a lot simpler, we will look at how Elasticsearch works.</p>
-
-<p>Elasticsearch runs Lucene under the hood so by default it uses Lucene’s Practical Scoring Function. 
-This is a similarity model based on Term Frequency (tf) and Inverse Document Frequency (idf) aka TF/IDF. In recent versions of
- Elasticsearch it moved towards more optimized implementation of <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/similarity.html">similarity</a> algorithm such as <a href="https://en.wikipedia.org
- /wiki/Okapi_BM25">Okapi BM25</a>. This makes Elasticsearch a really powerful tool to search items. The problem occurs when a we would like to recommend
-  items based on their contextual meaning.</p>
-
-<p>Let’s say user searched for:</p>
-<ul>
-  <li>“Can puppy eat apricots?”</li>
-</ul>
-
-<p>Our search engine should be able to recommend answer for:</p>
-<ul>
-  <li>“Can dogs eat apricots?”</li>
-  <li>“Are dogs allergic to apricots?”</li>
-</ul>
-
-<p>TBH Elasticsearch does a great job at simple searches but we can modify it to use contextual meaning of the query terms to make our
- search 2x better if not more.</p>
-
-<h3 id="lexical-search"><strong>Lexical Search</strong></h3>
-<p>Lexical search is a search implementation where the results are totally based on the occurrence of the search keywords. It is implemented
- using algorithms such as TF/IDF.</p>
-
-<h3 id="semantic-search"><strong>Semantic Search</strong></h3>
-<p>Semantic search uses contextual meaning of the documents. We can enhance it further by using Deeplearning to find best possible embedding
- that represents the whole sentence and even a complete article.</p>
-
-<h2 id="whats-next">What’s next?</h2>
-<p>In our next two tutorials, we will dive deeper into each technique and build a solution using Elasticsearch.</p>
-
+    <footer><a class="ghost" href="/2018/12/14/create-github-pages-profile/">read more »</a></footer>
     
   </article>
 
@@ -150,8 +71,8 @@ This is a similarity model based on Term Frequency (tf) and Inverse Document Fre
 
 <footer>
     <a  class="gray" href="/page4" >« newer posts</a>
-    <span class="paginate">page 5 of 11</span>
-    <a  class="gray" href="/page6" >older posts »</a>
+    <span class="paginate">page 5 of 5</span>
+    <a  class="disabled" >older posts »</a>
 </footer>
 
 
