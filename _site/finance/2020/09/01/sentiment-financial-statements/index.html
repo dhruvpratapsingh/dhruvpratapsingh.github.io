@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<meta name="author" content="Dhruv Pratap Singh">
+<meta name="description" content="Everything AI">
+<title>Finance: Sentiment Analysis of Tesla Stock › dps.ai</title>
+<link rel="canonical" href="http://localhost:4000/finance/2020/09/01/sentiment-financial-statements/">
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic" rel="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="/basic.css" rel="stylesheet">
+<link href="/highlight.css" rel="stylesheet">
+<link href="/index.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="http://localhost:4000/favicon.png">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158338102-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158338102-1');
+</script>
+
+<!--<script data-ad-client="ca-pub-6502220257226570" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="dps.ai" />
+<script src="//dps-ai.disqus.com/embed.js" async></script>
+
+<header>
+  
+  <h1><a href="">dps.ai</a></h1>
+  <nav class="large">
+    <div><a href="/">About Me</a><a href="/archive/">Blog</a><a href="/bucket_list/">Bucket List</a><a href="/rusomi/">Rusomi</a></div>
+  
+    <div><a href="https://github.com/dhruvpratapsingh" target="_blank"><i class="fa fa-github"></i></a><a href="https://stackoverflow.com/users/5942489/dhruv" target="_blank"><i class="fa fa-stack-overflow"></i></a><a href="https://medium.com/@dhruv.singh" target="_blank"><i class="fa fa-medium"></i></a><a href="mailto:dhruvpsg@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a><a href="https://www.linkedin.com/in/dhruv-pratap-singh-b918045b" target="_blank"><i class="fa fa-linkedin"></i></a><a href="https://sourcerer.io/dhruvpratapsingh" target="_blank"><i class="fa fa-gitlab"></i></a></div>
+  </nav>
+</header>
+<main>
+  <article>
+    <header>
+      <h1><a href="/finance/2020/09/01/sentiment-financial-statements/">Finance: Sentiment Analysis of Tesla Stock</a></h1>
+      <time datetime="2020-09-01T00:37:00-05:00">September 1, 2020</time>
+    </header>
+<h2 id="text-processing">Text Processing</h2>
+<p>I will be following a chapter(<a href="https://nlp.stanford.edu/IR-book/html/htmledition/determining-the-vocabulary-of-terms-1.html">Determining The Vocabulary Of Terms</a>) from Christopher Manning’s book <a href="https://nlp.stanford.edu/IR-book/html/htmledition/irbook.html">Introduction to Information Retrieval</a></p>
+
+<h3 id="getting-text-data"><strong>Getting Text Data</strong></h3>
+<p>From API, CSV file, Plain Text</p>
+
+<h3 id="cleaning"><strong>Cleaning</strong></h3>
+<p>Parse text from the data. HTML: BeautifulSoup</p>
+
+<h3 id="normalization"><strong>Normalization</strong></h3>
+<ul>
+  <li>Lowercase</li>
+  <li>Remove Special Characters (spaces, punctuations)</li>
+</ul>
+
+<h3 id="tokenization"><strong>Tokenization</strong></h3>
+<p>Split sentences into words or tokens.
+NLTK does a better job than simple <code class="highlighter-rouge">re</code> split, most of the times.</p>
+
+<h3 id="remove-stop-words"><strong>Remove Stop Words</strong></h3>
+<ul>
+  <li>Reduces the size of the text</li>
+  <li>Removes unimportant words</li>
+</ul>
+
+<p>There might be applications where the stop words might end up being useful, so be careful.</p>
+
+<h3 id="stemming--lemmatization"><strong>Stemming &amp; Lemmatization</strong></h3>
+<ul>
+  <li>Porter, Snowball stemmers etc</li>
+  <li>Wordnet
+  Lemmatization: Reduce to its root form am, are, is -&gt; be</li>
+</ul>
+
+<p>Lemmatization needs a dictionary but Stemming doesn’t need one. This makes Stemming a lot more memory efficient, but slightly less correct.</p>
+
+<blockquote>
+  <ol>
+    <li>
+      <p>Stemming and Lemmatization both generate the root form of the inflected words. The difference is that stem might not be an actual word
+whereas, lemma is an actual language word.</p>
+    </li>
+    <li>
+      <p>Stemming follows an algorithm with steps to perform on the words which makes it faster. Whereas, in lemmatization, you used WordNet
+corpus and a corpus for stop words as well to produce lemma which makes it slower than stemming. You also had to define a parts-of-speech to obtain the correct lemma.
+- <a href="https://www.datacamp.com/community/tutorials/stemming-lemmatization-python">datacamp.com</a></p>
+    </li>
+  </ol>
+</blockquote>
+
+<h3 id="parts-of-speech-tagging"><strong>Parts of Speech Tagging</strong></h3>
+
+<h3 id="named-entity-recognition"><strong>Named Entity Recognition</strong></h3>
+<p>word_tokenize -&gt; pos_tag -&gt; ne_chunk</p>
+
+<h2 id="feature-extraction">Feature Extraction</h2>
+
+<h3 id="bow-bag-of-words">BOW (Bag of Words)</h3>
+
+<h3 id="tf-idf">TF-IDF</h3>
+
+<h3 id="one-hot-encoding">One-Hot Encoding</h3>
+
+<h3 id="word-embeddings">Word Embeddings</h3>
+
+<h3 id="word2vec">Word2Vec</h3>
+
+<h3 id="glove">Glove</h3>
+
+<h3 id="embeddings-for-deep-learning">Embeddings for Deep Learning</h3>
+
+<h3 id="dimensionality-reduction-t-sne-vs-pca">Dimensionality Reduction: t-SNE vs PCA</h3>
+<p>t-SNE is better as it keeps the relative information.</p>
+
+<h2 id="analyzing-10-k-document">Analyzing 10-k document</h2>
+
+<h3 id="readability">Readability</h3>
+<p>Here is an IEEE paper you might want to read on <a href="http://umich.edu/~driving/publications/ZhouHeejinGreenHowConsistReadability.pdf">Readability Equation Consistencies</a>.</p>
+
+<ol>
+  <li>Flesch-Kincaid Grade Index</li>
+  <li>Gunning-Fog Grade Index</li>
+</ol>
+
+<h3 id="sentiment">Sentiment</h3>
+
+<h3 id="similarity">Similarity</h3>
+
+
+    
+    
+    <hr><div id="disqus_thread"></div>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+  </article>
+</main>
+
+
+<footer>
+     <span></span> 
+    <a href="/2020/08/08/statistics2/">Inferential Statistics »</a>
+</footer>
+

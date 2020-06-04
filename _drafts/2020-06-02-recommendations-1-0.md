@@ -4,7 +4,7 @@ date:   2020-06-02 23:37:00
 categories: ai
 ---
 
-<img src="https://source.unsplash.com/uENjpJ0sCb0/1600x900"/>
+<img src="https://source.unsplash.com/5cFwQ-WMcJU/1600x900"/>
 
 ## Introduction
 Ever wondered how Search engines such as Google or Bing find results that matches best your search term? 
@@ -17,8 +17,7 @@ What goes behind the scenes when
   sort of search
   functionality to help users find what they are looking for. TBT, if it was easy to build search engines, there would be tons
    of Googles around us but there is a lot more goes into building search engines of that scale. We will leave data mining for some other
-    tutorial but for this one, we will cover modern search techniques using lucene based search tool .... [Elasticsearch](https://www
-    .elastic.co/what-is/elasticsearch.)
+    tutorial but for this one, we will cover modern search techniques using lucene based search tool .... [Elasticsearch](https://www.elastic.co/what-is/elasticsearch)
     The more I learn about Elasticsearch, the more I realize how little I know about its capabilities.
     
 Obviously there are times when Netflix disappoints you with it's results and not return what you want(sucks when it doesn't have it in it's corpus). Like the below ```Mandalorian``` search.

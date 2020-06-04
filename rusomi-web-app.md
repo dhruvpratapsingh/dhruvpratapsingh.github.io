@@ -8,7 +8,7 @@ layout: blank
   <br/>
   <br/>
   <br/>
-  <a href="https://www.dps.ai/demo/">
+  <a href="https://www.dps.ai/rusomi-web-app/">
     <img src="./../../../assets/images/rusomi-logo.png" height="250" width="250"/>
   </a>
 </div>
