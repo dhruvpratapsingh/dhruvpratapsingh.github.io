@@ -30,7 +30,6 @@ navigation: # enables navigation in header
   - index.md
   - archive.html
   - bucket_list.md
-  - rusomi-web-app.md
 
 favicons: # see http://fontawesome.io/icons/#brand for all possible icons
   - github: "https://github.com/dhruvpratapsingh"
@@ -38,7 +37,7 @@ favicons: # see http://fontawesome.io/icons/#brand for all possible icons
   - medium: "https://medium.com/@dhruv.singh"
   - envelope: "mailto:dhruvpsg@gmail.com"
   - linkedin: "https://www.linkedin.com/in/dhruv-pratap-singh-b918045b"
-  - gitlab: "https://sourcerer.io/dhruvpratapsingh"
+  - gitlab: "https://master.d19uugkombn5i9.amplifyapp.com/"
 
 comments: # embed comments
   disqus: "dps-ai"
