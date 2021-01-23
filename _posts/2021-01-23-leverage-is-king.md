@@ -36,6 +36,8 @@ Which is important to understand, as if you wait to buy till the market crashes,
 If it only drops 10%, and you don't buy anything, and it goes up 30%, you missed the opportunity to gain 40%. I think you get the point.
 Staying at least 70% invested it a great strategy. 
 
+DO NOT TRY TO TIME THE MARKET: Here is a pretty good article to read: [Wisdom of Robinhood Investors](https://poseidon01.ssrn.com/delivery.php?ID=138112024094126014104007019016102093035082027001019058067030123120102127023090008063039067072095095116117088089082032029094005122102020119093007083127115029074118074003109116119108124106029068125&EXT=pdf&INDEX=TRUE)
+
 **What does leverage bring?** 
 Let's say you are 100% invested in the stock market right now and in a month it is down 30%? What would you do? Sell? Buy? or Buy like you are on Steroids?
 
