@@ -45,7 +45,7 @@ The Simplest way to build wealth is; buy low sell high?
 Let's say you have $100k in your investments, and you have a margin available upto the same amount at 2.5% from Robinhood.
 When the market is down 30% you can borrow more money to invest, of-course to your own risk levels(Don't borrow to put your life or well-being at risk).
 Think about leverages, you can get a Personal Loan of upto $25k at about 9% interest, and let's say a 10% return from S&P 500 after taxes be more like 8% return you will still lose money on your investments.
-You might think - "common man, I can make a much higher return than that!" Then you have much higher risk tolerance than I have. My goal is to sleep at night and wake up with a little more money than I had when I went to bed.
+You might think - "C'mon man, I can make a much higher return than that!" Then you have much higher risk tolerance than I have. My goal is to sleep at night and wake up with a little more money than I had when I went to bed.
 
 I personally think 2.5% is a great interest rate available as the margin. I like to think it as, I am buying a "Rivian" truck when I borrow that margin. Only that the truck will probably make me money while I am asleep. I know, I know. It's not fun though.
 
