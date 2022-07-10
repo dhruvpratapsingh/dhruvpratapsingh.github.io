@@ -18,4 +18,4 @@ Running Jekyll
 bundle exec jekyll serve
 ```
 
-dps.ai, 2018-19, MIT-License
+dps.ai dps.xyz, 2022-23,
