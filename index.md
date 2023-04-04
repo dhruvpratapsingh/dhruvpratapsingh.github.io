@@ -32,10 +32,10 @@ layout: blank
     <a target="_blank" href="https://tax.thomsonreuters.com/en/checkpoint/edge"> <img src="./../../../assets/images/tr.png" height="50" width="200" /></a>
     
     <p align="center">2020 - Present</p>
-    <b>Lead Software Engineer - Applied AI</b>
+    <b>Engineering Manager - Confirmation.com</b>
     
     <p align="center">2017 - 2020</p>
-    <b>Senior Software Engineer</b>
+    <b>Lead Software Engineer - Applied AI</b>
 
     <p align="center"><img src="./../../../assets/images/tr-ai.png" height="150" width="200" /></p>
     <p align="center"><img src="./../../../assets/images/cpa-award.png" height="150" width="150" /></p>
